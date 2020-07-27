@@ -142,8 +142,9 @@ Do the mapping between Source and Tarjet
 ![tree Intregation](https://drive.google.com/uc?id=1pi_ojluCHV28wIaSXqFkm2G4eg7iR-tO)
 Click in save, then we will to continous with other operation
 
-
 ### Post User Insert  Operation
+
+
 #### log
 
 #### Database
@@ -167,17 +168,21 @@ Queries
 ## Install 
 
 
+# 3scale API anagement
+
+# 3scale Mixer Adapter 
+
 ## Repository reference
 https://github.com/RedHatWorkshops/dayinthelife-integration
 https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzMDY3MDI2LC0xNDY1OTU3NDUsLTEyNT
-kzOTQ4MjUsLTExMzE0NTcyOTgsLTE1MTE1MDY5MzIsLTg5Mjcz
-NjE2Miw5MTgyODE0MTMsLTQzOTgyNzYwMiwxNzI3ODkzODQ3LC
-0xODg1NzAzMDc3LC0xMTczMTIwMzQ0LC0xNzM2MTk0MDE2LDE4
-NDQ2NDcyMzYsLTI3MzA4MDU2MiwtNzgwOTkzODA3LC0xNjMzNj
-gxMDQ5LC0xMzg1NTU3MDk0LDE5MTI1MjEwOTMsMTQwNzIzODA4
-NSwxMTE1MTUxNjI3XX0=
+eyJoaXN0b3J5IjpbLTExMzY1MjYyNDIsOTIzMDY3MDI2LC0xND
+Y1OTU3NDUsLTEyNTkzOTQ4MjUsLTExMzE0NTcyOTgsLTE1MTE1
+MDY5MzIsLTg5MjczNjE2Miw5MTgyODE0MTMsLTQzOTgyNzYwMi
+wxNzI3ODkzODQ3LC0xODg1NzAzMDc3LC0xMTczMTIwMzQ0LC0x
+NzM2MTk0MDE2LDE4NDQ2NDcyMzYsLTI3MzA4MDU2MiwtNzgwOT
+kzODA3LC0xNjMzNjgxMDQ5LC0xMzg1NTU3MDk0LDE5MTI1MjEw
+OTMsMTQwNzIzODA4NV19
 -->
