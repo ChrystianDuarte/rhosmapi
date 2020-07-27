@@ -20,8 +20,10 @@ When you enter to Fuse Online
 ![FuseOnlineConsole](https://drive.google.com/uc?id=1hR7rcDa_QZsKNApfjz_2F4pVuVOspQf0)
 ## Login Openshift Cluster
 
-login with the "evalsx" user using copy login token
- 
+login with the "evalsx" user using copy login command
+ ![OPenshift Console](https://drive.google.com/uc?id=1Dn_mHRe-KnPoRPgtq7Fe1bqCBPTc9Csq)
+
+    oc login --token=t_g4zVC7nNYsQ1zHPWjBp4Vniia3JZs7Nffx1ZllHsw --server=https://api.cluster-chile-6b30.chile-6b30.example.opentlc.com:6443
 
 ## Database Users
 
@@ -77,7 +79,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTczODUzMywxNDA3MjM4MDg1LDExMT
+eyJoaXN0b3J5IjpbMTQ4MjUwMjgxMiwxNDA3MjM4MDg1LDExMT
 UxNTE2MjcsLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwxNTczMjMz
 ODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4ODU0XX
 0=
