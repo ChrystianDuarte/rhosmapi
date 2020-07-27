@@ -93,7 +93,18 @@ in the section "Choose to create a REST Resource with the Data Type" select "Res
  the Import output looks like this
  
 ![enter image description here](https://drive.google.com/uc?id=1n4napX4gjRO7YmOD58vv99IBwfDkVcs0)
+Click save and the you can see in the # Review Actions, the following 
 
+##### WARNINGS
+1. Found operations with non unique operationIds: getusers
+
+2. Operation POST /users does not provide a response schema for code 201
+
+3. Operation PUT /users/{usersId} does not provide a response schema for code 202
+
+4. Operation DELETE /users/{usersId} does not provide a response schema for code 20
+
+Click in Next button 
 
 ## INTEGRATIONS
 
@@ -108,7 +119,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTY0NTI5NywtMTg4NTcwMzA3NywtMT
+eyJoaXN0b3J5IjpbMTk1NTgyODI1MiwtMTg4NTcwMzA3NywtMT
 E3MzEyMDM0NCwtMTczNjE5NDAxNiwxODQ0NjQ3MjM2LC0yNzMw
 ODA1NjIsLTc4MDk5MzgwNywtMTYzMzY4MTA0OSwtMTM4NTU1Nz
 A5NCwxOTEyNTIxMDkzLDE0MDcyMzgwODUsMTExNTE1MTYyNywt
