@@ -15,6 +15,10 @@ When the lab enviroment its ready, please go to the Solution Explorer and then c
 
 ![RHMI Solution Explorer](https://drive.google.com/uc?id=1iJ7OmbZME6A7g_GAUZHvDp0vLf9iv5dJ)
 # Fuse Online
+When you enter to syndesis
+![FuseOnlineConsole](https://drive.google.com/uc?id=1hR7rcDa_QZsKNApfjz_2F4pVuVOspQf0)
+
+
 
 ## Database Users
 
@@ -62,7 +66,7 @@ Queries
 	select * from users;
 	INSERT INTO USERS(NAME,PHONE,AGE) VALUES(:#NAME,:#PHONE,:#AGE);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwxNT
-czMjMzODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4
-ODU0XX0=
+eyJoaXN0b3J5IjpbLTQ3NTc0NjEyMywtMTMzMzk0MTYxMywtMj
+Q1MzM2MzY1LDE1NzMyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAy
+OTUwLC01NzYwMjg4NTRdfQ==
 -->
