@@ -52,6 +52,17 @@ When the database pod its ready, we will Create and populate database
 	INSERT INTO users(name, phone, age) VALUES  ('Gustavo Luszynsk', '(11) 9999-9999', 33);
 	INSERT INTO users(name, phone, age) VALUES  ('Rafael Tuelho', '(11) 9999-9999', 33);
 
+verify the inserts;
+
+    sampledb=> select * from users;
+
+
+|  |  |	
+|--|--|
+|  |  |
+
+
+
 Configure a database connector in Fuse Online
 
 	url: jdbc:postgresql://postgresql.fuse-demo:5432/sampledb
@@ -84,8 +95,8 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjI3Mzc4LDE0MDcyMzgwODUsMTExNT
-E1MTYyNywtMTMzMzk0MTYxMywtMjQ1MzM2MzY1LDE1NzMyMzM4
-NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4NTRdfQ
-==
+eyJoaXN0b3J5IjpbLTM0MTM3OTkxNSwxNDA3MjM4MDg1LDExMT
+UxNTE2MjcsLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwxNTczMjMz
+ODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4ODU0XX
+0=
 -->
