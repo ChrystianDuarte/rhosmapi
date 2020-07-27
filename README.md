@@ -75,10 +75,8 @@ Enter to Fuse Online Create Integration
 Click in API provider.
 
 ![API Integration](https://drive.google.com/uc?id=14KN2jhRHRXgxfLy1IGhC8SgAZegv0wIp)
-select Add a data type
-
-
-then put 
+select Add a data type , and put a API name, is this case "users" and in the part 
+### Enter JSON Example 
 
 
 	{
@@ -105,9 +103,9 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODYxOCwxODQ0NjQ3MjM2LC0yNzMwOD
-A1NjIsLTc4MDk5MzgwNywtMTYzMzY4MTA0OSwtMTM4NTU1NzA5
-NCwxOTEyNTIxMDkzLDE0MDcyMzgwODUsMTExNTE1MTYyNywtMT
-MzMzk0MTYxMywtMjQ1MzM2MzY1LDE1NzMyMzM4NTQsLTIxMTY2
-Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4NTRdfQ==
+eyJoaXN0b3J5IjpbMjA2MzI0Mzg3OSwxODQ0NjQ3MjM2LC0yNz
+MwODA1NjIsLTc4MDk5MzgwNywtMTYzMzY4MTA0OSwtMTM4NTU1
+NzA5NCwxOTEyNTIxMDkzLDE0MDcyMzgwODUsMTExNTE1MTYyNy
+wtMTMzMzk0MTYxMywtMjQ1MzM2MzY1LDE1NzMyMzM4NTQsLTIx
+MTY2Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4NTRdfQ==
 -->
