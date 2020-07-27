@@ -115,18 +115,18 @@ Go to Integration panel
 ### Get User Operation
  Click  "create flow" in the Get operation 
  
-![enter image description here](https://drive.google.com/uc?id=1qMydSqoiIL2kTK2ho9_-I9JZtp1dSVVg)
+![Integration without components](https://drive.google.com/uc?id=1qMydSqoiIL2kTK2ho9_-I9JZtp1dSVVg)
 
 #### log
 
 Add log component
 
-![enter image description here](https://drive.google.com/uc?id=1m_XUStXRCcFj8llRREPPaBEJPk7W_qVq)
+![putlog](https://drive.google.com/uc?id=1m_XUStXRCcFj8llRREPPaBEJPk7W_qVq)
 and select  "Message Context" and "Message Body"
 
 #### Database
 
-![enter image description here](https://drive.google.com/uc?id=1QZVFvnUVfVyEtutSIYKPzqBQ4xKRPZj5)
+![databaseselect](https://drive.google.com/uc?id=1QZVFvnUVfVyEtutSIYKPzqBQ4xKRPZj5)
 
 
 
@@ -136,7 +136,7 @@ and select  "Message Context" and "Message Body"
 
 Do the mapping between Source and Tarjet
 
-![enter image description here](https://drive.google.com/uc?id=1IcjfHlr-892pz-NrNTyGmv4O6mrerNof)
+![Mapping](https://drive.google.com/uc?id=1IcjfHlr-892pz-NrNTyGmv4O6mrerNof)
 
 #### Tree Integration
 
@@ -174,11 +174,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTkzOTQ4MjUsLTExMzE0NTcyOTgsLT
-E1MTE1MDY5MzIsLTg5MjczNjE2Miw5MTgyODE0MTMsLTQzOTgy
-NzYwMiwxNzI3ODkzODQ3LC0xODg1NzAzMDc3LC0xMTczMTIwMz
-Q0LC0xNzM2MTk0MDE2LDE4NDQ2NDcyMzYsLTI3MzA4MDU2Miwt
-NzgwOTkzODA3LC0xNjMzNjgxMDQ5LC0xMzg1NTU3MDk0LDE5MT
-I1MjEwOTMsMTQwNzIzODA4NSwxMTE1MTUxNjI3LC0xMzMzOTQx
-NjEzLC0yNDUzMzYzNjVdfQ==
+eyJoaXN0b3J5IjpbLTE0NjU5NTc0NSwtMTI1OTM5NDgyNSwtMT
+EzMTQ1NzI5OCwtMTUxMTUwNjkzMiwtODkyNzM2MTYyLDkxODI4
+MTQxMywtNDM5ODI3NjAyLDE3Mjc4OTM4NDcsLTE4ODU3MDMwNz
+csLTExNzMxMjAzNDQsLTE3MzYxOTQwMTYsMTg0NDY0NzIzNiwt
+MjczMDgwNTYyLC03ODA5OTM4MDcsLTE2MzM2ODEwNDksLTEzOD
+U1NTcwOTQsMTkxMjUyMTA5MywxNDA3MjM4MDg1LDExMTUxNTE2
+MjcsLTEzMzM5NDE2MTNdfQ==
 -->
