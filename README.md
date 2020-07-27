@@ -18,6 +18,12 @@ When the lab enviroment its ready, please go to the Solution Explorer and then c
 
 When you enter to Fuse Online
 ![FuseOnlineConsole](https://drive.google.com/uc?id=1hR7rcDa_QZsKNApfjz_2F4pVuVOspQf0)
+## Login Openshift Cluster
+
+login with the "evalsx" user using copy login token
+
+ 
+
 ## Database Users
 
 Prepare the environment in Openshift Cluster
@@ -72,7 +78,8 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzIzODA4NSwxMTE1MTUxNjI3LC0xMz
-MzOTQxNjEzLC0yNDUzMzYzNjUsMTU3MzIzMzg1NCwtMjExNjY3
-OTY1Miw4MjQxMDI5NTAsLTU3NjAyODg1NF19
+eyJoaXN0b3J5IjpbNjQ2Mjg1NjEzLDE0MDcyMzgwODUsMTExNT
+E1MTYyNywtMTMzMzk0MTYxMywtMjQ1MzM2MzY1LDE1NzMyMzM4
+NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4NTRdfQ
+==
 -->
