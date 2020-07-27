@@ -113,6 +113,8 @@ Go to Integration panel
 ![Integration](https://drive.google.com/uc?id=1-yJ4DVzONcQyNG1VymcjRkaDOPZVzHtp)
 
 ### Get User Operation
+ Click  "create flow" in the Get operation 
+
 
 #### log
 
@@ -156,11 +158,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4MjgxNDEzLC00Mzk4Mjc2MDIsMTcyNz
-g5Mzg0NywtMTg4NTcwMzA3NywtMTE3MzEyMDM0NCwtMTczNjE5
-NDAxNiwxODQ0NjQ3MjM2LC0yNzMwODA1NjIsLTc4MDk5MzgwNy
-wtMTYzMzY4MTA0OSwtMTM4NTU1NzA5NCwxOTEyNTIxMDkzLDE0
-MDcyMzgwODUsMTExNTE1MTYyNywtMTMzMzk0MTYxMywtMjQ1Mz
-M2MzY1LDE1NzMyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUw
-LC01NzYwMjg4NTRdfQ==
+eyJoaXN0b3J5IjpbLTg5MjczNjE2Miw5MTgyODE0MTMsLTQzOT
+gyNzYwMiwxNzI3ODkzODQ3LC0xODg1NzAzMDc3LC0xMTczMTIw
+MzQ0LC0xNzM2MTk0MDE2LDE4NDQ2NDcyMzYsLTI3MzA4MDU2Mi
+wtNzgwOTkzODA3LC0xNjMzNjgxMDQ5LC0xMzg1NTU3MDk0LDE5
+MTI1MjEwOTMsMTQwNzIzODA4NSwxMTE1MTUxNjI3LC0xMzMzOT
+QxNjEzLC0yNDUzMzYzNjUsMTU3MzIzMzg1NCwtMjExNjY3OTY1
+Miw4MjQxMDI5NTBdfQ==
 -->
