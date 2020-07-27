@@ -21,7 +21,6 @@ When you enter to Fuse Online
 ## Login Openshift Cluster
 
 login with the "evalsx" user using copy login token
-
  
 
 ## Database Users
@@ -78,8 +77,8 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2Mjg1NjEzLDE0MDcyMzgwODUsMTExNT
-E1MTYyNywtMTMzMzk0MTYxMywtMjQ1MzM2MzY1LDE1NzMyMzM4
-NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4NTRdfQ
-==
+eyJoaXN0b3J5IjpbLTYyMTczODUzMywxNDA3MjM4MDg1LDExMT
+UxNTE2MjcsLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwxNTczMjMz
+ODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4ODU0XX
+0=
 -->
