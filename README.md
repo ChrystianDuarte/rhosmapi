@@ -1,18 +1,19 @@
 # Red Hat Integration + Openshift Service Mesh 
-Esta demo describe como mostrar el ciclo de vida de una API en fuse online y como esta es sincronizada en un ecosistema de Openshift Service Mesh y Securitizada bajo 3Scale.
+
+This demo describes how to show the life cycle of an API in online fuse and how it is synchronized in an ecosystem of Openshift Service Mesh and Securitized under 3Scale.
+
 
 ![Contexto Demo](https://drive.google.com/uc?id=1qH6bAffCI2dysmdxYwFmdl1LXVWHazwn)
 # Install
 
 THE CURRENT SUPPORTED VERSION of RHMI WORKSHOP is 2.3.0!! PLEASE INSTALL THE CORRECT VERSION!
+
 ![RHPDS](https://drive.google.com/uc?id=1B6Vq0URuGPAazpgsqR9qef_CM_AgnCCp)
 ## Environment
-when the lab enviroment its ready, please go t
 
-
+When the lab enviroment its ready, please go to the 
 
 # Fuse Online
-
 
 ## Database Users
 
@@ -60,7 +61,7 @@ Queries
 	select * from users;
 	INSERT INTO USERS(NAME,PHONE,AGE) VALUES(:#NAME,:#PHONE,:#AGE);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzIzNDA1NCwtMjQ1MzM2MzY1LDE1Nz
-MyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4
-NTRdfQ==
+eyJoaXN0b3J5IjpbLTEwNzkzNjYyMDcsLTI0NTMzNjM2NSwxNT
+czMjMzODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4
+ODU0XX0=
 -->
