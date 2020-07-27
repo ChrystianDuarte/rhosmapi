@@ -86,9 +86,8 @@ select Add a data type , and put a API name, is this case "users" and enter a js
 	    "phone": "11 95474-8099",
 	    "age": 30
 	}
-Remember select
 
-
+in the section "Choose to create a REST Resource with the Data Type"
 
 
 
@@ -105,9 +104,9 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxODU1ODMwLDE4NDQ2NDcyMzYsLTI3Mz
-A4MDU2MiwtNzgwOTkzODA3LC0xNjMzNjgxMDQ5LC0xMzg1NTU3
-MDk0LDE5MTI1MjEwOTMsMTQwNzIzODA4NSwxMTE1MTUxNjI3LC
-0xMzMzOTQxNjEzLC0yNDUzMzYzNjUsMTU3MzIzMzg1NCwtMjEx
-NjY3OTY1Miw4MjQxMDI5NTAsLTU3NjAyODg1NF19
+eyJoaXN0b3J5IjpbLTE3MzYxOTQwMTYsMTg0NDY0NzIzNiwtMj
+czMDgwNTYyLC03ODA5OTM4MDcsLTE2MzM2ODEwNDksLTEzODU1
+NTcwOTQsMTkxMjUyMTA5MywxNDA3MjM4MDg1LDExMTUxNTE2Mj
+csLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwxNTczMjMzODU0LC0y
+MTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4ODU0XX0=
 -->
