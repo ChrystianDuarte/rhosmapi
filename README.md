@@ -83,6 +83,7 @@ Enter to Fuse Online Create Integration
 
 
 
+
 ## INTEGRATIONS
 
 Queries
@@ -96,7 +97,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDAzOTAwOCwtNzgwOTkzODA3LC0xNj
+eyJoaXN0b3J5IjpbLTI3MzA4MDU2MiwtNzgwOTkzODA3LC0xNj
 MzNjgxMDQ5LC0xMzg1NTU3MDk0LDE5MTI1MjEwOTMsMTQwNzIz
 ODA4NSwxMTE1MTUxNjI3LC0xMzMzOTQxNjEzLC0yNDUzMzYzNj
 UsMTU3MzIzMzg1NCwtMjExNjY3OTY1Miw4MjQxMDI5NTAsLTU3
