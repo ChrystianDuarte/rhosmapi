@@ -13,6 +13,9 @@ THE CURRENT SUPPORTED VERSION of RHMI WORKSHOP is 2.3.0!! PLEASE INSTALL THE COR
 
 When the lab enviroment its ready, please go to the Solution Explorer and then click in 
 
+
+
+
 # Fuse Online
 
 ## Database Users
@@ -61,7 +64,7 @@ Queries
 	select * from users;
 	INSERT INTO USERS(NAME,PHONE,AGE) VALUES(:#NAME,:#PHONE,:#AGE);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjU3MjA2MiwtMjQ1MzM2MzY1LDE1Nz
+eyJoaXN0b3J5IjpbLTM1NDIzOTEyOCwtMjQ1MzM2MzY1LDE1Nz
 MyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4
 NTRdfQ==
 -->
