@@ -59,7 +59,7 @@ verify the inserts;
 
 Configure a database connector in Fuse Online
 
-	url: jdbc:postgresql://postgresql.fuse-demo:5432/sampledb
+	url: jdbc:postgresql://postgresql.evals3-fuse-db:5432/sampledb
 	user: redhat
 	password: redhat
 	
@@ -86,7 +86,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjYyMTI2MCwxOTEyNTIxMDkzLDE0MD
+eyJoaXN0b3J5IjpbMTY3MDE1ODgzOCwxOTEyNTIxMDkzLDE0MD
 cyMzgwODUsMTExNTE1MTYyNywtMTMzMzk0MTYxMywtMjQ1MzM2
 MzY1LDE1NzMyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC
 01NzYwMjg4NTRdfQ==
