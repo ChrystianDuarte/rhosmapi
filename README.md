@@ -119,8 +119,18 @@ Go to Integration panel
 
 #### log
 
+Add log component
+
+![enter image description here](https://drive.google.com/uc?id=1m_XUStXRCcFj8llRREPPaBEJPk7W_qVq)
+and select  "Message Context" and 
+
+
 
 #### Database
+
+![enter image description here](https://drive.google.com/uc?id=1QZVFvnUVfVyEtutSIYKPzqBQ4xKRPZj5)
+
+
 
 	select * from users;
 
@@ -160,11 +170,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzE0NTcyOTgsLTE1MTE1MDY5MzIsLT
-g5MjczNjE2Miw5MTgyODE0MTMsLTQzOTgyNzYwMiwxNzI3ODkz
-ODQ3LC0xODg1NzAzMDc3LC0xMTczMTIwMzQ0LC0xNzM2MTk0MD
-E2LDE4NDQ2NDcyMzYsLTI3MzA4MDU2MiwtNzgwOTkzODA3LC0x
-NjMzNjgxMDQ5LC0xMzg1NTU3MDk0LDE5MTI1MjEwOTMsMTQwNz
-IzODA4NSwxMTE1MTUxNjI3LC0xMzMzOTQxNjEzLC0yNDUzMzYz
-NjUsMTU3MzIzMzg1NF19
+eyJoaXN0b3J5IjpbMzAxODA4MDI4LC0xMTMxNDU3Mjk4LC0xNT
+ExNTA2OTMyLC04OTI3MzYxNjIsOTE4MjgxNDEzLC00Mzk4Mjc2
+MDIsMTcyNzg5Mzg0NywtMTg4NTcwMzA3NywtMTE3MzEyMDM0NC
+wtMTczNjE5NDAxNiwxODQ0NjQ3MjM2LC0yNzMwODA1NjIsLTc4
+MDk5MzgwNywtMTYzMzY4MTA0OSwtMTM4NTU1NzA5NCwxOTEyNT
+IxMDkzLDE0MDcyMzgwODUsMTExNTE1MTYyNywtMTMzMzk0MTYx
+MywtMjQ1MzM2MzY1XX0=
 -->
