@@ -63,7 +63,7 @@ Configure a database connector in Fuse Online
 	user: redhat
 	password: redhat
 	
-
+![fuseonline connect jdbc](https://drive.google.com/uc?id=1D54_JsA-23vqYFaiBh8nAB2NjPArEUAR)
 
 ## API DEFINITION
 
@@ -88,8 +88,8 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODU1NTcwOTQsMTkxMjUyMTA5MywxND
-A3MjM4MDg1LDExMTUxNTE2MjcsLTEzMzM5NDE2MTMsLTI0NTMz
-NjM2NSwxNTczMjMzODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MC
-wtNTc2MDI4ODU0XX0=
+eyJoaXN0b3J5IjpbLTMxODYwNjczNCwtMTM4NTU1NzA5NCwxOT
+EyNTIxMDkzLDE0MDcyMzgwODUsMTExNTE1MTYyNywtMTMzMzk0
+MTYxMywtMjQ1MzM2MzY1LDE1NzMyMzM4NTQsLTIxMTY2Nzk2NT
+IsODI0MTAyOTUwLC01NzYwMjg4NTRdfQ==
 -->
