@@ -37,8 +37,7 @@ When the database pod its ready, we will Create and populate database
 
     oc get pods
     oc rsh <pod postgress>
-
-	
+    	
 	psql -U redhat -d sampledb	
 	CREATE TABLE users(
 	 id serial PRIMARY KEY,
@@ -87,7 +86,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjU4MjQ3MCwxOTEyNTIxMDkzLDE0MD
+eyJoaXN0b3J5IjpbLTM5MjYyMTI2MCwxOTEyNTIxMDkzLDE0MD
 cyMzgwODUsMTExNTE1MTYyNywtMTMzMzk0MTYxMywtMjQ1MzM2
 MzY1LDE1NzMyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC
 01NzYwMjg4NTRdfQ==
