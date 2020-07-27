@@ -68,9 +68,11 @@ Queries
 
 ## REPO REF
 https://github.com/RedHatWorkshops/dayinthelife-integration
+https://gist.github.com/hodrigohamalho
+https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTc3Mjc2NCwtMTMzMzk0MTYxMywtMj
+eyJoaXN0b3J5IjpbMTExNTE1MTYyNywtMTMzMzk0MTYxMywtMj
 Q1MzM2MzY1LDE1NzMyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAy
 OTUwLC01NzYwMjg4NTRdfQ==
 -->
