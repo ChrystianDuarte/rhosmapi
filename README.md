@@ -55,8 +55,8 @@ When the database pod its ready, we will Create and populate database
 verify the inserts;
 
     sampledb=> select * from users;
+    
 ![Validate select](https://drive.google.com/uc?id=1lQZS721dQJiLF2eJBXucLjVwC3gyz6Hy)
-
 
 Configure a database connector in Fuse Online
 
@@ -76,13 +76,10 @@ Configure a database connector in Fuse Online
 
 ## INTEGRATIONS
 
-
 Queries
 
 	select * from users;
 	INSERT INTO USERS(NAME,PHONE,AGE) VALUES(:#NAME,:#PHONE,:#AGE);
-
-
 
 ## REPO REF
 https://github.com/RedHatWorkshops/dayinthelife-integration
@@ -90,7 +87,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTIyNjgyMCwxOTEyNTIxMDkzLDE0MD
+eyJoaXN0b3J5IjpbMTIwNjU4MjQ3MCwxOTEyNTIxMDkzLDE0MD
 cyMzgwODUsMTExNTE1MTYyNywtMTMzMzk0MTYxMywtMjQ1MzM2
 MzY1LDE1NzMyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC
 01NzYwMjg4NTRdfQ==
