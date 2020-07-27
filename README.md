@@ -87,7 +87,9 @@ select Add a data type , and put a API name, is this case "users" and enter a js
 	    "age": 30
 	}
 
-in the section "Choose to create a REST Resource with the Data Type" select "Rest Resource", then clcik 
+in the section "Choose to create a REST Resource with the Data Type" select "Rest Resource", After then click Save
+
+ 
 
 
 
@@ -104,10 +106,10 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODgxOTUzMywtMTczNjE5NDAxNiwxOD
-Q0NjQ3MjM2LC0yNzMwODA1NjIsLTc4MDk5MzgwNywtMTYzMzY4
-MTA0OSwtMTM4NTU1NzA5NCwxOTEyNTIxMDkzLDE0MDcyMzgwOD
-UsMTExNTE1MTYyNywtMTMzMzk0MTYxMywtMjQ1MzM2MzY1LDE1
-NzMyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC01NzYwMj
-g4NTRdfQ==
+eyJoaXN0b3J5IjpbLTExNzMxMjAzNDQsLTE3MzYxOTQwMTYsMT
+g0NDY0NzIzNiwtMjczMDgwNTYyLC03ODA5OTM4MDcsLTE2MzM2
+ODEwNDksLTEzODU1NTcwOTQsMTkxMjUyMTA5MywxNDA3MjM4MD
+g1LDExMTUxNTE2MjcsLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwx
+NTczMjMzODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MD
+I4ODU0XX0=
 -->
