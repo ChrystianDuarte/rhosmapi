@@ -20,7 +20,7 @@ When you enter to Fuse Online
 ![FuseOnlineConsole](https://drive.google.com/uc?id=1hR7rcDa_QZsKNApfjz_2F4pVuVOspQf0)
 ## Database Users
 
-Prepare the environment in Openshift
+Prepare the environment in Openshift Cluster
 
 	oc new-project fuse-demo
 	oc new-app --template=postgresql-persistent --param=POSTGRESQL_PASSWORD=redhat --param=POSTGRESQL_USER=redhat --param=POSTGRESQL_DATABASE=sampledb
@@ -72,7 +72,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTE1MTYyNywtMTMzMzk0MTYxMywtMj
-Q1MzM2MzY1LDE1NzMyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAy
-OTUwLC01NzYwMjg4NTRdfQ==
+eyJoaXN0b3J5IjpbMTQwNzIzODA4NSwxMTE1MTUxNjI3LC0xMz
+MzOTQxNjEzLC0yNDUzMzYzNjUsMTU3MzIzMzg1NCwtMjExNjY3
+OTY1Miw4MjQxMDI5NTAsLTU3NjAyODg1NF19
 -->
