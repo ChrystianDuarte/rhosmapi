@@ -15,11 +15,9 @@ When the lab enviroment its ready, please go to the Solution Explorer and then c
 
 ![RHMI Solution Explorer](https://drive.google.com/uc?id=1iJ7OmbZME6A7g_GAUZHvDp0vLf9iv5dJ)
 # Fuse Online
-When you enter to syndesis
+
+When you enter to Fuse Online
 ![FuseOnlineConsole](https://drive.google.com/uc?id=1hR7rcDa_QZsKNApfjz_2F4pVuVOspQf0)
-
-
-
 ## Database Users
 
 Prepare the environment in Openshift
@@ -65,8 +63,14 @@ Queries
 
 	select * from users;
 	INSERT INTO USERS(NAME,PHONE,AGE) VALUES(:#NAME,:#PHONE,:#AGE);
+
+
+
+## REPO REF
+https://github.com/RedHatWorkshops/dayinthelife-integration
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTc0NjEyMywtMTMzMzk0MTYxMywtMj
+eyJoaXN0b3J5IjpbMTAzMTc3Mjc2NCwtMTMzMzk0MTYxMywtMj
 Q1MzM2MzY1LDE1NzMyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAy
 OTUwLC01NzYwMjg4NTRdfQ==
 -->
