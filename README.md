@@ -108,7 +108,9 @@ Click in Next button
 
 ## INTEGRATIONS
 
+Go to Integration panel
 
+![Integration](https://drive.google.com/uc?id=1-yJ4DVzONcQyNG1VymcjRkaDOPZVzHtp)
 
 ### Get User Operation
 
@@ -151,10 +153,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzg5Mzg0NywtMTg4NTcwMzA3NywtMT
-E3MzEyMDM0NCwtMTczNjE5NDAxNiwxODQ0NjQ3MjM2LC0yNzMw
-ODA1NjIsLTc4MDk5MzgwNywtMTYzMzY4MTA0OSwtMTM4NTU1Nz
-A5NCwxOTEyNTIxMDkzLDE0MDcyMzgwODUsMTExNTE1MTYyNywt
-MTMzMzk0MTYxMywtMjQ1MzM2MzY1LDE1NzMyMzM4NTQsLTIxMT
-Y2Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4NTRdfQ==
+eyJoaXN0b3J5IjpbLTQzOTgyNzYwMiwxNzI3ODkzODQ3LC0xOD
+g1NzAzMDc3LC0xMTczMTIwMzQ0LC0xNzM2MTk0MDE2LDE4NDQ2
+NDcyMzYsLTI3MzA4MDU2MiwtNzgwOTkzODA3LC0xNjMzNjgxMD
+Q5LC0xMzg1NTU3MDk0LDE5MTI1MjEwOTMsMTQwNzIzODA4NSwx
+MTE1MTUxNjI3LC0xMzMzOTQxNjEzLC0yNDUzMzYzNjUsMTU3Mz
+IzMzg1NCwtMjExNjY3OTY1Miw4MjQxMDI5NTAsLTU3NjAyODg1
+NF19
 -->
