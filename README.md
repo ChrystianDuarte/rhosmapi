@@ -75,7 +75,8 @@ Enter to Fuse Online Create Integration
 Click in API provider.
 
 ![API Integration](https://drive.google.com/uc?id=14KN2jhRHRXgxfLy1IGhC8SgAZegv0wIp)
-select Add a data type , and put a API name, is this case "users" and in the part 
+select Add a data type , and put a API name, is this case "users" and enter a json example.
+
 ### Enter JSON Example 
 
 
@@ -85,6 +86,7 @@ select Add a data type , and put a API name, is this case "users" and in the par
 	    "phone": "11 95474-8099",
 	    "age": 30
 	}
+Remember select
 
 
 
@@ -103,9 +105,9 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MzI0Mzg3OSwxODQ0NjQ3MjM2LC0yNz
-MwODA1NjIsLTc4MDk5MzgwNywtMTYzMzY4MTA0OSwtMTM4NTU1
-NzA5NCwxOTEyNTIxMDkzLDE0MDcyMzgwODUsMTExNTE1MTYyNy
-wtMTMzMzk0MTYxMywtMjQ1MzM2MzY1LDE1NzMyMzM4NTQsLTIx
-MTY2Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4NTRdfQ==
+eyJoaXN0b3J5IjpbNTUxODU1ODMwLDE4NDQ2NDcyMzYsLTI3Mz
+A4MDU2MiwtNzgwOTkzODA3LC0xNjMzNjgxMDQ5LC0xMzg1NTU3
+MDk0LDE5MTI1MjEwOTMsMTQwNzIzODA4NSwxMTE1MTUxNjI3LC
+0xMzMzOTQxNjEzLC0yNDUzMzYzNjUsMTU3MzIzMzg1NCwtMjEx
+NjY3OTY1Miw4MjQxMDI5NTAsLTU3NjAyODg1NF19
 -->
