@@ -3,7 +3,7 @@ Esta demo describe como mostrar el ciclo de vida de una API en fuse online y com
 
 ![Contexto Demo](https://drive.google.com/uc?id=1qH6bAffCI2dysmdxYwFmdl1LXVWHazwn)
 # Install
-
+# IMPORTANT!!!!! THE CURRENT SUPPORTED VERSION of RHMI WORKSHOP is 2.3!! PLEASE INSTALL THE CORRECT VERSION! 
 ## Environment
 
 # Fuse Online
@@ -55,6 +55,6 @@ Queries
 	select * from users;
 	INSERT INTO USERS(NAME,PHONE,AGE) VALUES(:#NAME,:#PHONE,:#AGE);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAyMDk1Mjg3LDE1NzMyMzM4NTQsLTIxMT
-Y2Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4NTRdfQ==
+eyJoaXN0b3J5IjpbLTU0ODk0OTg1MywxNTczMjMzODU0LC0yMT
+E2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4ODU0XX0=
 -->
