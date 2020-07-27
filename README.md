@@ -108,7 +108,7 @@ Click in Next button
 
 ## INTEGRATIONS
 
-
+##
 
 
 
@@ -121,16 +121,26 @@ Queries
 	select * from users;
 	INSERT INTO USERS(NAME,PHONE,AGE) VALUES(:#NAME,:#PHONE,:#AGE);
 
+
+
+# Service Mesh
+
+## Install Stack Openshift Service Mesh
+
+
+## Install 
+
+
 ## Repository reference
 https://github.com/RedHatWorkshops/dayinthelife-integration
 https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjgzNTQzODgsLTE4ODU3MDMwNzcsLT
-ExNzMxMjAzNDQsLTE3MzYxOTQwMTYsMTg0NDY0NzIzNiwtMjcz
-MDgwNTYyLC03ODA5OTM4MDcsLTE2MzM2ODEwNDksLTEzODU1NT
-cwOTQsMTkxMjUyMTA5MywxNDA3MjM4MDg1LDExMTUxNTE2Mjcs
-LTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwxNTczMjMzODU0LC0yMT
-E2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4ODU0XX0=
+eyJoaXN0b3J5IjpbODc3MDg2NzM3LC0xODg1NzAzMDc3LC0xMT
+czMTIwMzQ0LC0xNzM2MTk0MDE2LDE4NDQ2NDcyMzYsLTI3MzA4
+MDU2MiwtNzgwOTkzODA3LC0xNjMzNjgxMDQ5LC0xMzg1NTU3MD
+k0LDE5MTI1MjEwOTMsMTQwNzIzODA4NSwxMTE1MTUxNjI3LC0x
+MzMzOTQxNjEzLC0yNDUzMzYzNjUsMTU3MzIzMzg1NCwtMjExNj
+Y3OTY1Miw4MjQxMDI5NTAsLTU3NjAyODg1NF19
 -->
