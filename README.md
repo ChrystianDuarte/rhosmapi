@@ -168,7 +168,7 @@ Queries
 ## Install 
 
 
-# 3scale API anagement
+# 3scale API Management
 
 # 3scale Mixer Adapter 
 
@@ -178,7 +178,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzY1MjYyNDIsOTIzMDY3MDI2LC0xND
+eyJoaXN0b3J5IjpbLTE5OTk5Njk3MDEsOTIzMDY3MDI2LC0xND
 Y1OTU3NDUsLTEyNTkzOTQ4MjUsLTExMzE0NTcyOTgsLTE1MTE1
 MDY5MzIsLTg5MjczNjE2Miw5MTgyODE0MTMsLTQzOTgyNzYwMi
 wxNzI3ODkzODQ3LC0xODg1NzAzMDc3LC0xMTczMTIwMzQ0LC0x
