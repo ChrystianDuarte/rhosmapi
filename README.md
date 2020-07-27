@@ -11,7 +11,7 @@ THE CURRENT SUPPORTED VERSION of RHMI WORKSHOP is 2.3.0!! PLEASE INSTALL THE COR
 ![RHPDS](https://drive.google.com/uc?id=1B6Vq0URuGPAazpgsqR9qef_CM_AgnCCp)
 ## Environment
 
-When the lab enviroment its ready, please go to the 
+When the lab enviroment its ready, please go to the Solution Explorer and then click in 
 
 # Fuse Online
 
@@ -61,7 +61,7 @@ Queries
 	select * from users;
 	INSERT INTO USERS(NAME,PHONE,AGE) VALUES(:#NAME,:#PHONE,:#AGE);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzkzNjYyMDcsLTI0NTMzNjM2NSwxNT
-czMjMzODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4
-ODU0XX0=
+eyJoaXN0b3J5IjpbMTkwNjU3MjA2MiwtMjQ1MzM2MzY1LDE1Nz
+MyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4
+NTRdfQ==
 -->
