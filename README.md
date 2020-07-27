@@ -112,17 +112,29 @@ Click in Next button
 
 ### Get User Operation
 
-#### Mapping
+#### log
+
+#### Database
 
 	select * from users;
 
+#### Mapping
+
 
 ### Post User Insert  Operation
+#### log
+
+#### Database
+
 
 Queries
 
 	INSERT INTO USERS(NAME,PHONE,AGE) VALUES(:#NAME,:#PHONE,:#AGE);
 
+
+#### Mapping
+
+### Publish API on Openshift
 
 
 # Service Mesh
@@ -139,7 +151,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzU0MjEwNiwtMTg4NTcwMzA3NywtMT
+eyJoaXN0b3J5IjpbMTcyNzg5Mzg0NywtMTg4NTcwMzA3NywtMT
 E3MzEyMDM0NCwtMTczNjE5NDAxNiwxODQ0NjQ3MjM2LC0yNzMw
 ODA1NjIsLTc4MDk5MzgwNywtMTYzMzY4MTA0OSwtMTM4NTU1Nz
 A5NCwxOTEyNTIxMDkzLDE0MDcyMzgwODUsMTExNTE1MTYyNywt
