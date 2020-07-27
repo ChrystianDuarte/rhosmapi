@@ -14,8 +14,6 @@ THE CURRENT SUPPORTED VERSION of RHMI WORKSHOP is 2.3.0!! PLEASE INSTALL THE COR
 When the lab enviroment its ready, please go to the Solution Explorer and then click in Red Hat Fuse Online (version 7.6), Open console
 
 ![RHMI Solution Explorer](https://drive.google.com/uc?id=1iJ7OmbZME6A7g_GAUZHvDp0vLf9iv5dJ)
-
-
 # Fuse Online
 
 ## Database Users
@@ -64,7 +62,7 @@ Queries
 	select * from users;
 	INSERT INTO USERS(NAME,PHONE,AGE) VALUES(:#NAME,:#PHONE,:#AGE);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTU2MDk3NywtMjQ1MzM2MzY1LDE1Nz
-MyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4
-NTRdfQ==
+eyJoaXN0b3J5IjpbLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwxNT
+czMjMzODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4
+ODU0XX0=
 -->
