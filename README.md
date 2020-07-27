@@ -89,6 +89,7 @@ select Add a data type , and put a API name, is this case "users" and enter a js
 
 in the section "Choose to create a REST Resource with the Data Type" select "Rest Resource", After then click Save
 
+![datatype here](https://drive.google.com/uc?id=183mT2EtQzLrGOoOEad-Ft0irkK11BEPx)
  
 
 
@@ -106,10 +107,10 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzMxMjAzNDQsLTE3MzYxOTQwMTYsMT
-g0NDY0NzIzNiwtMjczMDgwNTYyLC03ODA5OTM4MDcsLTE2MzM2
-ODEwNDksLTEzODU1NTcwOTQsMTkxMjUyMTA5MywxNDA3MjM4MD
-g1LDExMTUxNTE2MjcsLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwx
-NTczMjMzODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MD
-I4ODU0XX0=
+eyJoaXN0b3J5IjpbLTE4ODU3MDMwNzcsLTExNzMxMjAzNDQsLT
+E3MzYxOTQwMTYsMTg0NDY0NzIzNiwtMjczMDgwNTYyLC03ODA5
+OTM4MDcsLTE2MzM2ODEwNDksLTEzODU1NTcwOTQsMTkxMjUyMT
+A5MywxNDA3MjM4MDg1LDExMTUxNTE2MjcsLTEzMzM5NDE2MTMs
+LTI0NTMzNjM2NSwxNTczMjMzODU0LC0yMTE2Njc5NjUyLDgyND
+EwMjk1MCwtNTc2MDI4ODU0XX0=
 -->
