@@ -23,7 +23,8 @@ When you enter to Fuse Online
 login with the "evalsx" user using copy login command
  ![OPenshift Console](https://drive.google.com/uc?id=1Dn_mHRe-KnPoRPgtq7Fe1bqCBPTc9Csq)
 
-    oc login --token=t_g4zVC7nNYsQ1zHPWjBp4Vniia3JZs7Nffx1ZllHsw --server=https://api.cluster-chile-6b30.chile-6b30.example.opentlc.com:6443
+    oc login --token=<token web> --server=https://api.cluster-xxx-xxxxx.xxxxx.example.opentlc.com:6443
+
 
 ## Database Users
 
@@ -79,7 +80,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjUwMjgxMiwxNDA3MjM4MDg1LDExMT
+eyJoaXN0b3J5IjpbMTYxMTU3MTQ5MiwxNDA3MjM4MDg1LDExMT
 UxNTE2MjcsLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwxNTczMjMz
 ODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4ODU0XX
 0=
