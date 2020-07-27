@@ -75,6 +75,11 @@ Enter to Fuse Online Create Integration
 Click in API provider.
 
 ![API Integration](https://drive.google.com/uc?id=14KN2jhRHRXgxfLy1IGhC8SgAZegv0wIp)
+select Add a data type
+
+
+then put 
+
 
 	{
 	    "id": 0,
@@ -100,9 +105,9 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDY0NzIzNiwtMjczMDgwNTYyLC03OD
-A5OTM4MDcsLTE2MzM2ODEwNDksLTEzODU1NTcwOTQsMTkxMjUy
-MTA5MywxNDA3MjM4MDg1LDExMTUxNTE2MjcsLTEzMzM5NDE2MT
-MsLTI0NTMzNjM2NSwxNTczMjMzODU0LC0yMTE2Njc5NjUyLDgy
-NDEwMjk1MCwtNTc2MDI4ODU0XX0=
+eyJoaXN0b3J5IjpbMTk0ODYxOCwxODQ0NjQ3MjM2LC0yNzMwOD
+A1NjIsLTc4MDk5MzgwNywtMTYzMzY4MTA0OSwtMTM4NTU1NzA5
+NCwxOTEyNTIxMDkzLDE0MDcyMzgwODUsMTExNTE1MTYyNywtMT
+MzMzk0MTYxMywtMjQ1MzM2MzY1LDE1NzMyMzM4NTQsLTIxMTY2
+Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4NTRdfQ==
 -->
