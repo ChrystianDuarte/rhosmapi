@@ -91,7 +91,8 @@ in the section "Choose to create a REST Resource with the Data Type" select "Res
 
 ![datatype here](https://drive.google.com/uc?id=183mT2EtQzLrGOoOEad-Ft0irkK11BEPx)
  the Import output looks like this
-
+ 
+![enter image description here](https://drive.google.com/uc?id=1n4napX4gjRO7YmOD58vv99IBwfDkVcs0)
 
 
 ## INTEGRATIONS
@@ -107,7 +108,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzQ2Mjg1NSwtMTg4NTcwMzA3NywtMT
+eyJoaXN0b3J5IjpbLTQ0OTY0NTI5NywtMTg4NTcwMzA3NywtMT
 E3MzEyMDM0NCwtMTczNjE5NDAxNiwxODQ0NjQ3MjM2LC0yNzMw
 ODA1NjIsLTc4MDk5MzgwNywtMTYzMzY4MTA0OSwtMTM4NTU1Nz
 A5NCwxOTEyNTIxMDkzLDE0MDcyMzgwODUsMTExNTE1MTYyNywt
