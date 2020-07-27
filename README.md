@@ -72,15 +72,9 @@ Results
 Enter to Fuse Online Create Integration
 
 ![enter image description here](https://drive.google.com/uc?id=1aD23ooKBPvdJQmhXqS1QtHNxNLqWXbVN)
-click in API provider
+Click in API provider.
 
-
-
-
-
-
-
-
+![API Integration](https://drive.google.com/uc?id=14KN2jhRHRXgxfLy1IGhC8SgAZegv0wIp)
 
 	{
 	    "id": 0,
@@ -106,9 +100,9 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDcxNjU2LC0yNzMwODA1NjIsLTc4MD
-k5MzgwNywtMTYzMzY4MTA0OSwtMTM4NTU1NzA5NCwxOTEyNTIx
-MDkzLDE0MDcyMzgwODUsMTExNTE1MTYyNywtMTMzMzk0MTYxMy
-wtMjQ1MzM2MzY1LDE1NzMyMzM4NTQsLTIxMTY2Nzk2NTIsODI0
-MTAyOTUwLC01NzYwMjg4NTRdfQ==
+eyJoaXN0b3J5IjpbMTg0NDY0NzIzNiwtMjczMDgwNTYyLC03OD
+A5OTM4MDcsLTE2MzM2ODEwNDksLTEzODU1NTcwOTQsMTkxMjUy
+MTA5MywxNDA3MjM4MDg1LDExMTUxNTE2MjcsLTEzMzM5NDE2MT
+MsLTI0NTMzNjM2NSwxNTczMjMzODU0LC0yMTE2Njc5NjUyLDgy
+NDEwMjk1MCwtNTc2MDI4ODU0XX0=
 -->
