@@ -67,8 +67,6 @@ Configure a database connector in Fuse Online
 Results
 
 ![enter image description here](https://drive.google.com/uc?id=1k3Tg2N4IZt4eSG7pJT1RGR2clYsg3eOY)
-
-
 ## API DEFINITION
 
 	{
@@ -92,8 +90,9 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzM2ODEwNDksLTEzODU1NTcwOTQsMT
-kxMjUyMTA5MywxNDA3MjM4MDg1LDExMTUxNTE2MjcsLTEzMzM5
-NDE2MTMsLTI0NTMzNjM2NSwxNTczMjMzODU0LC0yMTE2Njc5Nj
-UyLDgyNDEwMjk1MCwtNTc2MDI4ODU0XX0=
+eyJoaXN0b3J5IjpbLTIwMjQ1NzMzNzMsLTE2MzM2ODEwNDksLT
+EzODU1NTcwOTQsMTkxMjUyMTA5MywxNDA3MjM4MDg1LDExMTUx
+NTE2MjcsLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwxNTczMjMzOD
+U0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4ODU0XX0=
+
 -->
