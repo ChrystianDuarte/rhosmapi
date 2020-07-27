@@ -87,7 +87,7 @@ select Add a data type , and put a API name, is this case "users" and enter a js
 	    "age": 30
 	}
 
-in the section "Choose to create a REST Resource with the Data Type"
+in the section "Choose to create a REST Resource with the Data Type" select "Rest Resource", then clcik 
 
 
 
@@ -98,15 +98,16 @@ Queries
 	select * from users;
 	INSERT INTO USERS(NAME,PHONE,AGE) VALUES(:#NAME,:#PHONE,:#AGE);
 
-## REPO REF
+## Repository reference
 https://github.com/RedHatWorkshops/dayinthelife-integration
 https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzYxOTQwMTYsMTg0NDY0NzIzNiwtMj
-czMDgwNTYyLC03ODA5OTM4MDcsLTE2MzM2ODEwNDksLTEzODU1
-NTcwOTQsMTkxMjUyMTA5MywxNDA3MjM4MDg1LDExMTUxNTE2Mj
-csLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwxNTczMjMzODU0LC0y
-MTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4ODU0XX0=
+eyJoaXN0b3J5IjpbLTg4ODgxOTUzMywtMTczNjE5NDAxNiwxOD
+Q0NjQ3MjM2LC0yNzMwODA1NjIsLTc4MDk5MzgwNywtMTYzMzY4
+MTA0OSwtMTM4NTU1NzA5NCwxOTEyNTIxMDkzLDE0MDcyMzgwOD
+UsMTExNTE1MTYyNywtMTMzMzk0MTYxMywtMjQ1MzM2MzY1LDE1
+NzMyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC01NzYwMj
+g4NTRdfQ==
 -->
