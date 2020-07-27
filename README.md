@@ -33,9 +33,12 @@ Prepare the environment in Openshift Cluster
 	oc new-project evals3-fuse-db
 	oc new-app --template=postgresql-persistent --param=POSTGRESQL_PASSWORD=redhat --param=POSTGRESQL_USER=redhat --param=POSTGRESQL_DATABASE=sampledb
 
-Create and populate database
+When the database pod its ready, we will Create and populate database
 
+    oc get pods
+    oc rsh <pod postgress>
 
+	
 	psql -U redhat -d sampledb	
 	CREATE TABLE users(
 	 id serial PRIMARY KEY,
@@ -81,8 +84,8 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzUyNDU5OCwxNDA3MjM4MDg1LDExMT
-UxNTE2MjcsLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwxNTczMjMz
-ODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4ODU0XX
-0=
+eyJoaXN0b3J5IjpbMTc2NjI3Mzc4LDE0MDcyMzgwODUsMTExNT
+E1MTYyNywtMTMzMzk0MTYxMywtMjQ1MzM2MzY1LDE1NzMyMzM4
+NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4NTRdfQ
+==
 -->
