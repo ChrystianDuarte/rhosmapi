@@ -57,11 +57,6 @@ verify the inserts;
     sampledb=> select * from users;
 
 
-|  |  |	
-|--|--|
-|  |  |
-
-
 
 Configure a database connector in Fuse Online
 
@@ -95,7 +90,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTM3OTkxNSwxNDA3MjM4MDg1LDExMT
+eyJoaXN0b3J5IjpbMTkxMjUyMTA5MywxNDA3MjM4MDg1LDExMT
 UxNTE2MjcsLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwxNTczMjMz
 ODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4ODU0XX
 0=
