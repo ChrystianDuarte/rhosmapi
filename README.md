@@ -9,7 +9,7 @@ Esta demo describe como mostrar el ciclo de vida de una API en fuse online y com
 # Fuse Online
 
 
-## Database 
+## Database Users
 
 Prepare the environment in Openshift
 
@@ -37,7 +37,7 @@ Configure a database connector in Fuse Online
 	user: redhat
 	password: redhat
 	
-Schema to use in API definition
+## API DEFINITION
 
 	{
 	    "id": 0,
@@ -46,11 +46,15 @@ Schema to use in API definition
 	    "age": 30
 	}
 
+
+## INTEGRATIONS
+
+
 Queries
 
 	select * from users;
 	INSERT INTO USERS(NAME,PHONE,AGE) VALUES(:#NAME,:#PHONE,:#AGE);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDY4OTQxODIsMTU3MzIzMzg1NCwtMj
-ExNjY3OTY1Miw4MjQxMDI5NTAsLTU3NjAyODg1NF19
+eyJoaXN0b3J5IjpbODAyMDk1Mjg3LDE1NzMyMzM4NTQsLTIxMT
+Y2Nzk2NTIsODI0MTAyOTUwLC01NzYwMjg4NTRdfQ==
 -->
