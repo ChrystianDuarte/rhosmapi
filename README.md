@@ -110,7 +110,7 @@ Click in Next button
 
 Go to Integration panel
 
-![Integrations endpoint ](https://drive.google.com/uc?id=1-yJ4DVzONcQyNG1VymcjRkaDOPZVzHtp)
+![Integrations endpoint](https://drive.google.com/uc?id=1-yJ4DVzONcQyNG1VymcjRkaDOPZVzHtp)
 
 ### Get User Operation
  Click  "create flow" in the Get operation 
@@ -174,11 +174,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjgxNjQ1MTcsLTE0NjU5NTc0NSwtMT
-I1OTM5NDgyNSwtMTEzMTQ1NzI5OCwtMTUxMTUwNjkzMiwtODky
-NzM2MTYyLDkxODI4MTQxMywtNDM5ODI3NjAyLDE3Mjc4OTM4ND
-csLTE4ODU3MDMwNzcsLTExNzMxMjAzNDQsLTE3MzYxOTQwMTYs
-MTg0NDY0NzIzNiwtMjczMDgwNTYyLC03ODA5OTM4MDcsLTE2Mz
-M2ODEwNDksLTEzODU1NTcwOTQsMTkxMjUyMTA5MywxNDA3MjM4
-MDg1LDExMTUxNTE2MjddfQ==
+eyJoaXN0b3J5IjpbMTI0MjQ5NDI2OSwtMTQ2NTk1NzQ1LC0xMj
+U5Mzk0ODI1LC0xMTMxNDU3Mjk4LC0xNTExNTA2OTMyLC04OTI3
+MzYxNjIsOTE4MjgxNDEzLC00Mzk4Mjc2MDIsMTcyNzg5Mzg0Ny
+wtMTg4NTcwMzA3NywtMTE3MzEyMDM0NCwtMTczNjE5NDAxNiwx
+ODQ0NjQ3MjM2LC0yNzMwODA1NjIsLTc4MDk5MzgwNywtMTYzMz
+Y4MTA0OSwtMTM4NTU1NzA5NCwxOTEyNTIxMDkzLDE0MDcyMzgw
+ODUsMTExNTE1MTYyN119
 -->
