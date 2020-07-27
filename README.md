@@ -55,7 +55,7 @@ When the database pod its ready, we will Create and populate database
 verify the inserts;
 
     sampledb=> select * from users;
-
+![Validate select](https://drive.google.com/uc?id=1lQZS721dQJiLF2eJBXucLjVwC3gyz6Hy)
 
 
 Configure a database connector in Fuse Online
@@ -90,8 +90,8 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjUyMTA5MywxNDA3MjM4MDg1LDExMT
-UxNTE2MjcsLTEzMzM5NDE2MTMsLTI0NTMzNjM2NSwxNTczMjMz
-ODU0LC0yMTE2Njc5NjUyLDgyNDEwMjk1MCwtNTc2MDI4ODU0XX
-0=
+eyJoaXN0b3J5IjpbLTYxMTIyNjgyMCwxOTEyNTIxMDkzLDE0MD
+cyMzgwODUsMTExNTE1MTYyNywtMTMzMzk0MTYxMywtMjQ1MzM2
+MzY1LDE1NzMyMzM4NTQsLTIxMTY2Nzk2NTIsODI0MTAyOTUwLC
+01NzYwMjg4NTRdfQ==
 -->
