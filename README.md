@@ -182,6 +182,7 @@ https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_inst
 ## Install Control Plane
 
 
+    oc new-project istio-system
 
 
 # 3scale API Management
@@ -194,11 +195,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM0MjI0NTcsNzkyODY5NzA3LDIxND
-E5NjM5NDYsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5
-NzAxLDkyMzA2NzAyNiwtMTQ2NTk1NzQ1LC0xMjU5Mzk0ODI1LC
-0xMTMxNDU3Mjk4LC0xNTExNTA2OTMyLC04OTI3MzYxNjIsOTE4
-MjgxNDEzLC00Mzk4Mjc2MDIsMTcyNzg5Mzg0NywtMTg4NTcwMz
-A3NywtMTE3MzEyMDM0NCwtMTczNjE5NDAxNiwxODQ0NjQ3MjM2
-LC0yNzMwODA1NjJdfQ==
+eyJoaXN0b3J5IjpbLTk4OTczNzM3NSwtMTM1MzQyMjQ1Nyw3OT
+I4Njk3MDcsMjE0MTk2Mzk0Niw0MDkxODQ4NTQsLTE2MzQ1MDg1
+OTgsLTE5OTk5Njk3MDEsOTIzMDY3MDI2LC0xNDY1OTU3NDUsLT
+EyNTkzOTQ4MjUsLTExMzE0NTcyOTgsLTE1MTE1MDY5MzIsLTg5
+MjczNjE2Miw5MTgyODE0MTMsLTQzOTgyNzYwMiwxNzI3ODkzOD
+Q3LC0xODg1NzAzMDc3LC0xMTczMTIwMzQ0LC0xNzM2MTk0MDE2
+LDE4NDQ2NDcyMzZdfQ==
 -->
