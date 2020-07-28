@@ -178,7 +178,7 @@ https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_inst
 
 for this demostration we do a "cluster-admin" privilege for the user that we are working.
 
-
+![clusterrolebinding](https://drive.google.com/uc?id=1xd80R14dgz44CABTPlrGESqiySauSivT)
 
 
 1. Install Elastic Search Operator
@@ -229,11 +229,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODU2MzIwOCwtMTA4ODUxMDg2MCwtMT
-EyODQ5ODAyOCwtNzQ3NDA3OTg3LC0yNTk0NjQ2MjcsLTEzNTM0
-MjI0NTcsNzkyODY5NzA3LDIxNDE5NjM5NDYsNDA5MTg0ODU0LC
-0xNjM0NTA4NTk4LC0xOTk5OTY5NzAxLDkyMzA2NzAyNiwtMTQ2
-NTk1NzQ1LC0xMjU5Mzk0ODI1LC0xMTMxNDU3Mjk4LC0xNTExNT
-A2OTMyLC04OTI3MzYxNjIsOTE4MjgxNDEzLC00Mzk4Mjc2MDIs
-MTcyNzg5Mzg0N119
+eyJoaXN0b3J5IjpbLTIwMDY2NTYyMjAsLTEwODg1MTA4NjAsLT
+ExMjg0OTgwMjgsLTc0NzQwNzk4NywtMjU5NDY0NjI3LC0xMzUz
+NDIyNDU3LDc5Mjg2OTcwNywyMTQxOTYzOTQ2LDQwOTE4NDg1NC
+wtMTYzNDUwODU5OCwtMTk5OTk2OTcwMSw5MjMwNjcwMjYsLTE0
+NjU5NTc0NSwtMTI1OTM5NDgyNSwtMTEzMTQ1NzI5OCwtMTUxMT
+UwNjkzMiwtODkyNzM2MTYyLDkxODI4MTQxMywtNDM5ODI3NjAy
+LDE3Mjc4OTM4NDddfQ==
 -->
