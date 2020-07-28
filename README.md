@@ -210,7 +210,7 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
     `oc get pods -n istio-system -w`
     
     You should see output similar to the following:
-    ![control plane ](https://drive.google.com/uc?id=1UeGTTzSl8cEky0DzdLU6sAIXqVMMAF63)
+    ![osm-control plane pods](https://drive.google.com/uc?id=1UeGTTzSl8cEky0DzdLU6sAIXqVMMAF63)
     
 # 3scale API Management
 
@@ -222,7 +222,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5Njg5MDg0LC0xMTI4NDk4MDI4LC03ND
+eyJoaXN0b3J5IjpbMjA0MTM1NTk0LC0xMTI4NDk4MDI4LC03ND
 c0MDc5ODcsLTI1OTQ2NDYyNywtMTM1MzQyMjQ1Nyw3OTI4Njk3
 MDcsMjE0MTk2Mzk0Niw0MDkxODQ4NTQsLTE2MzQ1MDg1OTgsLT
 E5OTk5Njk3MDEsOTIzMDY3MDI2LC0xNDY1OTU3NDUsLTEyNTkz
