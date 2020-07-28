@@ -188,11 +188,12 @@ https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_inst
 
     oc new-project istio-system
   
--   Create a `ServiceMeshControlPlane` file named `/rhosmapi/osm/service-mesh.yaml "service-mesh.yaml")` using the example found in "Customize the Red Hat OpenShift Service Mesh installation". You can customize the values as needed to match your use case. For production deployments you _must_ change the default Jaeger template.
+-   Create a `ServiceMeshControlPlane` file named `/rhosmapi/osm/service-mesh.yaml ` using the example found in "Customize the Red Hat OpenShift Service Mesh installation". You can customize the values as needed to match your use case. 
     
 -   Run the following command to deploy the control plane:
     
-    $ oc create -n istio-system -f istio-installation.yaml
+    oc create -n istio-system -f service-mesh.yaml
+
     
 -   Execute the following command to see the status of the control plane installation.
     
@@ -233,11 +234,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDAwNDU1LC03NDc0MDc5ODcsLTI1OT
-Q2NDYyNywtMTM1MzQyMjQ1Nyw3OTI4Njk3MDcsMjE0MTk2Mzk0
-Niw0MDkxODQ4NTQsLTE2MzQ1MDg1OTgsLTE5OTk5Njk3MDEsOT
-IzMDY3MDI2LC0xNDY1OTU3NDUsLTEyNTkzOTQ4MjUsLTExMzE0
-NTcyOTgsLTE1MTE1MDY5MzIsLTg5MjczNjE2Miw5MTgyODE0MT
-MsLTQzOTgyNzYwMiwxNzI3ODkzODQ3LC0xODg1NzAzMDc3LC0x
-MTczMTIwMzQ0XX0=
+eyJoaXN0b3J5IjpbMTM5NTgyMjI2OCwtNzQ3NDA3OTg3LC0yNT
+k0NjQ2MjcsLTEzNTM0MjI0NTcsNzkyODY5NzA3LDIxNDE5NjM5
+NDYsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5NzAxLD
+kyMzA2NzAyNiwtMTQ2NTk1NzQ1LC0xMjU5Mzk0ODI1LC0xMTMx
+NDU3Mjk4LC0xNTExNTA2OTMyLC04OTI3MzYxNjIsOTE4MjgxND
+EzLC00Mzk4Mjc2MDIsMTcyNzg5Mzg0NywtMTg4NTcwMzA3Nywt
+MTE3MzEyMDM0NF19
 -->
