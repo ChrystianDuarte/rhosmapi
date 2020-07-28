@@ -223,7 +223,7 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
 
 # 3scale Mixer Adapter 
 
-## Desplegar 3scale-istio-adapter
+## [1] Desplegar 3scale-istio-adapter
 
 git clone [https://github.com/3scale/3scale-istio-adapter](https://github.com/3scale/3scale-istio-adapter)
 
@@ -238,17 +238,17 @@ $ kubectl -n istio-system get cm istio -o jsonpath="{@.data.mesh}" | grep disabl
 ## [2] Crear configuraciones Handler, Service e Instance
 
 Desde 3Scale se debe recuperar tanto la URL de admin, el Service ID del API creado en 3Scale y el Token generado al momento de crear la autenticación mediante Istio.
-En Openshift (WebConsole o mediante comando rsh) ir al Pod 3scale-istio-adapter (ssh) y ejecutar:
+
+- En Openshift (WebConsole o mediante comando rsh) ir al Pod 3scale-istio-adapter (ssh) y ejecutar:
 
 ./3scale-config-gen --url "https://3scale-admin.apps.3scale.com:443" --service "replace-me" --token "access_token_change_me" --name=“miapp-3scale-istio”
 
   
+ - Copiar la configuracion arrojada por comando y pegarla en un archivo yaml (ej: istio-3scale-adapter.yaml)
 
-## Copiar la configuracion arrojada por comando y pegarla en un archivo yaml (ej: istio-3scale-adapter.yaml)
+- Crear archivo istio-3scale-adapter.yaml con las configuraciones handler, service e instance arrojadas con el comando anterior (copy/paste).
 
-## Crear archivo istio-3scale-adapter.yaml con las configuraciones handler, service e instance arrojadas con el comando anterior (copy/paste).
-
-## Luego:
+Luego:
 
 oc create -f istio-3scale-adapter.yaml -n istio-system
 
@@ -256,13 +256,11 @@ oc create -f istio-3scale-adapter.yaml -n istio-system
 
 ## [3] Agregar labels a DeploymentConfig de la app
 
-## SERVICE_ID es el ID del API en 3Scale
+SERVICE_ID es el ID del API en 3Scale
 
-## CREDENTIALS_NAME corresponde al nombre de las credenciales generadas con el comando en el paso 2 (--name=“miapp-3scale-istio”)
+- CREDENTIALS_NAME corresponde al nombre de las credenciales generadas con el comando en el paso 2 (--name=“miapp-3scale-istio”)
 
-## DEPLOYMENT es el nombre del DeploymentConfig de la app
-
-  
+- DEPLOYMENT es el nombre del DeploymentConfig de la app
 
 export CREDENTIALS_NAME="ste-3scale-istio”
 
@@ -295,11 +293,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNzcyOTY0LC0yMDA2NjU2MjIwLC0xMD
-g4NTEwODYwLC0xMTI4NDk4MDI4LC03NDc0MDc5ODcsLTI1OTQ2
-NDYyNywtMTM1MzQyMjQ1Nyw3OTI4Njk3MDcsMjE0MTk2Mzk0Ni
-w0MDkxODQ4NTQsLTE2MzQ1MDg1OTgsLTE5OTk5Njk3MDEsOTIz
-MDY3MDI2LC0xNDY1OTU3NDUsLTEyNTkzOTQ4MjUsLTExMzE0NT
-cyOTgsLTE1MTE1MDY5MzIsLTg5MjczNjE2Miw5MTgyODE0MTMs
-LTQzOTgyNzYwMl19
+eyJoaXN0b3J5IjpbMTI0MTI1NTQwNCwtMjAwNjY1NjIyMCwtMT
+A4ODUxMDg2MCwtMTEyODQ5ODAyOCwtNzQ3NDA3OTg3LC0yNTk0
+NjQ2MjcsLTEzNTM0MjI0NTcsNzkyODY5NzA3LDIxNDE5NjM5ND
+YsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5NzAxLDky
+MzA2NzAyNiwtMTQ2NTk1NzQ1LC0xMjU5Mzk0ODI1LC0xMTMxND
+U3Mjk4LC0xNTExNTA2OTMyLC04OTI3MzYxNjIsOTE4MjgxNDEz
+LC00Mzk4Mjc2MDJdfQ==
 -->
