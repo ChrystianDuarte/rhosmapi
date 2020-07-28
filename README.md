@@ -217,6 +217,8 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
 ## Install Data plane [MemberRoll]
 
 
+
+
 # 3scale API Management
 
 # 3scale Mixer Adapter 
@@ -288,11 +290,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA3OTkzNSwtMjAwNjY1NjIyMCwtMT
-A4ODUxMDg2MCwtMTEyODQ5ODAyOCwtNzQ3NDA3OTg3LC0yNTk0
-NjQ2MjcsLTEzNTM0MjI0NTcsNzkyODY5NzA3LDIxNDE5NjM5ND
-YsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5NzAxLDky
-MzA2NzAyNiwtMTQ2NTk1NzQ1LC0xMjU5Mzk0ODI1LC0xMTMxND
-U3Mjk4LC0xNTExNTA2OTMyLC04OTI3MzYxNjIsOTE4MjgxNDEz
-LC00Mzk4Mjc2MDJdfQ==
+eyJoaXN0b3J5IjpbLTE0OTgzNDM1ODcsLTEzNTA3OTkzNSwtMj
+AwNjY1NjIyMCwtMTA4ODUxMDg2MCwtMTEyODQ5ODAyOCwtNzQ3
+NDA3OTg3LC0yNTk0NjQ2MjcsLTEzNTM0MjI0NTcsNzkyODY5Nz
+A3LDIxNDE5NjM5NDYsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC0x
+OTk5OTY5NzAxLDkyMzA2NzAyNiwtMTQ2NTk1NzQ1LC0xMjU5Mz
+k0ODI1LC0xMTMxNDU3Mjk4LC0xNTExNTA2OTMyLC04OTI3MzYx
+NjIsOTE4MjgxNDEzXX0=
 -->
