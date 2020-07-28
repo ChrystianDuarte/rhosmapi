@@ -165,6 +165,9 @@ Queries
 Click in save and then press in Publish
 
 ![publish api](https://drive.google.com/uc?id=1anK-lo6lRr46dgeRZTKI3Zsm8VY-9v77)
+Publish and build in OCP.
+
+![publish and build](https://drive.google.com/uc?id=1frq6KkA3bzUZxkiHK5IEk3uCslLQLuyK)
 # Service Mesh
 
 ## Install Stack Openshift Service Mesh
@@ -178,16 +181,14 @@ https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_inst
 3. Installing the Kiali Operator
 4. Installing the Red Hat OpenShift Service Mesh Operator
 
+![OCP operator here](https://drive.google.com/uc?id=1Zt5Nv4f2vOBzk4yOcbONJ30uqlXaNvvw)
 ## Install Control Plane
 
 [Install Control Plane](https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_install/installing-ossm.html#ossm-control-plane-deploy-cli_installing-ossm)
 
     oc new-project istio-system
-
-
-```
-![Alt text](http://full/path/to/img.jpg "Optional title")
-```
+  
+   
 
 # 3scale API Management
 
@@ -199,11 +200,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NzQwNzk4NywtMjU5NDY0NjI3LC0xMz
-UzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOTYzOTQ2LDQwOTE4NDg1
-NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcwMSw5MjMwNjcwMjYsLT
-E0NjU5NTc0NSwtMTI1OTM5NDgyNSwtMTEzMTQ1NzI5OCwtMTUx
-MTUwNjkzMiwtODkyNzM2MTYyLDkxODI4MTQxMywtNDM5ODI3Nj
-AyLDE3Mjc4OTM4NDcsLTE4ODU3MDMwNzcsLTExNzMxMjAzNDQs
-LTE3MzYxOTQwMTZdfQ==
+eyJoaXN0b3J5IjpbMTk5Mjk4MjE3OSwtNzQ3NDA3OTg3LC0yNT
+k0NjQ2MjcsLTEzNTM0MjI0NTcsNzkyODY5NzA3LDIxNDE5NjM5
+NDYsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5NzAxLD
+kyMzA2NzAyNiwtMTQ2NTk1NzQ1LC0xMjU5Mzk0ODI1LC0xMTMx
+NDU3Mjk4LC0xNTExNTA2OTMyLC04OTI3MzYxNjIsOTE4MjgxND
+EzLC00Mzk4Mjc2MDIsMTcyNzg5Mzg0NywtMTg4NTcwMzA3Nywt
+MTE3MzEyMDM0NF19
 -->
