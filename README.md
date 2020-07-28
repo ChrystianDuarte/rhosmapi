@@ -179,6 +179,10 @@ https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_inst
 3. Installing the Kiali Operator
 4. Installing the Red Hat OpenShift Service Mesh Operator
 
+## Install Control Plane
+
+
+
 
 # 3scale API Management
 
@@ -190,11 +194,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyODY5NzA3LDIxNDE5NjM5NDYsNDA5MT
-g0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5NzAxLDkyMzA2NzAy
-NiwtMTQ2NTk1NzQ1LC0xMjU5Mzk0ODI1LC0xMTMxNDU3Mjk4LC
-0xNTExNTA2OTMyLC04OTI3MzYxNjIsOTE4MjgxNDEzLC00Mzk4
-Mjc2MDIsMTcyNzg5Mzg0NywtMTg4NTcwMzA3NywtMTE3MzEyMD
-M0NCwtMTczNjE5NDAxNiwxODQ0NjQ3MjM2LC0yNzMwODA1NjIs
-LTc4MDk5MzgwN119
+eyJoaXN0b3J5IjpbLTEzNTM0MjI0NTcsNzkyODY5NzA3LDIxND
+E5NjM5NDYsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5
+NzAxLDkyMzA2NzAyNiwtMTQ2NTk1NzQ1LC0xMjU5Mzk0ODI1LC
+0xMTMxNDU3Mjk4LC0xNTExNTA2OTMyLC04OTI3MzYxNjIsOTE4
+MjgxNDEzLC00Mzk4Mjc2MDIsMTcyNzg5Mzg0NywtMTg4NTcwMz
+A3NywtMTE3MzEyMDM0NCwtMTczNjE5NDAxNiwxODQ0NjQ3MjM2
+LC0yNzMwODA1NjJdfQ==
 -->
