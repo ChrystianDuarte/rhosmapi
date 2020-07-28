@@ -181,6 +181,7 @@ https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_inst
 
 ## Install Control Plane
 
+[Install Control Plane](https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_install/installing-ossm.html#ossm-control-plane-deploy-cli_installing-ossm)
 
     oc new-project istio-system
 
@@ -195,7 +196,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4OTczNzM3NSwtMTM1MzQyMjQ1Nyw3OT
+eyJoaXN0b3J5IjpbLTI1OTQ2NDYyNywtMTM1MzQyMjQ1Nyw3OT
 I4Njk3MDcsMjE0MTk2Mzk0Niw0MDkxODQ4NTQsLTE2MzQ1MDg1
 OTgsLTE5OTk5Njk3MDEsOTIzMDY3MDI2LC0xNDY1OTU3NDUsLT
 EyNTkzOTQ4MjUsLTExMzE0NTcyOTgsLTE1MTE1MDY5MzIsLTg5
