@@ -186,7 +186,7 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
 ![OCP operator here](https://drive.google.com/uc?id=1Zt5Nv4f2vOBzk4yOcbONJ30uqlXaNvvw)
 ## Install Control Plane
 
-[Install Control Plane](https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_install/installing-ossm.html#ossm-control-plane-deploy-cli_installing-ossm)
+- Create Namespace. 
 
     oc new-project istio-system
   
@@ -235,11 +235,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ3NTkwMjYsLTc0NzQwNzk4NywtMj
-U5NDY0NjI3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOTYz
-OTQ2LDQwOTE4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcwMS
-w5MjMwNjcwMjYsLTE0NjU5NTc0NSwtMTI1OTM5NDgyNSwtMTEz
-MTQ1NzI5OCwtMTUxMTUwNjkzMiwtODkyNzM2MTYyLDkxODI4MT
-QxMywtNDM5ODI3NjAyLDE3Mjc4OTM4NDcsLTE4ODU3MDMwNzcs
-LTExNzMxMjAzNDRdfQ==
+eyJoaXN0b3J5IjpbOTMwMzI4MDAsLTc0NzQwNzk4NywtMjU5ND
+Y0NjI3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOTYzOTQ2
+LDQwOTE4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcwMSw5Mj
+MwNjcwMjYsLTE0NjU5NTc0NSwtMTI1OTM5NDgyNSwtMTEzMTQ1
+NzI5OCwtMTUxMTUwNjkzMiwtODkyNzM2MTYyLDkxODI4MTQxMy
+wtNDM5ODI3NjAyLDE3Mjc4OTM4NDcsLTE4ODU3MDMwNzcsLTEx
+NzMxMjAzNDRdfQ==
 -->
