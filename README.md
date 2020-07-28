@@ -176,7 +176,8 @@ https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_inst
 
 1. Install Elastic Search Operator
 2. Installing the Jaeger Operator
-3. 
+3. Installing the Kiali Operator
+4. Installing the Red Hat OpenShift Service Mesh Operator
 
 
 # 3scale API Management
@@ -189,11 +190,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODAyNDE1NSwyMTQxOTYzOTQ2LDQwOT
-E4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcwMSw5MjMwNjcw
-MjYsLTE0NjU5NTc0NSwtMTI1OTM5NDgyNSwtMTEzMTQ1NzI5OC
-wtMTUxMTUwNjkzMiwtODkyNzM2MTYyLDkxODI4MTQxMywtNDM5
-ODI3NjAyLDE3Mjc4OTM4NDcsLTE4ODU3MDMwNzcsLTExNzMxMj
-AzNDQsLTE3MzYxOTQwMTYsMTg0NDY0NzIzNiwtMjczMDgwNTYy
-LC03ODA5OTM4MDddfQ==
+eyJoaXN0b3J5IjpbNzkyODY5NzA3LDIxNDE5NjM5NDYsNDA5MT
+g0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5NzAxLDkyMzA2NzAy
+NiwtMTQ2NTk1NzQ1LC0xMjU5Mzk0ODI1LC0xMTMxNDU3Mjk4LC
+0xNTExNTA2OTMyLC04OTI3MzYxNjIsOTE4MjgxNDEzLC00Mzk4
+Mjc2MDIsMTcyNzg5Mzg0NywtMTg4NTcwMzA3NywtMTE3MzEyMD
+M0NCwtMTczNjE5NDAxNiwxODQ0NjQ3MjM2LC0yNzMwODA1NjIs
+LTc4MDk5MzgwN119
 -->
