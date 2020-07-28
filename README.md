@@ -202,8 +202,8 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
        
     The installation has finished successfully when the READY column is true.
     
-   `  NAME           READY`
-   `  Basic           True` 
+    `  NAME                 READY`
+   `  Basic-install        True` 
     
 -   Run the following command to watch the progress of the Pods during the installation process:
     
@@ -211,12 +211,7 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
     
     You should see output similar to the following:
     
-
-
-
-
-
-
+    
 # 3scale API Management
 
 # 3scale Mixer Adapter 
@@ -227,11 +222,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1ODA2ODgsLTc0NzQwNzk4NywtMjU5ND
-Y0NjI3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOTYzOTQ2
-LDQwOTE4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcwMSw5Mj
-MwNjcwMjYsLTE0NjU5NTc0NSwtMTI1OTM5NDgyNSwtMTEzMTQ1
-NzI5OCwtMTUxMTUwNjkzMiwtODkyNzM2MTYyLDkxODI4MTQxMy
-wtNDM5ODI3NjAyLDE3Mjc4OTM4NDcsLTE4ODU3MDMwNzcsLTEx
-NzMxMjAzNDRdfQ==
+eyJoaXN0b3J5IjpbLTExMjg0OTgwMjgsLTc0NzQwNzk4NywtMj
+U5NDY0NjI3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOTYz
+OTQ2LDQwOTE4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcwMS
+w5MjMwNjcwMjYsLTE0NjU5NTc0NSwtMTI1OTM5NDgyNSwtMTEz
+MTQ1NzI5OCwtMTUxMTUwNjkzMiwtODkyNzM2MTYyLDkxODI4MT
+QxMywtNDM5ODI3NjAyLDE3Mjc4OTM4NDcsLTE4ODU3MDMwNzcs
+LTExNzMxMjAzNDRdfQ==
 -->
