@@ -218,6 +218,9 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
 
 
 
+## Install NetworkPolicy in FuseOnlineNamespace
+
+
 
 # 3scale API Management
 
@@ -290,7 +293,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTgzNDM1ODcsLTEzNTA3OTkzNSwtMj
+eyJoaXN0b3J5IjpbLTEwNTYwMjU2NDQsLTEzNTA3OTkzNSwtMj
 AwNjY1NjIyMCwtMTA4ODUxMDg2MCwtMTEyODQ5ODAyOCwtNzQ3
 NDA3OTg3LC0yNTk0NjQ2MjcsLTEzNTM0MjI0NTcsNzkyODY5Nz
 A3LDIxNDE5NjM5NDYsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC0x
