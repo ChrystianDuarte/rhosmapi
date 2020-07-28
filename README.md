@@ -176,7 +176,7 @@ https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_inst
 
 ## Install 
 
-for this demostration we do a cluster admin privilege for the user that we are working
+for this demostration we do a "cluster-admin" privilege for the user that we are working
 
 1. Install Elastic Search Operator
 2. Installing the Jaeger Operator
@@ -195,8 +195,7 @@ for this demostration we do a cluster admin privilege for the user that we are w
 -   Run the following command to deploy the control plane:
     
     `oc create -n istio-system -f service-mesh.yaml`
-    
-    
+   
 -   Execute the following command to see the status of the control plane installation.
     
     $ oc get smcp -n istio-system
@@ -236,7 +235,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAwNzQ3MTMsLTc0NzQwNzk4NywtMj
+eyJoaXN0b3J5IjpbLTE4MzQ3NTkwMjYsLTc0NzQwNzk4NywtMj
 U5NDY0NjI3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOTYz
 OTQ2LDQwOTE4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcwMS
 w5MjMwNjcwMjYsLTE0NjU5NTc0NSwtMTI1OTM5NDgyNSwtMTEz
