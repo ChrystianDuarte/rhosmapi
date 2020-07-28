@@ -191,8 +191,8 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
     `oc new-project istio-system`
    
 -   Create a `ServiceMeshControlPlane` file named `/rhosmapi/osm/service-mesh.yaml ` using the example found in "Customize the Red Hat OpenShift Service Mesh installation". You can customize the values as needed to match your use case. 
-    
--   Run the following command to deploy the control plane:
+![servicemesh control plane](https://drive.google.com/uc?id=167yn99tnFULe76Y8DEoW0AFpOz4NGl2G)   
+-   or Run the following command to deploy the control plane:
     
     `oc create -n istio-system -f service-mesh.yaml`
    
@@ -227,11 +227,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzY1NTQ0NywtNzQ3NDA3OTg3LC0yNT
-k0NjQ2MjcsLTEzNTM0MjI0NTcsNzkyODY5NzA3LDIxNDE5NjM5
-NDYsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5NzAxLD
-kyMzA2NzAyNiwtMTQ2NTk1NzQ1LC0xMjU5Mzk0ODI1LC0xMTMx
-NDU3Mjk4LC0xNTExNTA2OTMyLC04OTI3MzYxNjIsOTE4MjgxND
-EzLC00Mzk4Mjc2MDIsMTcyNzg5Mzg0NywtMTg4NTcwMzA3Nywt
-MTE3MzEyMDM0NF19
+eyJoaXN0b3J5IjpbNDQ1ODA2ODgsLTc0NzQwNzk4NywtMjU5ND
+Y0NjI3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOTYzOTQ2
+LDQwOTE4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcwMSw5Mj
+MwNjcwMjYsLTE0NjU5NTc0NSwtMTI1OTM5NDgyNSwtMTEzMTQ1
+NzI5OCwtMTUxMTUwNjkzMiwtODkyNzM2MTYyLDkxODI4MTQxMy
+wtNDM5ODI3NjAyLDE3Mjc4OTM4NDcsLTE4ODU3MDMwNzcsLTEx
+NzMxMjAzNDRdfQ==
 -->
