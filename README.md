@@ -188,8 +188,8 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
 
 - Create Namespace. 
 
-    oc new-project istio-system
-  
+    `oc new-project istio-system`
+   
 -   Create a `ServiceMeshControlPlane` file named `/rhosmapi/osm/service-mesh.yaml ` using the example found in "Customize the Red Hat OpenShift Service Mesh installation". You can customize the values as needed to match your use case. 
     
 -   Run the following command to deploy the control plane:
@@ -197,13 +197,13 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
     `oc create -n istio-system -f service-mesh.yaml`
    
 -   Execute the following command to see the status of the control plane installation.
-    
-    $ oc get smcp -n istio-system
-    
+   
+    `oc get smcp -n istio-system`
+       
     The installation has finished successfully when the READY column is true.
     
-    NAME           READY
-    basic-install   True
+   `  NAME           READY`
+   `  Basic `basic-install   True` 
     
 -   Run the following command to watch the progress of the Pods during the installation process:
     
@@ -235,11 +235,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwMzI4MDAsLTc0NzQwNzk4NywtMjU5ND
-Y0NjI3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOTYzOTQ2
-LDQwOTE4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcwMSw5Mj
-MwNjcwMjYsLTE0NjU5NTc0NSwtMTI1OTM5NDgyNSwtMTEzMTQ1
-NzI5OCwtMTUxMTUwNjkzMiwtODkyNzM2MTYyLDkxODI4MTQxMy
-wtNDM5ODI3NjAyLDE3Mjc4OTM4NDcsLTE4ODU3MDMwNzcsLTEx
-NzMxMjAzNDRdfQ==
+eyJoaXN0b3J5IjpbOTUxMDk0NDkwLC03NDc0MDc5ODcsLTI1OT
+Q2NDYyNywtMTM1MzQyMjQ1Nyw3OTI4Njk3MDcsMjE0MTk2Mzk0
+Niw0MDkxODQ4NTQsLTE2MzQ1MDg1OTgsLTE5OTk5Njk3MDEsOT
+IzMDY3MDI2LC0xNDY1OTU3NDUsLTEyNTkzOTQ4MjUsLTExMzE0
+NTcyOTgsLTE1MTE1MDY5MzIsLTg5MjczNjE2Miw5MTgyODE0MT
+MsLTQzOTgyNzYwMiwxNzI3ODkzODQ3LC0xODg1NzAzMDc3LC0x
+MTczMTIwMzQ0XX0=
 -->
