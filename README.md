@@ -211,7 +211,7 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
     
     You should see output similar to the following:
     ![osm-control plane pods](https://drive.google.com/uc?id=1UeGTTzSl8cEky0DzdLU6sAIXqVMMAF63)
-    
+   
 # 3scale API Management
 
 # 3scale Mixer Adapter 
@@ -222,11 +222,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTM1NTk0LC0xMTI4NDk4MDI4LC03ND
-c0MDc5ODcsLTI1OTQ2NDYyNywtMTM1MzQyMjQ1Nyw3OTI4Njk3
-MDcsMjE0MTk2Mzk0Niw0MDkxODQ4NTQsLTE2MzQ1MDg1OTgsLT
-E5OTk5Njk3MDEsOTIzMDY3MDI2LC0xNDY1OTU3NDUsLTEyNTkz
-OTQ4MjUsLTExMzE0NTcyOTgsLTE1MTE1MDY5MzIsLTg5MjczNj
-E2Miw5MTgyODE0MTMsLTQzOTgyNzYwMiwxNzI3ODkzODQ3LC0x
-ODg1NzAzMDc3XX0=
+eyJoaXN0b3J5IjpbLTk5MTM5Nzk4OCwtMTEyODQ5ODAyOCwtNz
+Q3NDA3OTg3LC0yNTk0NjQ2MjcsLTEzNTM0MjI0NTcsNzkyODY5
+NzA3LDIxNDE5NjM5NDYsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC
+0xOTk5OTY5NzAxLDkyMzA2NzAyNiwtMTQ2NTk1NzQ1LC0xMjU5
+Mzk0ODI1LC0xMTMxNDU3Mjk4LC0xNTExNTA2OTMyLC04OTI3Mz
+YxNjIsOTE4MjgxNDEzLC00Mzk4Mjc2MDIsMTcyNzg5Mzg0Nywt
+MTg4NTcwMzA3N119
 -->
