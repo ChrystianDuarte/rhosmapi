@@ -176,7 +176,10 @@ https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_inst
 
 ## Install 
 
-for this demostration we do a "cluster-admin" privilege for the user that we are working
+for this demostration we do a "cluster-admin" privilege for the user that we are working.
+
+
+
 
 1. Install Elastic Search Operator
 2. Installing the Jaeger Operator
@@ -226,11 +229,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODg1MTA4NjAsLTExMjg0OTgwMjgsLT
-c0NzQwNzk4NywtMjU5NDY0NjI3LC0xMzUzNDIyNDU3LDc5Mjg2
-OTcwNywyMTQxOTYzOTQ2LDQwOTE4NDg1NCwtMTYzNDUwODU5OC
-wtMTk5OTk2OTcwMSw5MjMwNjcwMjYsLTE0NjU5NTc0NSwtMTI1
-OTM5NDgyNSwtMTEzMTQ1NzI5OCwtMTUxMTUwNjkzMiwtODkyNz
-M2MTYyLDkxODI4MTQxMywtNDM5ODI3NjAyLDE3Mjc4OTM4NDcs
-LTE4ODU3MDMwNzddfQ==
+eyJoaXN0b3J5IjpbMTc1ODU2MzIwOCwtMTA4ODUxMDg2MCwtMT
+EyODQ5ODAyOCwtNzQ3NDA3OTg3LC0yNTk0NjQ2MjcsLTEzNTM0
+MjI0NTcsNzkyODY5NzA3LDIxNDE5NjM5NDYsNDA5MTg0ODU0LC
+0xNjM0NTA4NTk4LC0xOTk5OTY5NzAxLDkyMzA2NzAyNiwtMTQ2
+NTk1NzQ1LC0xMjU5Mzk0ODI1LC0xMTMxNDU3Mjk4LC0xNTExNT
+A2OTMyLC04OTI3MzYxNjIsOTE4MjgxNDEzLC00Mzk4Mjc2MDIs
+MTcyNzg5Mzg0N119
 -->
