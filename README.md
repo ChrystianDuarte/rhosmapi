@@ -170,8 +170,13 @@ Click in save and then press in Publish
 
 ## Install Stack Openshift Service Mesh
 To install the stack of service mesh please refer to:
+https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_install/installing-ossm.html
 
 ## Install 
+
+1. Install Elastic Search Operator
+2. Installing the Jaeger Operator
+3. 
 
 
 # 3scale API Management
@@ -184,11 +189,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDUxMDIxMDAsMjE0MTk2Mzk0Niw0MD
-kxODQ4NTQsLTE2MzQ1MDg1OTgsLTE5OTk5Njk3MDEsOTIzMDY3
-MDI2LC0xNDY1OTU3NDUsLTEyNTkzOTQ4MjUsLTExMzE0NTcyOT
-gsLTE1MTE1MDY5MzIsLTg5MjczNjE2Miw5MTgyODE0MTMsLTQz
-OTgyNzYwMiwxNzI3ODkzODQ3LC0xODg1NzAzMDc3LC0xMTczMT
-IwMzQ0LC0xNzM2MTk0MDE2LDE4NDQ2NDcyMzYsLTI3MzA4MDU2
-MiwtNzgwOTkzODA3XX0=
+eyJoaXN0b3J5IjpbMTE2ODAyNDE1NSwyMTQxOTYzOTQ2LDQwOT
+E4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcwMSw5MjMwNjcw
+MjYsLTE0NjU5NTc0NSwtMTI1OTM5NDgyNSwtMTEzMTQ1NzI5OC
+wtMTUxMTUwNjkzMiwtODkyNzM2MTYyLDkxODI4MTQxMywtNDM5
+ODI3NjAyLDE3Mjc4OTM4NDcsLTE4ODU3MDMwNzcsLTExNzMxMj
+AzNDQsLTE3MzYxOTQwMTYsMTg0NDY0NzIzNiwtMjczMDgwNTYy
+LC03ODA5OTM4MDddfQ==
 -->
