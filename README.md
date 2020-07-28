@@ -162,8 +162,10 @@ Queries
 ![Tree Integration post](https://drive.google.com/uc?id=1HKtuKkHsUXlJhfFM6jSXGocyhnflHhDy)
 
 ### Publish API on Openshift
+Click in save and then press in Publish
 
 
+![publish api](https://drive.google.com/uc?id=1anK-lo6lRr46dgeRZTKI3Zsm8VY-9v77)
 # Service Mesh
 
 ## Install Stack Openshift Service Mesh
@@ -182,11 +184,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTk2Mzk0Niw0MDkxODQ4NTQsLTE2Mz
-Q1MDg1OTgsLTE5OTk5Njk3MDEsOTIzMDY3MDI2LC0xNDY1OTU3
-NDUsLTEyNTkzOTQ4MjUsLTExMzE0NTcyOTgsLTE1MTE1MDY5Mz
-IsLTg5MjczNjE2Miw5MTgyODE0MTMsLTQzOTgyNzYwMiwxNzI3
-ODkzODQ3LC0xODg1NzAzMDc3LC0xMTczMTIwMzQ0LC0xNzM2MT
-k0MDE2LDE4NDQ2NDcyMzYsLTI3MzA4MDU2MiwtNzgwOTkzODA3
-LC0xNjMzNjgxMDQ5XX0=
+eyJoaXN0b3J5IjpbLTEyMDUxMDIxMDAsMjE0MTk2Mzk0Niw0MD
+kxODQ4NTQsLTE2MzQ1MDg1OTgsLTE5OTk5Njk3MDEsOTIzMDY3
+MDI2LC0xNDY1OTU3NDUsLTEyNTkzOTQ4MjUsLTExMzE0NTcyOT
+gsLTE1MTE1MDY5MzIsLTg5MjczNjE2Miw5MTgyODE0MTMsLTQz
+OTgyNzYwMiwxNzI3ODkzODQ3LC0xODg1NzAzMDc3LC0xMTczMT
+IwMzQ0LC0xNzM2MTk0MDE2LDE4NDQ2NDcyMzYsLTI3MzA4MDU2
+MiwtNzgwOTkzODA3XX0=
 -->
