@@ -164,7 +164,6 @@ Queries
 ### Publish API on Openshift
 Click in save and then press in Publish
 
-
 ![publish api](https://drive.google.com/uc?id=1anK-lo6lRr46dgeRZTKI3Zsm8VY-9v77)
 # Service Mesh
 
@@ -186,6 +185,10 @@ https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_inst
     oc new-project istio-system
 
 
+```
+![Alt text](http://full/path/to/img.jpg "Optional title")
+```
+
 # 3scale API Management
 
 # 3scale Mixer Adapter 
@@ -196,11 +199,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTQ2NDYyNywtMTM1MzQyMjQ1Nyw3OT
-I4Njk3MDcsMjE0MTk2Mzk0Niw0MDkxODQ4NTQsLTE2MzQ1MDg1
-OTgsLTE5OTk5Njk3MDEsOTIzMDY3MDI2LC0xNDY1OTU3NDUsLT
-EyNTkzOTQ4MjUsLTExMzE0NTcyOTgsLTE1MTE1MDY5MzIsLTg5
-MjczNjE2Miw5MTgyODE0MTMsLTQzOTgyNzYwMiwxNzI3ODkzOD
-Q3LC0xODg1NzAzMDc3LC0xMTczMTIwMzQ0LC0xNzM2MTk0MDE2
-LDE4NDQ2NDcyMzZdfQ==
+eyJoaXN0b3J5IjpbLTc0NzQwNzk4NywtMjU5NDY0NjI3LC0xMz
+UzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOTYzOTQ2LDQwOTE4NDg1
+NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcwMSw5MjMwNjcwMjYsLT
+E0NjU5NTc0NSwtMTI1OTM5NDgyNSwtMTEzMTQ1NzI5OCwtMTUx
+MTUwNjkzMiwtODkyNzM2MTYyLDkxODI4MTQxMywtNDM5ODI3Nj
+AyLDE3Mjc4OTM4NDcsLTE4ODU3MDMwNzcsLTExNzMxMjAzNDQs
+LTE3MzYxOTQwMTZdfQ==
 -->
