@@ -217,8 +217,6 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
 ## Install Data plane [MemberRoll]
 
 
-
-   
 # 3scale API Management
 
 # 3scale Mixer Adapter 
@@ -269,7 +267,6 @@ export SERVICE_ID="replace-me”
 export DEPLOYMENT=“nombre-del-deployment-config”
 
   
-
 patch="$(oc get deployment "${DEPLOYMENT}" --template='{"spec":{"template":{"metadata":{"labels":{ {{ range $k,$v := .spec.template.metadata.labels }}"{{ $k }}":"{{ $v }}",{{ end }}"[service-mesh.3scale.net/service-id":"'"${SERVICE_ID}"'","service-mesh.3scale.net/credentials":"'"${CREDENTIALS_NAME}"'"}}}}}'](http://service-mesh.3scale.net/service-id%22:%22'%22$%7BSERVICE_ID%7D%22'%22,%22service-mesh.3scale.net/credentials%22:%22'%22$%7BCREDENTIALS_NAME%7D%22'%22%7D%7D%7D%7D%7D') )”
 
   
@@ -277,13 +274,11 @@ patch="$(oc get deployment "${DEPLOYMENT}" --template='{"spec":{"template":{"met
 oc patch deployment "${DEPLOYMENT}" --patch ''"${patch}"’'  
 
   
+-  Estos labels son los que se agregan el DeploymentConfig (y a cada pod cuando es creado). Necesarios para que istio sepa que credenciales y que Servicio utilizar para obtener las configuraciones desde 3Scale:
 
-## Estos labels son los que se agregan el DeploymentConfig (y a cada pod cuando es creado). Necesarios para que istio sepa que credenciales y que Servicio utilizar para obtener las configuraciones desde 3Scale:
+-  [service-mesh.3scale.net/credentials](http://service-mesh.3scale.net/credentials)
 
-## [service-mesh.3scale.net/credentials](http://service-mesh.3scale.net/credentials)
-
-## [service-mesh.3scale.net/service-id](http://service-mesh.3scale.net/service-id)
-
+- [service-mesh.3scale.net/service-id](http://service-mesh.3scale.net/service-id)
 
 
 
@@ -293,7 +288,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTI1NTQwNCwtMjAwNjY1NjIyMCwtMT
+eyJoaXN0b3J5IjpbLTEzNTA3OTkzNSwtMjAwNjY1NjIyMCwtMT
 A4ODUxMDg2MCwtMTEyODQ5ODAyOCwtNzQ3NDA3OTg3LC0yNTk0
 NjQ2MjcsLTEzNTM0MjI0NTcsNzkyODY5NzA3LDIxNDE5NjM5ND
 YsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5NzAxLDky
