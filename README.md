@@ -244,8 +244,7 @@ Select deployment config of "i-user" in evals3-fuse  namespace  and agregate sid
 
 ![inject sidecar](https://drive.google.com/uc?id=1SDZVWJHKqMCIWbPnSWAt7n8zor6APE8D)
 Repet the same in the Database Postgress
-
-
+![inject in deployment f postgressdb](https://drive.google.com/uc?id=14TchTkaUz9oecOInCPHDSfv7QPis7kOr)
 # Kiali Observe
 
 ## Allow read deployment config in Kiali
@@ -330,11 +329,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzM0ODc3NCwxMDM3OTk0ODY5LC0xNj
-A3ODA5NjkxLC0xOTc2OTA5MDUyLDE1OTQ0NjMwOSwxNTkwOTgz
-NzQ0LDE5MDUzODc3NTIsLTEwNTYwMjU2NDQsLTEzNTA3OTkzNS
-wtMjAwNjY1NjIyMCwtMTA4ODUxMDg2MCwtMTEyODQ5ODAyOCwt
-NzQ3NDA3OTg3LC0yNTk0NjQ2MjcsLTEzNTM0MjI0NTcsNzkyOD
-Y5NzA3LDIxNDE5NjM5NDYsNDA5MTg0ODU0LC0xNjM0NTA4NTk4
-LC0xOTk5OTY5NzAxXX0=
+eyJoaXN0b3J5IjpbLTEyNDM0NDM2NTIsMTE3NzM0ODc3NCwxMD
+M3OTk0ODY5LC0xNjA3ODA5NjkxLC0xOTc2OTA5MDUyLDE1OTQ0
+NjMwOSwxNTkwOTgzNzQ0LDE5MDUzODc3NTIsLTEwNTYwMjU2ND
+QsLTEzNTA3OTkzNSwtMjAwNjY1NjIyMCwtMTA4ODUxMDg2MCwt
+MTEyODQ5ODAyOCwtNzQ3NDA3OTg3LC0yNTk0NjQ2MjcsLTEzNT
+M0MjI0NTcsNzkyODY5NzA3LDIxNDE5NjM5NDYsNDA5MTg0ODU0
+LC0xNjM0NTA4NTk4XX0=
 -->
