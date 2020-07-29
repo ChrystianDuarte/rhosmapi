@@ -243,11 +243,8 @@ Select deployment config of "i-user" in evals3-fuse  namespace  and agregate sid
            sidecar.istio.io/inject: 'true'
 
 ![inject sidecar](https://drive.google.com/uc?id=1SDZVWJHKqMCIWbPnSWAt7n8zor6APE8D)
-
-
-
-
 Repet the same in the Database Postgress
+
 
 # Kiali Observe
 
@@ -333,11 +330,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjYyODk5MzYsMTAzNzk5NDg2OSwtMT
-YwNzgwOTY5MSwtMTk3NjkwOTA1MiwxNTk0NDYzMDksMTU5MDk4
-Mzc0NCwxOTA1Mzg3NzUyLC0xMDU2MDI1NjQ0LC0xMzUwNzk5Mz
-UsLTIwMDY2NTYyMjAsLTEwODg1MTA4NjAsLTExMjg0OTgwMjgs
-LTc0NzQwNzk4NywtMjU5NDY0NjI3LC0xMzUzNDIyNDU3LDc5Mj
-g2OTcwNywyMTQxOTYzOTQ2LDQwOTE4NDg1NCwtMTYzNDUwODU5
-OCwtMTk5OTk2OTcwMV19
+eyJoaXN0b3J5IjpbMTE3NzM0ODc3NCwxMDM3OTk0ODY5LC0xNj
+A3ODA5NjkxLC0xOTc2OTA5MDUyLDE1OTQ0NjMwOSwxNTkwOTgz
+NzQ0LDE5MDUzODc3NTIsLTEwNTYwMjU2NDQsLTEzNTA3OTkzNS
+wtMjAwNjY1NjIyMCwtMTA4ODUxMDg2MCwtMTEyODQ5ODAyOCwt
+NzQ3NDA3OTg3LC0yNTk0NjQ2MjcsLTEzNTM0MjI0NTcsNzkyOD
+Y5NzA3LDIxNDE5NjM5NDYsNDA5MTg0ODU0LC0xNjM0NTA4NTk4
+LC0xOTk5OTY5NzAxXX0=
 -->
