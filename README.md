@@ -164,8 +164,10 @@ Queries
 ### Publish API on Openshift
 Click in save and then press in Publish
 
-
 ![publish api](https://drive.google.com/uc?id=1anK-lo6lRr46dgeRZTKI3Zsm8VY-9v77)
+Publish and build in OCP.
+
+![publish and build](https://drive.google.com/uc?id=1frq6KkA3bzUZxkiHK5IEk3uCslLQLuyK)
 # Service Mesh
 
 ## Install Stack Openshift Service Mesh
@@ -174,21 +176,152 @@ https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_inst
 
 ## Install 
 
+for this demostration we do a "cluster-admin" privilege for the user that we are working.
+
+![clusterrolebinding](https://drive.google.com/uc?id=1xd80R14dgz44CABTPlrGESqiySauSivT)
+
+
 1. Install Elastic Search Operator
 2. Installing the Jaeger Operator
 3. Installing the Kiali Operator
 4. Installing the Red Hat OpenShift Service Mesh Operator
 
+![OCP operator here](https://drive.google.com/uc?id=1Zt5Nv4f2vOBzk4yOcbONJ30uqlXaNvvw)
 ## Install Control Plane
 
-[Install Control Plane](https://docs.openshift.com/container-platform/4.3/service_mesh/service_mesh_install/installing-ossm.html#ossm-control-plane-deploy-cli_installing-ossm)
+- Create Namespace. 
 
-    oc new-project istio-system
+    `oc new-project istio-system`
+   
+-   Create a `ServiceMeshControlPlane` file named `/rhosmapi/osm/service-mesh.yaml ` using the example found in "Customize the Red Hat OpenShift Service Mesh installation". You can customize the values as needed to match your use case. 
+![servicemesh control plane](https://drive.google.com/uc?id=167yn99tnFULe76Y8DEoW0AFpOz4NGl2G)   
+-   or Run the following command to deploy the control plane:
+    
+    `oc create -n istio-system -f service-mesh.yaml`
+   
+-   Execute the following command to see the status of the control plane installation.
+   
+    `oc get smcp -n istio-system`
+       
+    The installation has finished successfully when the READY column is true.
+    
+    `  NAME                 READY`
+   `  Basic-install        True` 
+    
+-   Run the following command to watch the progress of the Pods during the installation process:
+    
+    `oc get pods -n istio-system -w`
+    
+    You should see output similar to the following:
+    ![osm-control plane pods](https://drive.google.com/uc?id=1UeGTTzSl8cEky0DzdLU6sAIXqVMMAF63)
+## Install Data plane [ServiceMeshMemberRoll]
+
+Go to the Openshift Service mesh operator, and click in Istio Service Mesh Member Roll section, and create a default ServiceMeshMemberRoll.
+
+![MemberRoll here](https://drive.google.com/uc?id=1ySxxkwbY4_JPsbOXvw7kW6HmVRAevS8Z)
+Verify the NetworkPolicy in the namespaces of fuseonline.
+
+![Networkpolicy](https://drive.google.com/uc?id=1_YJhO9EiV9mZ-hNrtR30dhAli4UHeajJ)
+### Install NetworkPolicy in FuseOnlineNamespace
+
+Now, It is necessary aggregate the following rules:
+-  allow-from-all-namespaces.
+-  allow-from-ingress-namespace.
+
+![Networkpolicy](https://drive.google.com/uc?id=1-NMjQQzwX7QSX3gXtnfAiUBX5gmPpDbm)
+this step its only for demostrations because syndesys webconsole lost for the users.
+
+### Install Sidecar in the API service.
+verify the namespace in where api user deploy:
+![Namespace](https://drive.google.com/uc?id=1hE1Atgdv4qi6CWMbpse3XUQ7ZkdrjojR)
+Select deployment config of "i-user" in evals3-fuse  namespace  and agregate sidecard annotation
+
+    spec:
+     template:
+       metadata:
+         annotations:
+           sidecar.istio.io/inject: 'true'
+
+![inject sidecar](https://drive.google.com/uc?id=1SDZVWJHKqMCIWbPnSWAt7n8zor6APE8D)
+Repet the same in the Database Postgress
+![inject in deployment f postgressdb](https://drive.google.com/uc?id=14TchTkaUz9oecOInCPHDSfv7QPis7kOr)
+# Kiali Observe
+
+## Allow read deployment config in Kiali
+
+
+## Observe
+
 
 
 # 3scale API Management
 
+## Configure API Backend 
+
+## Configure Product
+
+
+
+
 # 3scale Mixer Adapter 
+
+## [1] Desplegar 3scale-istio-adapter
+
+git clone [https://github.com/3scale/3scale-istio-adapter](https://github.com/3scale/3scale-istio-adapter)
+
+oc create -f deploy -n istio-system
+
+  Verificar que istio tenga policycheck 
+
+$ kubectl -n istio-system get cm istio -o jsonpath="{@.data.mesh}" | grep disablePolicyChecks
+
+  
+
+## [2] Crear configuraciones Handler, Service e Instance
+
+Desde 3Scale se debe recuperar tanto la URL de admin, el Service ID del API creado en 3Scale y el Token generado al momento de crear la autenticación mediante Istio.
+
+- En Openshift (WebConsole o mediante comando rsh) ir al Pod 3scale-istio-adapter (ssh) y ejecutar:
+
+./3scale-config-gen --url "https://3scale-admin.apps.3scale.com:443" --service "replace-me" --token "access_token_change_me" --name=“miapp-3scale-istio”
+
+ - Copiar la configuracion arrojada por comando y pegarla en un archivo yaml (ej: istio-3scale-adapter.yaml)
+
+- Crear archivo istio-3scale-adapter.yaml con las configuraciones handler, service e instance arrojadas con el comando anterior (copy/paste).
+
+Luego:
+
+oc create -f istio-3scale-adapter.yaml -n istio-system
+
+## [3] Agregar labels a DeploymentConfig de la app
+
+SERVICE_ID es el ID del API en 3Scale
+
+- CREDENTIALS_NAME corresponde al nombre de las credenciales generadas con el comando en el paso 2 (--name=“miapp-3scale-istio”)
+
+- DEPLOYMENT es el nombre del DeploymentConfig de la app
+
+export CREDENTIALS_NAME="ste-3scale-istio”
+
+export SERVICE_ID="replace-me”
+
+export DEPLOYMENT=“nombre-del-deployment-config”
+
+  
+patch="$(oc get deployment "${DEPLOYMENT}" --template='{"spec":{"template":{"metadata":{"labels":{ {{ range $k,$v := .spec.template.metadata.labels }}"{{ $k }}":"{{ $v }}",{{ end }}"[service-mesh.3scale.net/service-id":"'"${SERVICE_ID}"'","service-mesh.3scale.net/credentials":"'"${CREDENTIALS_NAME}"'"}}}}}'](http://service-mesh.3scale.net/service-id%22:%22'%22$%7BSERVICE_ID%7D%22'%22,%22service-mesh.3scale.net/credentials%22:%22'%22$%7BCREDENTIALS_NAME%7D%22'%22%7D%7D%7D%7D%7D') )”
+
+  
+
+oc patch deployment "${DEPLOYMENT}" --patch ''"${patch}"’'  
+
+  
+-  Estos labels son los que se agregan el DeploymentConfig (y a cada pod cuando es creado). Necesarios para que istio sepa que credenciales y que Servicio utilizar para obtener las configuraciones desde 3Scale:
+
+-  [service-mesh.3scale.net/credentials](http://service-mesh.3scale.net/credentials)
+
+- [service-mesh.3scale.net/service-id](http://service-mesh.3scale.net/service-id)
+
+
 
 ## Repository reference
 https://github.com/RedHatWorkshops/dayinthelife-integration
@@ -196,11 +329,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTQ2NDYyNywtMTM1MzQyMjQ1Nyw3OT
-I4Njk3MDcsMjE0MTk2Mzk0Niw0MDkxODQ4NTQsLTE2MzQ1MDg1
-OTgsLTE5OTk5Njk3MDEsOTIzMDY3MDI2LC0xNDY1OTU3NDUsLT
-EyNTkzOTQ4MjUsLTExMzE0NTcyOTgsLTE1MTE1MDY5MzIsLTg5
-MjczNjE2Miw5MTgyODE0MTMsLTQzOTgyNzYwMiwxNzI3ODkzOD
-Q3LC0xODg1NzAzMDc3LC0xMTczMTIwMzQ0LC0xNzM2MTk0MDE2
-LDE4NDQ2NDcyMzZdfQ==
+eyJoaXN0b3J5IjpbLTEyNDM0NDM2NTIsMTE3NzM0ODc3NCwxMD
+M3OTk0ODY5LC0xNjA3ODA5NjkxLC0xOTc2OTA5MDUyLDE1OTQ0
+NjMwOSwxNTkwOTgzNzQ0LDE5MDUzODc3NTIsLTEwNTYwMjU2ND
+QsLTEzNTA3OTkzNSwtMjAwNjY1NjIyMCwtMTA4ODUxMDg2MCwt
+MTEyODQ5ODAyOCwtNzQ3NDA3OTg3LC0yNTk0NjQ2MjcsLTEzNT
+M0MjI0NTcsNzkyODY5NzA3LDIxNDE5NjM5NDYsNDA5MTg0ODU0
+LC0xNjM0NTA4NTk4XX0=
 -->
