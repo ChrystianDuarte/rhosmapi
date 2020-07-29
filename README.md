@@ -215,9 +215,10 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
     You should see output similar to the following:
     ![osm-control plane pods](https://drive.google.com/uc?id=1UeGTTzSl8cEky0DzdLU6sAIXqVMMAF63)
 ## Install Data plane [MemberRoll]
-Go to the Openshift Service mesh operator, and click in - Istio Service Mesh Member Roll section
 
-![enter image description here](https://drive.google.com/uc?id=1ySxxkwbY4_JPsbOXvw7kW6HmVRAevS8Z)
+Go to the Openshift Service mesh operator, and click in Istio Service Mesh Member Roll section, and create a default ServiceMeshMemberRoll.
+
+![MemberRoll here](https://drive.google.com/uc?id=1ySxxkwbY4_JPsbOXvw7kW6HmVRAevS8Z)
 
 ## Install NetworkPolicy in FuseOnlineNamespace
 
@@ -294,11 +295,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MzY5NzkyLC0xMDU2MDI1NjQ0LC0xMz
-UwNzk5MzUsLTIwMDY2NTYyMjAsLTEwODg1MTA4NjAsLTExMjg0
-OTgwMjgsLTc0NzQwNzk4NywtMjU5NDY0NjI3LC0xMzUzNDIyND
-U3LDc5Mjg2OTcwNywyMTQxOTYzOTQ2LDQwOTE4NDg1NCwtMTYz
-NDUwODU5OCwtMTk5OTk2OTcwMSw5MjMwNjcwMjYsLTE0NjU5NT
-c0NSwtMTI1OTM5NDgyNSwtMTEzMTQ1NzI5OCwtMTUxMTUwNjkz
-MiwtODkyNzM2MTYyXX0=
+eyJoaXN0b3J5IjpbMTgxOTI3Njc2NywtMTA1NjAyNTY0NCwtMT
+M1MDc5OTM1LC0yMDA2NjU2MjIwLC0xMDg4NTEwODYwLC0xMTI4
+NDk4MDI4LC03NDc0MDc5ODcsLTI1OTQ2NDYyNywtMTM1MzQyMj
+Q1Nyw3OTI4Njk3MDcsMjE0MTk2Mzk0Niw0MDkxODQ4NTQsLTE2
+MzQ1MDg1OTgsLTE5OTk5Njk3MDEsOTIzMDY3MDI2LC0xNDY1OT
+U3NDUsLTEyNTkzOTQ4MjUsLTExMzE0NTcyOTgsLTE1MTE1MDY5
+MzIsLTg5MjczNjE2Ml19
 -->
