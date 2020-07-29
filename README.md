@@ -224,7 +224,8 @@ Verify the NetworkPolicy in the namespaces of fuseonline.
 ![Networkpolicy](https://drive.google.com/uc?id=1_YJhO9EiV9mZ-hNrtR30dhAli4UHeajJ)
 ### Install NetworkPolicy in FuseOnlineNamespace
 
-It is necessary aggregate now the network
+It is necessary aggregate now the network 
+
 
 because the syndesys webconsole lost , its only for demostration 
 
@@ -308,11 +309,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDQ2MzA5LDE1OTA5ODM3NDQsMTkwNT
-M4Nzc1MiwtMTA1NjAyNTY0NCwtMTM1MDc5OTM1LC0yMDA2NjU2
-MjIwLC0xMDg4NTEwODYwLC0xMTI4NDk4MDI4LC03NDc0MDc5OD
-csLTI1OTQ2NDYyNywtMTM1MzQyMjQ1Nyw3OTI4Njk3MDcsMjE0
-MTk2Mzk0Niw0MDkxODQ4NTQsLTE2MzQ1MDg1OTgsLTE5OTk5Nj
-k3MDEsOTIzMDY3MDI2LC0xNDY1OTU3NDUsLTEyNTkzOTQ4MjUs
-LTExMzE0NTcyOThdfQ==
+eyJoaXN0b3J5IjpbMTY5MDUzMTkyMywxNTk0NDYzMDksMTU5MD
+k4Mzc0NCwxOTA1Mzg3NzUyLC0xMDU2MDI1NjQ0LC0xMzUwNzk5
+MzUsLTIwMDY2NTYyMjAsLTEwODg1MTA4NjAsLTExMjg0OTgwMj
+gsLTc0NzQwNzk4NywtMjU5NDY0NjI3LC0xMzUzNDIyNDU3LDc5
+Mjg2OTcwNywyMTQxOTYzOTQ2LDQwOTE4NDg1NCwtMTYzNDUwOD
+U5OCwtMTk5OTk2OTcwMSw5MjMwNjcwMjYsLTE0NjU5NTc0NSwt
+MTI1OTM5NDgyNV19
 -->
