@@ -237,7 +237,6 @@ verify the namespace in where api user deploy:
 Select deployment config of "i-user" 
 
 
-
 # 3scale API Management
 
 # 3scale Mixer Adapter 
@@ -309,11 +308,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzgzNTIyOCwtMTYwNzgwOTY5MSwtMT
-k3NjkwOTA1MiwxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1Mzg3
-NzUyLC0xMDU2MDI1NjQ0LC0xMzUwNzk5MzUsLTIwMDY2NTYyMj
-AsLTEwODg1MTA4NjAsLTExMjg0OTgwMjgsLTc0NzQwNzk4Nywt
-MjU5NDY0NjI3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOT
-YzOTQ2LDQwOTE4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcw
-MSw5MjMwNjcwMjZdfQ==
+eyJoaXN0b3J5IjpbLTE0NjQzMDY5NTQsLTE2MDc4MDk2OTEsLT
+E5NzY5MDkwNTIsMTU5NDQ2MzA5LDE1OTA5ODM3NDQsMTkwNTM4
+Nzc1MiwtMTA1NjAyNTY0NCwtMTM1MDc5OTM1LC0yMDA2NjU2Mj
+IwLC0xMDg4NTEwODYwLC0xMTI4NDk4MDI4LC03NDc0MDc5ODcs
+LTI1OTQ2NDYyNywtMTM1MzQyMjQ1Nyw3OTI4Njk3MDcsMjE0MT
+k2Mzk0Niw0MDkxODQ4NTQsLTE2MzQ1MDg1OTgsLTE5OTk5Njk3
+MDEsOTIzMDY3MDI2XX0=
 -->
