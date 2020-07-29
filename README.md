@@ -233,7 +233,8 @@ this step its only for demostrations because syndesys webconsole lost for the us
 
 ### Install Sidecar in the API service.
 verify the namespace in where api user deploy:
-
+![Namespace](https://drive.google.com/uc?id=1hE1Atgdv4qi6CWMbpse3XUQ7ZkdrjojR)
+Select deployment config of "i-user" 
 
 
 
@@ -308,7 +309,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzYxMDQzMSwtMTYwNzgwOTY5MSwtMT
+eyJoaXN0b3J5IjpbLTkxMzgzNTIyOCwtMTYwNzgwOTY5MSwtMT
 k3NjkwOTA1MiwxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1Mzg3
 NzUyLC0xMDU2MDI1NjQ0LC0xMzUwNzk5MzUsLTIwMDY2NTYyMj
 AsLTEwODg1MTA4NjAsLTExMjg0OTgwMjgsLTc0NzQwNzk4Nywt
