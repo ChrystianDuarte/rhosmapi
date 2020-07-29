@@ -221,11 +221,12 @@ Go to the Openshift Service mesh operator, and click in Istio Service Mesh Membe
 ![MemberRoll here](https://drive.google.com/uc?id=1ySxxkwbY4_JPsbOXvw7kW6HmVRAevS8Z)
 Verify the NetworkPolicy in the namespaces of fuseonline.
 
-![Networkpoli](https://drive.google.com/uc?id=1_YJhO9EiV9mZ-hNrtR30dhAli4UHeajJ)
-
-
+![Networkpolicy](https://drive.google.com/uc?id=1_YJhO9EiV9mZ-hNrtR30dhAli4UHeajJ)
 ### Install NetworkPolicy in FuseOnlineNamespace
 
+It is necessary aggregate now 
+
+because the syndesys webconsole lost , its only for 
 
 
 ### Install NetworkPolicy AllNamespaces
@@ -307,11 +308,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczNDM5Nzc5LDE5MDUzODc3NTIsLTEwNT
-YwMjU2NDQsLTEzNTA3OTkzNSwtMjAwNjY1NjIyMCwtMTA4ODUx
-MDg2MCwtMTEyODQ5ODAyOCwtNzQ3NDA3OTg3LC0yNTk0NjQ2Mj
-csLTEzNTM0MjI0NTcsNzkyODY5NzA3LDIxNDE5NjM5NDYsNDA5
-MTg0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5NzAxLDkyMzA2Nz
-AyNiwtMTQ2NTk1NzQ1LC0xMjU5Mzk0ODI1LC0xMTMxNDU3Mjk4
-LC0xNTExNTA2OTMyXX0=
+eyJoaXN0b3J5IjpbMTQ0ODk2ODc2NSwxOTA1Mzg3NzUyLC0xMD
+U2MDI1NjQ0LC0xMzUwNzk5MzUsLTIwMDY2NTYyMjAsLTEwODg1
+MTA4NjAsLTExMjg0OTgwMjgsLTc0NzQwNzk4NywtMjU5NDY0Nj
+I3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOTYzOTQ2LDQw
+OTE4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcwMSw5MjMwNj
+cwMjYsLTE0NjU5NTc0NSwtMTI1OTM5NDgyNSwtMTEzMTQ1NzI5
+OCwtMTUxMTUwNjkzMl19
 -->
