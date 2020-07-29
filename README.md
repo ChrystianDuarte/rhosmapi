@@ -226,7 +226,7 @@ Verify the NetworkPolicy in the namespaces of fuseonline.
 
 It is necessary aggregate now 
 
-because the syndesys webconsole lost , its only for 
+because the syndesys webconsole lost , its only for demostration 
 
 
 ### Install NetworkPolicy AllNamespaces
@@ -308,7 +308,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODk2ODc2NSwxOTA1Mzg3NzUyLC0xMD
+eyJoaXN0b3J5IjpbMTU5MDk4Mzc0NCwxOTA1Mzg3NzUyLC0xMD
 U2MDI1NjQ0LC0xMzUwNzk5MzUsLTIwMDY2NTYyMjAsLTEwODg1
 MTA4NjAsLTExMjg0OTgwMjgsLTc0NzQwNzk4NywtMjU5NDY0Nj
 I3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOTYzOTQ2LDQw
