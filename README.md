@@ -219,9 +219,11 @@ for this demostration we do a "cluster-admin" privilege for the user that we are
 Go to the Openshift Service mesh operator, and click in Istio Service Mesh Member Roll section, and create a default ServiceMeshMemberRoll.
 
 ![MemberRoll here](https://drive.google.com/uc?id=1ySxxkwbY4_JPsbOXvw7kW6HmVRAevS8Z)
-Verify the NetworkPolicy in the namespaces Evals
+Verify the NetworkPolicy in the namespaces of fuseonline.
 
 ### Install NetworkPolicy in FuseOnlineNamespace
+
+
 
 ### Install NetworkPolicy AllNamespaces
 
@@ -300,11 +302,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTM4Nzc1MiwtMTA1NjAyNTY0NCwtMT
-M1MDc5OTM1LC0yMDA2NjU2MjIwLC0xMDg4NTEwODYwLC0xMTI4
-NDk4MDI4LC03NDc0MDc5ODcsLTI1OTQ2NDYyNywtMTM1MzQyMj
-Q1Nyw3OTI4Njk3MDcsMjE0MTk2Mzk0Niw0MDkxODQ4NTQsLTE2
-MzQ1MDg1OTgsLTE5OTk5Njk3MDEsOTIzMDY3MDI2LC0xNDY1OT
-U3NDUsLTEyNTkzOTQ4MjUsLTExMzE0NTcyOTgsLTE1MTE1MDY5
-MzIsLTg5MjczNjE2Ml19
+eyJoaXN0b3J5IjpbLTE1MzMzOTY5MDIsMTkwNTM4Nzc1MiwtMT
+A1NjAyNTY0NCwtMTM1MDc5OTM1LC0yMDA2NjU2MjIwLC0xMDg4
+NTEwODYwLC0xMTI4NDk4MDI4LC03NDc0MDc5ODcsLTI1OTQ2ND
+YyNywtMTM1MzQyMjQ1Nyw3OTI4Njk3MDcsMjE0MTk2Mzk0Niw0
+MDkxODQ4NTQsLTE2MzQ1MDg1OTgsLTE5OTk5Njk3MDEsOTIzMD
+Y3MDI2LC0xNDY1OTU3NDUsLTEyNTkzOTQ4MjUsLTExMzE0NTcy
+OTgsLTE1MTE1MDY5MzJdfQ==
 -->
