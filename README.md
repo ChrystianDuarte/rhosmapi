@@ -240,13 +240,14 @@ Select deployment config of "i-user" in evals3-fuse  namespace  and agregate sid
      template:
        metadata:
          annotations:
-           sidecar-istio-io  
+           sidecar.istio.io/inject: 'true'
 
-spec:
-  template:
-     metadata:
-          annotations:
-              sidecar.istio.io/inject: 'true'
+
+
+
+
+
+Repet the same in the Database Postgress
 
 # Kiali Observe
 
@@ -332,7 +333,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTY3MDkzNiwtMTYwNzgwOTY5MSwtMT
+eyJoaXN0b3J5IjpbMTAzNzk5NDg2OSwtMTYwNzgwOTY5MSwtMT
 k3NjkwOTA1MiwxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1Mzg3
 NzUyLC0xMDU2MDI1NjQ0LC0xMzUwNzk5MzUsLTIwMDY2NTYyMj
 AsLTEwODg1MTA4NjAsLTExMjg0OTgwMjgsLTc0NzQwNzk4Nywt
