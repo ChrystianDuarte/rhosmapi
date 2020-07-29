@@ -1,0 +1,12 @@
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: allow-from-all-namespaces
+  namespace: evals3-fuse #change for the fuseonline namespaces
+spec:
+  podSelector: {}
+  ingress:
+    - from:
+        - namespaceSelector: {}
+  policyTypes:
+    - Ingress
