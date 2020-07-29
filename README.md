@@ -234,12 +234,13 @@ this step its only for demostrations because syndesys webconsole lost for the us
 ### Install Sidecar in the API service.
 verify the namespace in where api user deploy:
 ![Namespace](https://drive.google.com/uc?id=1hE1Atgdv4qi6CWMbpse3XUQ7ZkdrjojR)
-Select deployment config of "i-user" and agregate sidecard annotation
+Select deployment config of "i-user" in evals3-fuse and   and agregate sidecard annotation
 
 spec:
   template:
      metadata:
-          
+          annotations:
+              sidecar.istio.io/inject: 'true'
 
 # Kiali Observe
 
@@ -325,11 +326,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTQyMjEyMCwtMTYwNzgwOTY5MSwtMT
-k3NjkwOTA1MiwxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1Mzg3
-NzUyLC0xMDU2MDI1NjQ0LC0xMzUwNzk5MzUsLTIwMDY2NTYyMj
-AsLTEwODg1MTA4NjAsLTExMjg0OTgwMjgsLTc0NzQwNzk4Nywt
-MjU5NDY0NjI3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOT
-YzOTQ2LDQwOTE4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcw
-MSw5MjMwNjcwMjZdfQ==
+eyJoaXN0b3J5IjpbMTc4MTEyNzgxLC0xNjA3ODA5NjkxLC0xOT
+c2OTA5MDUyLDE1OTQ0NjMwOSwxNTkwOTgzNzQ0LDE5MDUzODc3
+NTIsLTEwNTYwMjU2NDQsLTEzNTA3OTkzNSwtMjAwNjY1NjIyMC
+wtMTA4ODUxMDg2MCwtMTEyODQ5ODAyOCwtNzQ3NDA3OTg3LC0y
+NTk0NjQ2MjcsLTEzNTM0MjI0NTcsNzkyODY5NzA3LDIxNDE5Nj
+M5NDYsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5NzAx
+LDkyMzA2NzAyNl19
 -->
