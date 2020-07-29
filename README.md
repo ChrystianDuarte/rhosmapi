@@ -276,7 +276,6 @@ Desde 3Scale se debe recuperar tanto la URL de admin, el Service ID del API crea
 
 ./3scale-config-gen --url "https://3scale-admin.apps.3scale.com:443" --service "replace-me" --token "access_token_change_me" --name=“miapp-3scale-istio”
 
-  
  - Copiar la configuracion arrojada por comando y pegarla en un archivo yaml (ej: istio-3scale-adapter.yaml)
 
 - Crear archivo istio-3scale-adapter.yaml con las configuraciones handler, service e instance arrojadas con el comando anterior (copy/paste).
@@ -284,8 +283,6 @@ Desde 3Scale se debe recuperar tanto la URL de admin, el Service ID del API crea
 Luego:
 
 oc create -f istio-3scale-adapter.yaml -n istio-system
-
-  
 
 ## [3] Agregar labels a DeploymentConfig de la app
 
@@ -323,11 +320,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjYyMjc2MCwtMTYwNzgwOTY5MSwtMT
-k3NjkwOTA1MiwxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1Mzg3
-NzUyLC0xMDU2MDI1NjQ0LC0xMzUwNzk5MzUsLTIwMDY2NTYyMj
-AsLTEwODg1MTA4NjAsLTExMjg0OTgwMjgsLTc0NzQwNzk4Nywt
-MjU5NDY0NjI3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOT
-YzOTQ2LDQwOTE4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcw
-MSw5MjMwNjcwMjZdfQ==
+eyJoaXN0b3J5IjpbOTU4MTA5OTMwLC0xNjA3ODA5NjkxLC0xOT
+c2OTA5MDUyLDE1OTQ0NjMwOSwxNTkwOTgzNzQ0LDE5MDUzODc3
+NTIsLTEwNTYwMjU2NDQsLTEzNTA3OTkzNSwtMjAwNjY1NjIyMC
+wtMTA4ODUxMDg2MCwtMTEyODQ5ODAyOCwtNzQ3NDA3OTg3LC0y
+NTk0NjQ2MjcsLTEzNTM0MjI0NTcsNzkyODY5NzA3LDIxNDE5Nj
+M5NDYsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5NzAx
+LDkyMzA2NzAyNl19
 -->
