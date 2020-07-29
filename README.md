@@ -221,11 +221,16 @@ Go to the Openshift Service mesh operator, and click in Istio Service Mesh Membe
 ![MemberRoll here](https://drive.google.com/uc?id=1ySxxkwbY4_JPsbOXvw7kW6HmVRAevS8Z)
 Verify the NetworkPolicy in the namespaces of fuseonline.
 
+![Networkpoli](https://drive.google.com/uc?id=1_YJhO9EiV9mZ-hNrtR30dhAli4UHeajJ)
+
+
 ### Install NetworkPolicy in FuseOnlineNamespace
 
 
 
 ### Install NetworkPolicy AllNamespaces
+
+
 
 ### Install Sidecar in the API service.
 
@@ -302,11 +307,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzMzOTY5MDIsMTkwNTM4Nzc1MiwtMT
-A1NjAyNTY0NCwtMTM1MDc5OTM1LC0yMDA2NjU2MjIwLC0xMDg4
-NTEwODYwLC0xMTI4NDk4MDI4LC03NDc0MDc5ODcsLTI1OTQ2ND
-YyNywtMTM1MzQyMjQ1Nyw3OTI4Njk3MDcsMjE0MTk2Mzk0Niw0
-MDkxODQ4NTQsLTE2MzQ1MDg1OTgsLTE5OTk5Njk3MDEsOTIzMD
-Y3MDI2LC0xNDY1OTU3NDUsLTEyNTkzOTQ4MjUsLTExMzE0NTcy
-OTgsLTE1MTE1MDY5MzJdfQ==
+eyJoaXN0b3J5IjpbODczNDM5Nzc5LDE5MDUzODc3NTIsLTEwNT
+YwMjU2NDQsLTEzNTA3OTkzNSwtMjAwNjY1NjIyMCwtMTA4ODUx
+MDg2MCwtMTEyODQ5ODAyOCwtNzQ3NDA3OTg3LC0yNTk0NjQ2Mj
+csLTEzNTM0MjI0NTcsNzkyODY5NzA3LDIxNDE5NjM5NDYsNDA5
+MTg0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5NzAxLDkyMzA2Nz
+AyNiwtMTQ2NTk1NzQ1LC0xMjU5Mzk0ODI1LC0xMTMxNDU3Mjk4
+LC0xNTExNTA2OTMyXX0=
 -->
