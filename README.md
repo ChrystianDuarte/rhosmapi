@@ -234,8 +234,10 @@ this step its only for demostrations because syndesys webconsole lost for the us
 ### Install Sidecar in the API service.
 verify the namespace in where api user deploy:
 ![Namespace](https://drive.google.com/uc?id=1hE1Atgdv4qi6CWMbpse3XUQ7ZkdrjojR)
-Select deployment config of "i-user" 
+Select deployment config of "i-user" and agregate sidecard annotation
 
+# Kiali Observe
+### Install Sidecar in the API service.
 
 # 3scale API Management
 
@@ -308,11 +310,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjQzMDY5NTQsLTE2MDc4MDk2OTEsLT
-E5NzY5MDkwNTIsMTU5NDQ2MzA5LDE1OTA5ODM3NDQsMTkwNTM4
-Nzc1MiwtMTA1NjAyNTY0NCwtMTM1MDc5OTM1LC0yMDA2NjU2Mj
-IwLC0xMDg4NTEwODYwLC0xMTI4NDk4MDI4LC03NDc0MDc5ODcs
-LTI1OTQ2NDYyNywtMTM1MzQyMjQ1Nyw3OTI4Njk3MDcsMjE0MT
-k2Mzk0Niw0MDkxODQ4NTQsLTE2MzQ1MDg1OTgsLTE5OTk5Njk3
-MDEsOTIzMDY3MDI2XX0=
+eyJoaXN0b3J5IjpbMjEwMzQwMTI0LC0xNjA3ODA5NjkxLC0xOT
+c2OTA5MDUyLDE1OTQ0NjMwOSwxNTkwOTgzNzQ0LDE5MDUzODc3
+NTIsLTEwNTYwMjU2NDQsLTEzNTA3OTkzNSwtMjAwNjY1NjIyMC
+wtMTA4ODUxMDg2MCwtMTEyODQ5ODAyOCwtNzQ3NDA3OTg3LC0y
+NTk0NjQ2MjcsLTEzNTM0MjI0NTcsNzkyODY5NzA3LDIxNDE5Nj
+M5NDYsNDA5MTg0ODU0LC0xNjM0NTA4NTk4LC0xOTk5OTY5NzAx
+LDkyMzA2NzAyNl19
 -->
