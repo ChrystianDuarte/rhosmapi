@@ -230,7 +230,7 @@ Now, It is necessary aggregate the following rules:
 
 
 
-because the syndesys webconsole lost , its only for demostration 
+because the syndesys webconsole lost , its only for demostrations 
 
 
 ### Install NetworkPolicy AllNamespaces
@@ -312,11 +312,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY5MDkwNTIsMTU5NDQ2MzA5LDE1OT
-A5ODM3NDQsMTkwNTM4Nzc1MiwtMTA1NjAyNTY0NCwtMTM1MDc5
-OTM1LC0yMDA2NjU2MjIwLC0xMDg4NTEwODYwLC0xMTI4NDk4MD
-I4LC03NDc0MDc5ODcsLTI1OTQ2NDYyNywtMTM1MzQyMjQ1Nyw3
-OTI4Njk3MDcsMjE0MTk2Mzk0Niw0MDkxODQ4NTQsLTE2MzQ1MD
-g1OTgsLTE5OTk5Njk3MDEsOTIzMDY3MDI2LC0xNDY1OTU3NDUs
-LTEyNTkzOTQ4MjVdfQ==
+eyJoaXN0b3J5IjpbLTE2MDc4MDk2OTEsLTE5NzY5MDkwNTIsMT
+U5NDQ2MzA5LDE1OTA5ODM3NDQsMTkwNTM4Nzc1MiwtMTA1NjAy
+NTY0NCwtMTM1MDc5OTM1LC0yMDA2NjU2MjIwLC0xMDg4NTEwOD
+YwLC0xMTI4NDk4MDI4LC03NDc0MDc5ODcsLTI1OTQ2NDYyNywt
+MTM1MzQyMjQ1Nyw3OTI4Njk3MDcsMjE0MTk2Mzk0Niw0MDkxOD
+Q4NTQsLTE2MzQ1MDg1OTgsLTE5OTk5Njk3MDEsOTIzMDY3MDI2
+LC0xNDY1OTU3NDVdfQ==
 -->
