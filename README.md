@@ -242,7 +242,7 @@ Select deployment config of "i-user" in evals3-fuse  namespace  and agregate sid
          annotations:
            sidecar.istio.io/inject: 'true'
 
-
+![inject sidecar](https://drive.google.com/uc?id=1SDZVWJHKqMCIWbPnSWAt7n8zor6APE8D)
 
 
 
@@ -333,11 +333,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzk5NDg2OSwtMTYwNzgwOTY5MSwtMT
-k3NjkwOTA1MiwxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1Mzg3
-NzUyLC0xMDU2MDI1NjQ0LC0xMzUwNzk5MzUsLTIwMDY2NTYyMj
-AsLTEwODg1MTA4NjAsLTExMjg0OTgwMjgsLTc0NzQwNzk4Nywt
-MjU5NDY0NjI3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOT
-YzOTQ2LDQwOTE4NDg1NCwtMTYzNDUwODU5OCwtMTk5OTk2OTcw
-MSw5MjMwNjcwMjZdfQ==
+eyJoaXN0b3J5IjpbLTIwMjYyODk5MzYsMTAzNzk5NDg2OSwtMT
+YwNzgwOTY5MSwtMTk3NjkwOTA1MiwxNTk0NDYzMDksMTU5MDk4
+Mzc0NCwxOTA1Mzg3NzUyLC0xMDU2MDI1NjQ0LC0xMzUwNzk5Mz
+UsLTIwMDY2NTYyMjAsLTEwODg1MTA4NjAsLTExMjg0OTgwMjgs
+LTc0NzQwNzk4NywtMjU5NDY0NjI3LC0xMzUzNDIyNDU3LDc5Mj
+g2OTcwNywyMTQxOTYzOTQ2LDQwOTE4NDg1NCwtMTYzNDUwODU5
+OCwtMTk5OTk2OTcwMV19
 -->
