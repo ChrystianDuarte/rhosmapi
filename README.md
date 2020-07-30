@@ -275,6 +275,8 @@ Nota: in this demo does not create a destinationRule
 
 ## Observe
 
+  Firt  
+`export GATEWAY_URL=$(oc -n istio-system get route istio-ingressgateway -o jsonpath='{.spec.host}')`
 
 
 # 3scale API Management
@@ -352,11 +354,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIzMj
-Q1MzEyLC0xNDc2MTIxMjMwLC0zMzQ3MjI0NCwxMTQxMzcwOTQs
-ODExNzU0MDgwLC0xMjQzNDQzNjUyLDExNzczNDg3NzQsMTAzNz
-k5NDg2OSwtMTYwNzgwOTY5MSwtMTk3NjkwOTA1MiwxNTk0NDYz
-MDksMTU5MDk4Mzc0NCwxOTA1Mzg3NzUyLC0xMDU2MDI1NjQ0LC
-0xMzUwNzk5MzUsLTIwMDY2NTYyMjAsLTEwODg1MTA4NjAsLTEx
-Mjg0OTgwMjhdfQ==
+eyJoaXN0b3J5IjpbMTYzMzU1NTA0OSw1NDQ1NjMxNjksNjQwNz
+QyMzA4LDIxMjMyNDUzMTIsLTE0NzYxMjEyMzAsLTMzNDcyMjQ0
+LDExNDEzNzA5NCw4MTE3NTQwODAsLTEyNDM0NDM2NTIsMTE3Nz
+M0ODc3NCwxMDM3OTk0ODY5LC0xNjA3ODA5NjkxLC0xOTc2OTA5
+MDUyLDE1OTQ0NjMwOSwxNTkwOTgzNzQ0LDE5MDUzODc3NTIsLT
+EwNTYwMjU2NDQsLTEzNTA3OTkzNSwtMjAwNjY1NjIyMCwtMTA4
+ODUxMDg2MF19
 -->
