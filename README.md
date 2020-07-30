@@ -282,10 +282,6 @@ Nota: in this demo does not create a destinationRule
  - Curl for API in a loop
       `for i in {1..1000} ; do curl  -s -w "%{http_code}\n" http://$ISTIOGWUSER/users ;sleep 2 ; done `
 
-
-
-
-
  - Then go to Kiali
 
    ` oc get routes kiali -n istio-system`
@@ -370,11 +366,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzk2NzQ5NDEsNTQ0NTYzMTY5LDY0MD
-c0MjMwOCwyMTIzMjQ1MzEyLC0xNDc2MTIxMjMwLC0zMzQ3MjI0
-NCwxMTQxMzcwOTQsODExNzU0MDgwLC0xMjQzNDQzNjUyLDExNz
-czNDg3NzQsMTAzNzk5NDg2OSwtMTYwNzgwOTY5MSwtMTk3Njkw
-OTA1MiwxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1Mzg3NzUyLC
-0xMDU2MDI1NjQ0LC0xMzUwNzk5MzUsLTIwMDY2NTYyMjAsLTEw
-ODg1MTA4NjBdfQ==
+eyJoaXN0b3J5IjpbLTE1ODUzNzI1NDksLTE3Mzk2NzQ5NDEsNT
+Q0NTYzMTY5LDY0MDc0MjMwOCwyMTIzMjQ1MzEyLC0xNDc2MTIx
+MjMwLC0zMzQ3MjI0NCwxMTQxMzcwOTQsODExNzU0MDgwLC0xMj
+QzNDQzNjUyLDExNzczNDg3NzQsMTAzNzk5NDg2OSwtMTYwNzgw
+OTY5MSwtMTk3NjkwOTA1MiwxNTk0NDYzMDksMTU5MDk4Mzc0NC
+wxOTA1Mzg3NzUyLC0xMDU2MDI1NjQ0LC0xMzUwNzk5MzUsLTIw
+MDY2NTYyMjBdfQ==
 -->
