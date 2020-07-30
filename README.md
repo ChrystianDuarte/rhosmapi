@@ -510,6 +510,8 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
     ```
 
 - result:
+
+
 ![Labels 3scale istio adapter](https://drive.google.com/uc?id=1Tk0nDOE2yzSHUk7tsQoJ4KLLfnP__yT6)
 
 ## Smoke Test 3scale Istio Mixer Adapter
@@ -570,11 +572,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDkwNjk2NDgsLTExODQwMDM0NDMsNz
-M1ODYyNTkzLC0xMjQ5MzgzMDUwLDEzMjYyNTI3NzUsMjIzMDc0
-MDQ5LDU4NTgzMDUzMywtMTMxNjQ5Njg0MiwyMDEyMTEwMzY0LC
-0xNDIyOTE1NzIsLTY5MjU2MTQ1NCwtMTQyNTcwOTUyNywtMTk1
-NDI1MTczMiwxMjEwMjUxODA3LDEwNjQxNDQ5ODEsMTgxOTUxOD
-gyOSwtMTczOTY3NDk0MSw1NDQ1NjMxNjksNjQwNzQyMzA4LDIx
-MjMyNDUzMTJdfQ==
+eyJoaXN0b3J5IjpbOTE0NDc3Mzk2LC0xMTg0MDAzNDQzLDczNT
+g2MjU5MywtMTI0OTM4MzA1MCwxMzI2MjUyNzc1LDIyMzA3NDA0
+OSw1ODU4MzA1MzMsLTEzMTY0OTY4NDIsMjAxMjExMDM2NCwtMT
+QyMjkxNTcyLC02OTI1NjE0NTQsLTE0MjU3MDk1MjcsLTE5NTQy
+NTE3MzIsMTIxMDI1MTgwNywxMDY0MTQ0OTgxLDE4MTk1MTg4Mj
+ksLTE3Mzk2NzQ5NDEsNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIz
+MjQ1MzEyXX0=
 -->
