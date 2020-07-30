@@ -313,6 +313,13 @@ Make sure to copy your new personal access token now. You won't be able to see i
 
 ## Configure API Backend 
 
+- Create API backend
+
+![OverView Api Backend](https://drive.google.com/uc?id=1OYI_hn0FrEsy_d_Ik1EVT3WAnJ8fXZAl)
+-Mapping rules
+
+![Mapping rules](https://drive.google.com/uc?id=1pAiLxohoWU49mtRdlBeGt8UMI6SNa7Fo)
+-![enter image description here](https://drive.google.com/uc?id=1Igagmxc0BH5gPBEaUDCIjTlEh4fnttEs)
 
 
 ## Configure Product
@@ -550,11 +557,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQwMDM0NDMsNzM1ODYyNTkzLC0xMj
-Q5MzgzMDUwLDEzMjYyNTI3NzUsMjIzMDc0MDQ5LDU4NTgzMDUz
-MywtMTMxNjQ5Njg0MiwyMDEyMTEwMzY0LC0xNDIyOTE1NzIsLT
-Y5MjU2MTQ1NCwtMTQyNTcwOTUyNywtMTk1NDI1MTczMiwxMjEw
-MjUxODA3LDEwNjQxNDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3ND
-k0MSw1NDQ1NjMxNjksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLTE0
-NzYxMjEyMzBdfQ==
+eyJoaXN0b3J5IjpbMTU0Mjc4NTc2LC0xMTg0MDAzNDQzLDczNT
+g2MjU5MywtMTI0OTM4MzA1MCwxMzI2MjUyNzc1LDIyMzA3NDA0
+OSw1ODU4MzA1MzMsLTEzMTY0OTY4NDIsMjAxMjExMDM2NCwtMT
+QyMjkxNTcyLC02OTI1NjE0NTQsLTE0MjU3MDk1MjcsLTE5NTQy
+NTE3MzIsMTIxMDI1MTgwNywxMDY0MTQ0OTgxLDE4MTk1MTg4Mj
+ksLTE3Mzk2NzQ5NDEsNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIz
+MjQ1MzEyXX0=
 -->
