@@ -126,9 +126,7 @@ and select  "Message Context" and "Message Body"
 
 #### Database
 
-![databaseselect](https://drive.google.com/uc?id=1QZVFvnUVfVyEtutSIYKPzqBQ4xKRPZj5)
-
-
+![databaseselect](https://drive.google.com/uc?id=1QZVFvnUVfVyEtutSIYKPzqBQ4xKRPZj5
 
 	select * from users;
 
@@ -549,11 +547,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDkzODMwNTAsMTMyNjI1Mjc3NSwyMj
-MwNzQwNDksNTg1ODMwNTMzLC0xMzE2NDk2ODQyLDIwMTIxMTAz
-NjQsLTE0MjI5MTU3MiwtNjkyNTYxNDU0LC0xNDI1NzA5NTI3LC
-0xOTU0MjUxNzMyLDEyMTAyNTE4MDcsMTA2NDE0NDk4MSwxODE5
-NTE4ODI5LC0xNzM5Njc0OTQxLDU0NDU2MzE2OSw2NDA3NDIzMD
-gsMjEyMzI0NTMxMiwtMTQ3NjEyMTIzMCwtMzM0NzIyNDQsMTE0
-MTM3MDk0XX0=
+eyJoaXN0b3J5IjpbNzM1ODYyNTkzLC0xMjQ5MzgzMDUwLDEzMj
+YyNTI3NzUsMjIzMDc0MDQ5LDU4NTgzMDUzMywtMTMxNjQ5Njg0
+MiwyMDEyMTEwMzY0LC0xNDIyOTE1NzIsLTY5MjU2MTQ1NCwtMT
+QyNTcwOTUyNywtMTk1NDI1MTczMiwxMjEwMjUxODA3LDEwNjQx
+NDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3NDk0MSw1NDQ1NjMxNj
+ksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLTE0NzYxMjEyMzAsLTMz
+NDcyMjQ0XX0=
 -->
