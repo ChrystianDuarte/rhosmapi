@@ -303,7 +303,7 @@ Nota: in this demo does not create a destinationRule
 
 - Enter admin tennat Account and select 
 
-
+![Account settings here](https://drive.google.com/uc?id=13TIOhBGDYLC88xt6vlx7BuUSL06wieNb)
 - Configure A Neew Access Token
 
 ![Account New Access token](https://drive.google.com/uc?id=15snWJZgGAa8tcCa2_hXCgnZkbyqHkBJy)
@@ -547,11 +547,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjI1Mjc3NSwyMjMwNzQwNDksNTg1OD
-MwNTMzLC0xMzE2NDk2ODQyLDIwMTIxMTAzNjQsLTE0MjI5MTU3
-MiwtNjkyNTYxNDU0LC0xNDI1NzA5NTI3LC0xOTU0MjUxNzMyLD
-EyMTAyNTE4MDcsMTA2NDE0NDk4MSwxODE5NTE4ODI5LC0xNzM5
-Njc0OTQxLDU0NDU2MzE2OSw2NDA3NDIzMDgsMjEyMzI0NTMxMi
-wtMTQ3NjEyMTIzMCwtMzM0NzIyNDQsMTE0MTM3MDk0LDgxMTc1
-NDA4MF19
+eyJoaXN0b3J5IjpbMTI5ODk3NTA1OCwxMzI2MjUyNzc1LDIyMz
+A3NDA0OSw1ODU4MzA1MzMsLTEzMTY0OTY4NDIsMjAxMjExMDM2
+NCwtMTQyMjkxNTcyLC02OTI1NjE0NTQsLTE0MjU3MDk1MjcsLT
+E5NTQyNTE3MzIsMTIxMDI1MTgwNywxMDY0MTQ0OTgxLDE4MTk1
+MTg4MjksLTE3Mzk2NzQ5NDEsNTQ0NTYzMTY5LDY0MDc0MjMwOC
+wyMTIzMjQ1MzEyLC0xNDc2MTIxMjMwLC0zMzQ3MjI0NCwxMTQx
+MzcwOTRdfQ==
 -->
