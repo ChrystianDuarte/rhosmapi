@@ -490,7 +490,7 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
 
 ## Smoke Test 3scale Istio Mixer Adapter
 
-1.  From the terminal, execute the following to invoke your catalog service directly via the Istio ingress:
+1.  From the terminal, execute the following to invoke your user service directly via the Istio ingress:
     
     ```
     $ curl -v \
@@ -512,7 +512,7 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
         
         Inbound requests through the Istio ingress are now correctly flowing through the mixer to the 3scale adapter.
         
-        In the above request however, the API _user_key_ associated with your catalog service _application_ has been omitted. .. View the log file of the 3scale adapter:
+        In the above request however, the API _user_key_ associated with your user service _application_ has been omitted. .. View the log file of the 3scale adapter:
         
         ```
         $ oc logs -f `oc get pod -n istio-system | grep "3scale-istio-adapter" | awk '{print $1}'` \
@@ -526,7 +526,7 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
         ```
         
     
-2.  Try again to invoke your catalog service using the catalog service _user_key_:
+2.  Try again to invoke your user service using the user service _user_key_:
     
     ```
     $ curl -v \
@@ -534,7 +534,7 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
     ```
     
 
-Congratulations! The catalog service is again being managed and secured by the Red Hat 3scale API Management manager. This time however, the 3scale Istio Mixer adapter is being utilized rather than the API gateway.
+Congratulations! The user service is again being managed and secured by the Red Hat 3scale API Management manager. This time however, the 3scale Istio Mixer adapter is being utilized rather than the API gateway.
 
 
 
@@ -546,7 +546,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1MzUzODY1LDU4NTgzMDUzMywtMTMxNj
+eyJoaXN0b3J5IjpbMjIzMDc0MDQ5LDU4NTgzMDUzMywtMTMxNj
 Q5Njg0MiwyMDEyMTEwMzY0LC0xNDIyOTE1NzIsLTY5MjU2MTQ1
 NCwtMTQyNTcwOTUyNywtMTk1NDI1MTczMiwxMjEwMjUxODA3LD
 EwNjQxNDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3NDk0MSw1NDQ1
