@@ -263,12 +263,12 @@ for this section its important to read first:
 
 https://istio.io/latest/blog/2018/v1alpha3-routing/
 
-then we create a Gateway and Virtual service.
+then we create a Gateway and Virtual service. that its in /osm folder.
 
     oc apply -n evals3-fuse -f gateway-user.yaml
 
-
 Nota: in this demo does not create a destinationRule
+
 
 ## Observe
 
@@ -349,7 +349,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTY3NDUzNCwtMTQ3NjEyMTIzMCwtMz
+eyJoaXN0b3J5IjpbMjEyMzI0NTMxMiwtMTQ3NjEyMTIzMCwtMz
 M0NzIyNDQsMTE0MTM3MDk0LDgxMTc1NDA4MCwtMTI0MzQ0MzY1
 MiwxMTc3MzQ4Nzc0LDEwMzc5OTQ4NjksLTE2MDc4MDk2OTEsLT
 E5NzY5MDkwNTIsMTU5NDQ2MzA5LDE1OTA5ODM3NDQsMTkwNTM4
