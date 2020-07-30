@@ -299,7 +299,7 @@ Nota: in this demo does not create a destinationRule
 
 # 3scale API Management
 
-## Configure 3scale Account
+## Configure 3scale Admin Account
 
 ## Configure API Backend 
 
@@ -535,11 +535,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTY0OTY4NDIsMjAxMjExMDM2NCwtMT
-QyMjkxNTcyLC02OTI1NjE0NTQsLTE0MjU3MDk1MjcsLTE5NTQy
-NTE3MzIsMTIxMDI1MTgwNywxMDY0MTQ0OTgxLDE4MTk1MTg4Mj
-ksLTE3Mzk2NzQ5NDEsNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIz
-MjQ1MzEyLC0xNDc2MTIxMjMwLC0zMzQ3MjI0NCwxMTQxMzcwOT
-QsODExNzU0MDgwLC0xMjQzNDQzNjUyLDExNzczNDg3NzQsMTAz
-Nzk5NDg2OV19
+eyJoaXN0b3J5IjpbNTg1ODMwNTMzLC0xMzE2NDk2ODQyLDIwMT
+IxMTAzNjQsLTE0MjI5MTU3MiwtNjkyNTYxNDU0LC0xNDI1NzA5
+NTI3LC0xOTU0MjUxNzMyLDEyMTAyNTE4MDcsMTA2NDE0NDk4MS
+wxODE5NTE4ODI5LC0xNzM5Njc0OTQxLDU0NDU2MzE2OSw2NDA3
+NDIzMDgsMjEyMzI0NTMxMiwtMTQ3NjEyMTIzMCwtMzM0NzIyND
+QsMTE0MTM3MDk0LDgxMTc1NDA4MCwtMTI0MzQ0MzY1MiwxMTc3
+MzQ4Nzc0XX0=
 -->
