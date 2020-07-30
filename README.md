@@ -476,7 +476,51 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
 
 ## Smoke Test 3scale Istio Mixer Adapter
 
+1.  From the terminal, execute the following to invoke your catalog service directly via the Istio ingress:
+    
+    ```
+    $ curl -v \
+           `echo "http://"$(oc get route istio-ingressgateway -n istio-system -o template --template {{.spec.host}})"/products"`
+    
+    
+    
+    ...
+    
+    < HTTP/1.1 403 Forbidden
+    ...
+    
+    * Connection #0 to host istio-ingressgateway-istio-system.apps.clientvm.b902.rhte.opentlc.com left intact
+    
+    PERMISSION_DENIED:threescalehandler.handler.istio-system:no auth credentials provided or provided in invalid location
+    ```
+    
+    1.  Notice a 403 error response of `PERMISSION_DENIED:threescalehandler.handler.istio-system:`. This is to be expected.
+        
+        Inbound requests through the Istio ingress are now correctly flowing through the mixer to the 3scale adapter.
+        
+        In the above request however, the API _user_key_ associated with your catalog service _application_ has been omitted. .. View the log file of the 3scale adapter:
+        
+        ```
+        $ oc logs -f `oc get pod -n istio-system | grep "3scale-istio-adapter" | awk '{print $1}'` \
+                  -n istio-system \
+                  -c 3scale-istio-adapter
+        
+        
+        "Got instance &InstanceMsg{Subject:&SubjectMsg{User:,Groups:,Properties:map[string]*istio_policy_v1beta11.Value{app_id: &Value{Value:&Value_StringValue{StringValue:,},},app_key: &Value{Value:&Value_StringValue{StringValue:,},},},},Action:&ActionMsg{Namespace:,Service:,Method:GET,Path:/products,Properties:map[string]*istio_policy_v1beta11.Value{},},Name:threescale-authorization.instance.istio-system,}"
+        
+        "proxy config for service id 4 is being fetching from 3scale"
+        ```
+        
+    
+2.  Try again to invoke your catalog service using the catalog service _user_key_:
+    
+    ```
+    $ curl -v \
+           `echo "http://"$(oc get route istio-ingressgateway -n istio-system -o template --template {{.spec.host}})"/products?user_key=$USER_API_KEY"`
+    ```
+    
 
+Congratulations! The catalog service is again being managed and secured by the Red Hat 3scale API Management manager. This time however, the 3scale Istio Mixer adapter is being utilized rather than the API gateway.
 
 
 
@@ -488,11 +532,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjU2MTQ1NCwtMTQyNTcwOTUyNywtMT
-k1NDI1MTczMiwxMjEwMjUxODA3LDEwNjQxNDQ5ODEsMTgxOTUx
-ODgyOSwtMTczOTY3NDk0MSw1NDQ1NjMxNjksNjQwNzQyMzA4LD
-IxMjMyNDUzMTIsLTE0NzYxMjEyMzAsLTMzNDcyMjQ0LDExNDEz
-NzA5NCw4MTE3NTQwODAsLTEyNDM0NDM2NTIsMTE3NzM0ODc3NC
-wxMDM3OTk0ODY5LC0xNjA3ODA5NjkxLC0xOTc2OTA5MDUyLDE1
-OTQ0NjMwOV19
+eyJoaXN0b3J5IjpbLTE0MjI5MTU3MiwtNjkyNTYxNDU0LC0xND
+I1NzA5NTI3LC0xOTU0MjUxNzMyLDEyMTAyNTE4MDcsMTA2NDE0
+NDk4MSwxODE5NTE4ODI5LC0xNzM5Njc0OTQxLDU0NDU2MzE2OS
+w2NDA3NDIzMDgsMjEyMzI0NTMxMiwtMTQ3NjEyMTIzMCwtMzM0
+NzIyNDQsMTE0MTM3MDk0LDgxMTc1NDA4MCwtMTI0MzQ0MzY1Mi
+wxMTc3MzQ4Nzc0LDEwMzc5OTQ4NjksLTE2MDc4MDk2OTEsLTE5
+NzY5MDkwNTJdfQ==
 -->
