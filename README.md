@@ -375,17 +375,18 @@ oc create -f deploy -n istio-system
         
         threescale-authorization   7d
         ```
-
-
-## Red Hat 3scale Mixer Adapter Configurations
-
-
-
-
-
-  
+ 
 
 ## [2] Crear configuraciones Handler, Service e Instance
+
+Now that 3scale Istio Adapter has been verified to exist, various configurations need to be added to the service mesh.
+
+In particular, you will specify the URL of the _system-provider_ endpoint of your 3scale tenant along with the corresponding access token. This is needed so that the Istio Mixer can pull API proxy details from the 3scale API Manager (similar to what the 3scale API Gateway does).
+
+1.  In the details of your _catalog_ service in the Red Hat 3scale API Manager administration console, locate the `ID for API calls … `:
+
+
+
 
 Desde 3Scale se debe recuperar tanto la URL de admin, el Service ID del API creado en 3Scale y el Token generado al momento de crear la autenticación mediante Istio.
 
@@ -437,11 +438,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNjA5NTA2NywtMTk1NDI1MTczMiwxMj
-EwMjUxODA3LDEwNjQxNDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3
-NDk0MSw1NDQ1NjMxNjksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLT
-E0NzYxMjEyMzAsLTMzNDcyMjQ0LDExNDEzNzA5NCw4MTE3NTQw
-ODAsLTEyNDM0NDM2NTIsMTE3NzM0ODc3NCwxMDM3OTk0ODY5LC
-0xNjA3ODA5NjkxLC0xOTc2OTA5MDUyLDE1OTQ0NjMwOSwxNTkw
-OTgzNzQ0XX0=
+eyJoaXN0b3J5IjpbLTE0MjU3MDk1MjcsLTE5NTQyNTE3MzIsMT
+IxMDI1MTgwNywxMDY0MTQ0OTgxLDE4MTk1MTg4MjksLTE3Mzk2
+NzQ5NDEsNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIzMjQ1MzEyLC
+0xNDc2MTIxMjMwLC0zMzQ3MjI0NCwxMTQxMzcwOTQsODExNzU0
+MDgwLC0xMjQzNDQzNjUyLDExNzczNDg3NzQsMTAzNzk5NDg2OS
+wtMTYwNzgwOTY5MSwtMTk3NjkwOTA1MiwxNTk0NDYzMDksMTU5
+MDk4Mzc0NF19
 -->
