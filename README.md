@@ -2,8 +2,9 @@
 
 This demo describes how to show the life cycle of an API in online fuse and how it is synchronized in an ecosystem of Openshift Service Mesh and Securitized under 3Scale.
 
+https://www.cncf.io/blog/2020/03/06/the-difference-between-api-gateways-and-service-mesh/
 
-![Contexto Demo](https://drive.google.com/uc?id=1qH6bAffCI2dysmdxYwFmdl1LXVWHazwn)
+![enter image description here](https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/Screen-Shot-2020-02-25-at-11.11.14-AM-1024x823.png)
 # Install
 
 THE CURRENT SUPPORTED VERSION of RHMI WORKSHOP is 2.3.0!! PLEASE INSTALL THE CORRECT VERSION!
@@ -125,9 +126,7 @@ and select  "Message Context" and "Message Body"
 
 #### Database
 
-![databaseselect](https://drive.google.com/uc?id=1QZVFvnUVfVyEtutSIYKPzqBQ4xKRPZj5)
-
-
+![databaseselect](https://drive.google.com/uc?id=1QZVFvnUVfVyEtutSIYKPzqBQ4xKRPZj5
 
 	select * from users;
 
@@ -249,77 +248,321 @@ Repet the same in the Database Postgress
 
 ## Allow read deployment config in Kiali
 
+Select Istio-system (control plane) namespace and then go to Config maps, click in Kiali Config map and the select yaml.
+
+Remove deployment config option:
+ 
+	excluded_workloads:
+	        DeploymentConfigs ##delete this line.
+
+![Kialia excluser](https://drive.google.com/uc?id=1ssz2oIEoXemP5GxcovM8-kCqcCVBs4Rs)
+## Create Virtual Service and Gateway
+
+for this section its important to read first:
+
+https://istio.io/latest/blog/2018/v1alpha3-routing/
+
+![explain istio object](https://drive.google.com/uc?id=1YYhbgkHu09rJgX-6yq5zqLOPNtnsXREn)
+
+
+then we create a Gateway and Virtual service. that its in /osm folder.
+
+    oc apply -n evals3-fuse -f gateway-user.yaml
+
+
+![result apply config gateway and virtual services](https://drive.google.com/uc?id=1bXn4kOzxXwpoDHupwTC0kZe4k99S4nq0)
+
+Nota: in this demo does not create a destinationRule
+
 
 ## Observe
 
+ - First get  the url of istio gateway
+ 
+`export ISTIOGWUSER=$(oc -n istio-system get route istio-ingressgateway -o jsonpath='{.spec.host}')`
 
+ - Curl for API in a loop
+      `for i in {1..1000} ; do curl  -s -w "%{http_code}\n" http://$ISTIOGWUSER/users ;sleep 2 ; done `
+
+![Curl result](https://drive.google.com/uc?id=1_Bp1Vkv2feDblRbVao3uEqy1Cy11pbsB)
+ - Then go to Kiali
+
+   ` oc get routes kiali -n istio-system`
+
+ - open Kiali and graph option
+
+![graph1](https://drive.google.com/uc?id=1qR_JVVhbZljyNY12ZF3E5Zzn_c8Xjkn0)
+
+![graph2](https://drive.google.com/uc?id=1N1B8Oh0A3USLtRCn-iE37_RkvQqO7ofT)
 
 # 3scale API Management
 
+## Configure 3scale Admin Account
+
+- Enter admin tennat Account and select 
+
+![Account settings here](https://drive.google.com/uc?id=13TIOhBGDYLC88xt6vlx7BuUSL06wieNb)
+- Configure A Neew Access Token
+
+![Account New Access token](https://drive.google.com/uc?id=15snWJZgGAa8tcCa2_hXCgnZkbyqHkBJy)
+Copy the new token and store it somewhere safe
+
+Make sure to copy your new personal access token now. You won't be able to see it again as it isn't stored for security reasons.
+
+ `token:    363a23xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxbe`
+
 ## Configure API Backend 
 
+- Create API backend
+
+![OverView Api Backend](https://drive.google.com/uc?id=1OYI_hn0FrEsy_d_Ik1EVT3WAnJ8fXZAl)
+-Mapping rules
+
+![Mapping rules](https://drive.google.com/uc?id=1pAiLxohoWU49mtRdlBeGt8UMI6SNa7Fo)
+- Methods and metrics
+
+![methods](https://drive.google.com/uc?id=1Igagmxc0BH5gPBEaUDCIjTlEh4fnttEs)
+- Review the API backend
+
+![Api backend config final](https://drive.google.com/uc?id=10HNE_-l-x9qfDBCmHWR1Xrkk7-e8Xk66)
 ## Configure Product
 
+- Create product and Configure
 
+![product configuration](https://drive.google.com/uc?id=15fGtx7SJs32xbgEUEeR-JqFXvR6Z5KQ8)
+-Configure Methods and Metrics
 
+![product-methods](https://drive.google.com/uc?id=1WZ9LWMGJgETC64vt1MGbYS_lOZUy7wLT)
+-Create Mapping rules
 
+![product Mapping rules](https://drive.google.com/uc?id=14Q2ZqUqGXDIkThJskXEGF2I-4LltSvzo)
+- Product Setting
+
+![Product setting](https://drive.google.com/uc?id=18gWJ6uJ4WxtM3genx10F6XgI1G2I66HQ)
 # 3scale Mixer Adapter 
 
-## [1] Desplegar 3scale-istio-adapter
+By default, Red Hat Service Mesh disables evaluation of all policies.
+
+In order for API Management policies to be applied to service mesh traffic, this default behavior needs to be reversed. The setting for this behavior is in the _istio_ configmap in the istio namespace. This configmap is read by the Envoy proxy upon start-up of an istio enabled pod.
+
+![3scale mixer adapter concept](https://drive.google.com/uc?id=18F3NfjCBpJtSIaKU4GpxcJDizYdzHv1w)
+
+Your lab environment already comes provisioned with service mesh policies (to include API Management policies that will be introduced in this lab) enabled.
+
+You can view state of this setting that disables service mesh policies as follows:
+
+```
+$ oc describe cm istio -n istio-system | grep disablePolicyChecks
+
+disablePolicyChecks: false
+```
+## Desplegar 3scale-istio-adapter
 
 git clone [https://github.com/3scale/3scale-istio-adapter](https://github.com/3scale/3scale-istio-adapter)
-
+  
+   ```
 oc create -f deploy -n istio-system
+   ```
 
-  Verificar que istio tenga policycheck 
+1.  Review 3scale Istio Adapter components in _istio-system_ namespace:
+    
+    ```
+    $ oc get all -l app=3scale-istio-adapter -n istio-system
+    ```
+    1.  The response should list the deployment, replicaset and pod.
+        
+    2.  As per the diagram above, the _3scale-istio-adapter_ Linux container includes the following two components:
+        
+        1.  **3scale-istio-adapter**
+            
+            Accepts gRPC invocations from Istio ingress and routes to the other side car in the pod: _3scale-istio-httpclient_
+            
+        2.  **3scale-istio-httpclient**
+            
+            Accepts invocations from _3scale-istio-adapter_ and invokes the _system-provider_ and _backend-listener_ endpoints of the remote Red Hat 3scale API Management manager.
+            
+    3.  Its possible that the pod corresponding to the 3scale-istio-adapter is in an _ImagePullBackOff_ error state.
+        
+        If so, edit the _3scale-istio-adapter_ Deployment such that the URL to the image explicitly includes _quay.io_ as follows:
+        
+        ```
+        image: quay.io/repository/3scale/3scale-istio-adapter:0.5.1
+        ```
+        
+    
+2.  View listing of configs that support the 3scale Mixer Adapter:
+    
+    Embedded in the following YAML files is the 3scale handler that is injected into the Istio Mixer. This handler is written in Golang by the 3scale engineering team as per the [Mixer Out of Process Adapter Dev Guide](https://github.com/istio/istio/wiki/Mixer-Out-Of-Process-Adapter-Dev-Guide). Much of these files consists of the adapter’s configuration [proto](https://developers.google.com/protocol-buffers/docs/proto3).
+    
+    1.  Adapters:
+        
+        ```
+        $ oc get adapters.config.istio.io -n istio-system
+        threescale   7d
+        ```
+        
+    2.  Template:
+        
+        ```
+        $ oc get templates.config.istio.io -n istio-system
+        
+        threescale-authorization   7d
+        ```
+ 
 
-$ kubectl -n istio-system get cm istio -o jsonpath="{@.data.mesh}" | grep disablePolicyChecks
+## [2] Crear configuraciones 3scale Adapter
 
-  
+Now that 3scale Istio Adapter has been verified to exist, various configurations need to be added to the service mesh.
 
-## [2] Crear configuraciones Handler, Service e Instance
+In particular, you will specify the URL of the _system-provider_ endpoint of your 3scale tenant along with the corresponding access token. This is needed so that the Istio Mixer can pull API proxy details from the 3scale API Manager (similar to what the 3scale API Gateway does).
 
-Desde 3Scale se debe recuperar tanto la URL de admin, el Service ID del API creado en 3Scale y el Token generado al momento de crear la autenticación mediante Istio.
+1.  In the details of your _user_ service in the Red Hat 3scale API Manager administration console, locate the `ID for API calls … `:
 
-- En Openshift (WebConsole o mediante comando rsh) ir al Pod 3scale-istio-adapter (ssh) y ejecutar:
+![user service ID](https://drive.google.com/uc?id=1BO6DwTT9H5bugFjmNNBnryqnmUal7Mp5)
+-   Review the `threescale-adapter-config.yaml` file :
+    
+    ```
+    $ less 3scale-istio-adapter/istio/threescale-adapter-config.yaml | more
+    ```
+    
+-   Modify the `threescale-adapter-config.yaml` file with the ID of your user service:
+    
+    ```
+    $ sed -i "s/service_id: .*/service_id: \"$USER_SERVICE_ID\"/" \
+          3scale-istio-adapter/istio/threescale-adapter-config.yaml
+    ```
+    
+-   Modify the `threescale-adapter-config.yaml` file with the URL to your Red Hat 3scale API Management manager tenant:
+    
+    ```
+    $ sed -i "s/system_url: .*/system_url: \"https:\/\/$TENANT_NAME-admin.$API_WILDCARD_DOMAIN\"/" \
+          3scale-istio-adapter/istio/threescale-adapter-config.yaml
+    ```
+    
+-   Modify the `threescale-adapter-config.yaml` file with the administrative access token of your Red Hat 3scale API Management manager administration account:
+    
+    ```
+    $ sed -i "s/access_token: .*/access_token: \"$API_ADMIN_ACCESS_TOKEN\"/" \
+          3scale-istio-adapter/istio/threescale-adapter-config.yaml
+    ```
+    
+-   The _rule_ in _threescale-adapter-config.yaml_ defines the conditions that API Management policies should be applied to a request.
+    
+    The existing default rule is as follows:
+    
+    ```
+    match: destination.labels["service-mesh.3scale.net"] == "true"
+    ```
+    
+    This rule specifies that API Management policies should be applied to the request when the target Deployment includes a label of: `service-mesh.3scale.net`. In this version of the demo, this rule does not apply API Management policies as expected. Further research into the issue is needed.
+    
+    1.  As a work-around for the current problem, modify the `threescale-adapter-config.yaml` file with a modified rule that specifies that API Management policies should be applied when the target is the user-service:
+        
+        ```
+        $ sed -i "s/match: .*/match: destination.service.name == \"user-service\"/" \
+              3scale-istio-adapter/istio/threescale-adapter-config.yaml
+        ```
+        
+    2.  More information about Istio’s Policy Attribute Vocabulary (used in the creation of rules) can be found [here](https://istio.io/docs/reference/config/policy-and-telemetry/attribute-vocabulary/).
+        
+    
+-   Load the Red Hat 3scale API Management Istio Handler configurations:
+    
+    ```
+    $ oc create -f 3scale-istio-adapter/istio/threescale-adapter-config.yaml
+    
+    ...
+    
+    handler.config.istio.io/threescale created
+    instance.config.istio.io "threescale-authorization" created
+    rule.config.istio.io "threescale" created
+    ```
+    
+    1.  If for whatever reason you want to delete these 3scale Istio mixer adapter configurations, execute the following:
+        
+        ```
+        oc delete rule.config.istio.io threescale -n istio-system
+        oc delete instance.config.istio.io threescale-authorization -n istio-system
+        oc delete handler.config.istio.io threescale -n istio-system
+        ```
+        
+    
+-   Verify that the Istio Handler configurations were created in the istio-system namespace:
+    
+    ```
+    $ oc get handler threescale -n istio-system -o yaml
+    
+    apiVersion: v1
+    items:
+    - apiVersion: config.istio.io/v1alpha2
+      kind: handler
+    
+      ....
+    
+      spec:
+        adapter: threescale
+        connection:
+          address: threescaleistioadapter:3333
+        params:
+          access_token: fa16cd9ebd66jd07c7bd5511be4b78ecf6d58c30daa940ff711515ca7de1194a
+          service_id: "103"
+          system_url: evals3-tenant-admin.apps.cluster-chile-6b30.chile-6b30.example.opentlc.com
+    ```
 
-./3scale-config-gen --url "https://3scale-admin.apps.3scale.com:443" --service "replace-me" --token "access_token_change_me" --name=“miapp-3scale-istio”
+- result:
 
- - Copiar la configuracion arrojada por comando y pegarla en un archivo yaml (ej: istio-3scale-adapter.yaml)
 
-- Crear archivo istio-3scale-adapter.yaml con las configuraciones handler, service e instance arrojadas con el comando anterior (copy/paste).
+![Labels 3scale istio adapter](https://drive.google.com/uc?id=1Tk0nDOE2yzSHUk7tsQoJ4KLLfnP__yT6)
 
-Luego:
+## Smoke Test 3scale Istio Mixer Adapter
 
-oc create -f istio-3scale-adapter.yaml -n istio-system
+1.  From the terminal, execute the following to invoke your user service directly via the Istio ingress:
+    
+    ```
+    $ curl -v \
+           `echo "http://"$(oc get route istio-ingressgateway -n istio-system -o template --template {{.spec.host}})"/products"`
+    
+    
+    
+    ...
+    
+    < HTTP/1.1 403 Forbidden
+    ...
+    
+    * Connection #0 to host istio-ingressgateway-istio-system.apps.clientvm.b902.rhte.opentlc.com left intact
+    
+    PERMISSION_DENIED:threescalehandler.handler.istio-system:no auth credentials provided or provided in invalid location
+    ```
+    
+    1.  Notice a 403 error response of `PERMISSION_DENIED:threescalehandler.handler.istio-system:`. This is to be expected.
+        
+        Inbound requests through the Istio ingress are now correctly flowing through the mixer to the 3scale adapter.
+        
+        In the above request however, the API _user_key_ associated with your user service _application_ has been omitted. .. View the log file of the 3scale adapter:
+        
+        ```
+        $ oc logs -f `oc get pod -n istio-system | grep "3scale-istio-adapter" | awk '{print $1}'` \
+                  -n istio-system \
+                  -c 3scale-istio-adapter
+        
+        
+        "Got instance &InstanceMsg{Subject:&SubjectMsg{User:,Groups:,Properties:map[string]*istio_policy_v1beta11.Value{app_id: &Value{Value:&Value_StringValue{StringValue:,},},app_key: &Value{Value:&Value_StringValue{StringValue:,},},},},Action:&ActionMsg{Namespace:,Service:,Method:GET,Path:/products,Properties:map[string]*istio_policy_v1beta11.Value{},},Name:threescale-authorization.instance.istio-system,}"
+        
+        "proxy config for service id 4 is being fetching from 3scale"
+        ```
+        
+    
+2.  Try again to invoke your user service using the user service _user_key_:
+    
+    ```
+    $ curl -v \
+           `echo "http://"$(oc get route istio-ingressgateway -n istio-system -o template --template {{.spec.host}})"/products?user_key=$USER_API_KEY"`
+    ```
+   
 
-## [3] Agregar labels a DeploymentConfig de la app
+Congratulations! The user service is again being managed and secured by the Red Hat 3scale API Management manager. This time however, the 3scale Istio Mixer adapter is being utilized rather than the API gateway.
 
-SERVICE_ID es el ID del API en 3Scale
 
-- CREDENTIALS_NAME corresponde al nombre de las credenciales generadas con el comando en el paso 2 (--name=“miapp-3scale-istio”)
-
-- DEPLOYMENT es el nombre del DeploymentConfig de la app
-
-export CREDENTIALS_NAME="ste-3scale-istio”
-
-export SERVICE_ID="replace-me”
-
-export DEPLOYMENT=“nombre-del-deployment-config”
-
-  
-patch="$(oc get deployment "${DEPLOYMENT}" --template='{"spec":{"template":{"metadata":{"labels":{ {{ range $k,$v := .spec.template.metadata.labels }}"{{ $k }}":"{{ $v }}",{{ end }}"[service-mesh.3scale.net/service-id":"'"${SERVICE_ID}"'","service-mesh.3scale.net/credentials":"'"${CREDENTIALS_NAME}"'"}}}}}'](http://service-mesh.3scale.net/service-id%22:%22'%22$%7BSERVICE_ID%7D%22'%22,%22service-mesh.3scale.net/credentials%22:%22'%22$%7BCREDENTIALS_NAME%7D%22'%22%7D%7D%7D%7D%7D') )”
-
-  
-
-oc patch deployment "${DEPLOYMENT}" --patch ''"${patch}"’'  
-
-  
--  Estos labels son los que se agregan el DeploymentConfig (y a cada pod cuando es creado). Necesarios para que istio sepa que credenciales y que Servicio utilizar para obtener las configuraciones desde 3Scale:
-
--  [service-mesh.3scale.net/credentials](http://service-mesh.3scale.net/credentials)
-
-- [service-mesh.3scale.net/service-id](http://service-mesh.3scale.net/service-id)
 
 
 
@@ -329,11 +572,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDM0NDM2NTIsMTE3NzM0ODc3NCwxMD
-M3OTk0ODY5LC0xNjA3ODA5NjkxLC0xOTc2OTA5MDUyLDE1OTQ0
-NjMwOSwxNTkwOTgzNzQ0LDE5MDUzODc3NTIsLTEwNTYwMjU2ND
-QsLTEzNTA3OTkzNSwtMjAwNjY1NjIyMCwtMTA4ODUxMDg2MCwt
-MTEyODQ5ODAyOCwtNzQ3NDA3OTg3LC0yNTk0NjQ2MjcsLTEzNT
-M0MjI0NTcsNzkyODY5NzA3LDIxNDE5NjM5NDYsNDA5MTg0ODU0
-LC0xNjM0NTA4NTk4XX0=
+eyJoaXN0b3J5IjpbOTE0NDc3Mzk2LC0xMTg0MDAzNDQzLDczNT
+g2MjU5MywtMTI0OTM4MzA1MCwxMzI2MjUyNzc1LDIyMzA3NDA0
+OSw1ODU4MzA1MzMsLTEzMTY0OTY4NDIsMjAxMjExMDM2NCwtMT
+QyMjkxNTcyLC02OTI1NjE0NTQsLTE0MjU3MDk1MjcsLTE5NTQy
+NTE3MzIsMTIxMDI1MTgwNywxMDY0MTQ0OTgxLDE4MTk1MTg4Mj
+ksLTE3Mzk2NzQ5NDEsNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIz
+MjQ1MzEyXX0=
 -->
