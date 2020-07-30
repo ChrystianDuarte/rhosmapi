@@ -307,7 +307,6 @@ Nota: in this demo does not create a destinationRule
 
 
 
-
 # 3scale Mixer Adapter 
 
 By default, Red Hat Service Mesh disables evaluation of all policies.
@@ -475,6 +474,13 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
           system_url: evals3-tenant-admin.apps.cluster-chile-6b30.chile-6b30.example.opentlc.com
     ```
 
+## Smoke Test 3scale Istio Mixer Adapter
+
+
+
+
+
+
 
 ## Repository reference
 https://github.com/RedHatWorkshops/dayinthelife-integration
@@ -482,7 +488,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Nzk1MTYwNiwtMTQyNTcwOTUyNywtMT
+eyJoaXN0b3J5IjpbLTY5MjU2MTQ1NCwtMTQyNTcwOTUyNywtMT
 k1NDI1MTczMiwxMjEwMjUxODA3LDEwNjQxNDQ5ODEsMTgxOTUx
 ODgyOSwtMTczOTY3NDk0MSw1NDQ1NjMxNjksNjQwNzQyMzA4LD
 IxMjMyNDUzMTIsLTE0NzYxMjEyMzAsLTMzNDcyMjQ0LDExNDEz
