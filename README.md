@@ -275,13 +275,18 @@ Nota: in this demo does not create a destinationRule
 
 ## Observe
 
-  First get 
-    
+ - First get  the url of istio gateway
+ 
 `export GATEWAY_URL=$(oc -n istio-system get route istio-ingressgateway -o jsonpath='{.spec.host}')`
 
-Then go to Kiali 
+ - Then go to Kiali
 
-    oc get routes kiali -n istio-system
+   ` oc get routes kiali -n istio-system`
+
+ - Curl for API in a loop
+ 
+ 
+
 
 # 3scale API Management
 
@@ -358,11 +363,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjIwMTYzOTEsNTQ0NTYzMTY5LDY0MD
-c0MjMwOCwyMTIzMjQ1MzEyLC0xNDc2MTIxMjMwLC0zMzQ3MjI0
-NCwxMTQxMzcwOTQsODExNzU0MDgwLC0xMjQzNDQzNjUyLDExNz
-czNDg3NzQsMTAzNzk5NDg2OSwtMTYwNzgwOTY5MSwtMTk3Njkw
-OTA1MiwxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1Mzg3NzUyLC
-0xMDU2MDI1NjQ0LC0xMzUwNzk5MzUsLTIwMDY2NTYyMjAsLTEw
-ODg1MTA4NjBdfQ==
+eyJoaXN0b3J5IjpbNjI4MTQ1NTY0LDU0NDU2MzE2OSw2NDA3ND
+IzMDgsMjEyMzI0NTMxMiwtMTQ3NjEyMTIzMCwtMzM0NzIyNDQs
+MTE0MTM3MDk0LDgxMTc1NDA4MCwtMTI0MzQ0MzY1MiwxMTc3Mz
+Q4Nzc0LDEwMzc5OTQ4NjksLTE2MDc4MDk2OTEsLTE5NzY5MDkw
+NTIsMTU5NDQ2MzA5LDE1OTA5ODM3NDQsMTkwNTM4Nzc1MiwtMT
+A1NjAyNTY0NCwtMTM1MDc5OTM1LC0yMDA2NjU2MjIwLC0xMDg4
+NTEwODYwXX0=
 -->
