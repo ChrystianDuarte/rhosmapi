@@ -323,9 +323,10 @@ $ oc describe cm istio -n istio-system | grep disablePolicyChecks
 
 disablePolicyChecks: false
 ```
-## [1] Desplegar 3scale-istio-adapter
+## Desplegar 3scale-istio-adapter
 
 git clone [https://github.com/3scale/3scale-istio-adapter](https://github.com/3scale/3scale-istio-adapter)
+  
    ```
 oc create -f deploy -n istio-system
    ```
@@ -347,13 +348,12 @@ oc create -f deploy -n istio-system
             
             Accepts invocations from _3scale-istio-adapter_ and invokes the _system-provider_ and _backend-listener_ endpoints of the remote Red Hat 3scale API Management manager.
             
-        
     3.  Its possible that the pod corresponding to the 3scale-istio-adapter is in an _ImagePullBackOff_ error state.
         
         If so, edit the _3scale-istio-adapter_ Deployment such that the URL to the image explicitly includes _registry.redhat.io_ as follows:
         
         ```
-        image: registry.redhat.io/openshift-istio-tech-preview/3scale-istio-adapter:0.4.1
+        image: registry.redhat.io/openshift-istio-tech-preview/3scale-istio-adapter:0.5.1
         ```
         
     
@@ -447,11 +447,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTg4NDg1MywtMTk1NDI1MTczMiwxMj
-EwMjUxODA3LDEwNjQxNDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3
-NDk0MSw1NDQ1NjMxNjksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLT
-E0NzYxMjEyMzAsLTMzNDcyMjQ0LDExNDEzNzA5NCw4MTE3NTQw
-ODAsLTEyNDM0NDM2NTIsMTE3NzM0ODc3NCwxMDM3OTk0ODY5LC
-0xNjA3ODA5NjkxLC0xOTc2OTA5MDUyLDE1OTQ0NjMwOSwxNTkw
-OTgzNzQ0XX0=
+eyJoaXN0b3J5IjpbLTEzMTU2OTk0MTUsLTE5NTQyNTE3MzIsMT
+IxMDI1MTgwNywxMDY0MTQ0OTgxLDE4MTk1MTg4MjksLTE3Mzk2
+NzQ5NDEsNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIzMjQ1MzEyLC
+0xNDc2MTIxMjMwLC0zMzQ3MjI0NCwxMTQxMzcwOTQsODExNzU0
+MDgwLC0xMjQzNDQzNjUyLDExNzczNDg3NzQsMTAzNzk5NDg2OS
+wtMTYwNzgwOTY5MSwtMTk3NjkwOTA1MiwxNTk0NDYzMDksMTU5
+MDk4Mzc0NF19
 -->
