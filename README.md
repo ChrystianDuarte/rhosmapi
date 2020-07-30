@@ -319,9 +319,12 @@ Make sure to copy your new personal access token now. You won't be able to see i
 -Mapping rules
 
 ![Mapping rules](https://drive.google.com/uc?id=1pAiLxohoWU49mtRdlBeGt8UMI6SNa7Fo)
--![enter image description here](https://drive.google.com/uc?id=1Igagmxc0BH5gPBEaUDCIjTlEh4fnttEs)
+- Methods and metrics
 
+![methods](https://drive.google.com/uc?id=1Igagmxc0BH5gPBEaUDCIjTlEh4fnttEs)
+- Next
 
+![Api backend config final](https://drive.google.com/uc?id=10HNE_-l-x9qfDBCmHWR1Xrkk7-e8Xk66)
 ## Configure Product
 
 
@@ -557,11 +560,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Mjc4NTc2LC0xMTg0MDAzNDQzLDczNT
-g2MjU5MywtMTI0OTM4MzA1MCwxMzI2MjUyNzc1LDIyMzA3NDA0
-OSw1ODU4MzA1MzMsLTEzMTY0OTY4NDIsMjAxMjExMDM2NCwtMT
-QyMjkxNTcyLC02OTI1NjE0NTQsLTE0MjU3MDk1MjcsLTE5NTQy
-NTE3MzIsMTIxMDI1MTgwNywxMDY0MTQ0OTgxLDE4MTk1MTg4Mj
-ksLTE3Mzk2NzQ5NDEsNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIz
-MjQ1MzEyXX0=
+eyJoaXN0b3J5IjpbMTk3Nzg0MzcwNSwtMTE4NDAwMzQ0Myw3Mz
+U4NjI1OTMsLTEyNDkzODMwNTAsMTMyNjI1Mjc3NSwyMjMwNzQw
+NDksNTg1ODMwNTMzLC0xMzE2NDk2ODQyLDIwMTIxMTAzNjQsLT
+E0MjI5MTU3MiwtNjkyNTYxNDU0LC0xNDI1NzA5NTI3LC0xOTU0
+MjUxNzMyLDEyMTAyNTE4MDcsMTA2NDE0NDk4MSwxODE5NTE4OD
+I5LC0xNzM5Njc0OTQxLDU0NDU2MzE2OSw2NDA3NDIzMDgsMjEy
+MzI0NTMxMl19
 -->
