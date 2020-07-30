@@ -301,6 +301,17 @@ Nota: in this demo does not create a destinationRule
 
 ## Configure 3scale Admin Account
 
+
+
+Copy the new token and store it somewhere safe
+
+Make sure to copy your new personal access token now. You won't be able to see it again as it isn't stored for security reasons.
+
+ `token:    363a23xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxbe`
+
+
+
+
 ## Configure API Backend 
 
 ## Configure Product
@@ -535,11 +546,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1ODMwNTMzLC0xMzE2NDk2ODQyLDIwMT
-IxMTAzNjQsLTE0MjI5MTU3MiwtNjkyNTYxNDU0LC0xNDI1NzA5
-NTI3LC0xOTU0MjUxNzMyLDEyMTAyNTE4MDcsMTA2NDE0NDk4MS
-wxODE5NTE4ODI5LC0xNzM5Njc0OTQxLDU0NDU2MzE2OSw2NDA3
-NDIzMDgsMjEyMzI0NTMxMiwtMTQ3NjEyMTIzMCwtMzM0NzIyND
-QsMTE0MTM3MDk0LDgxMTc1NDA4MCwtMTI0MzQ0MzY1MiwxMTc3
-MzQ4Nzc0XX0=
+eyJoaXN0b3J5IjpbODE1MzUzODY1LDU4NTgzMDUzMywtMTMxNj
+Q5Njg0MiwyMDEyMTEwMzY0LC0xNDIyOTE1NzIsLTY5MjU2MTQ1
+NCwtMTQyNTcwOTUyNywtMTk1NDI1MTczMiwxMjEwMjUxODA3LD
+EwNjQxNDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3NDk0MSw1NDQ1
+NjMxNjksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLTE0NzYxMjEyMz
+AsLTMzNDcyMjQ0LDExNDEzNzA5NCw4MTE3NTQwODAsLTEyNDM0
+NDM2NTJdfQ==
 -->
