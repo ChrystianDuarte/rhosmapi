@@ -263,7 +263,7 @@ for this section its important to read first:
 
 https://istio.io/latest/blog/2018/v1alpha3-routing/
 
-
+![explain istio object](https://drive.google.com/uc?id=1YYhbgkHu09rJgX-6yq5zqLOPNtnsXREn)
 
 
 then we create a Gateway and Virtual service. that its in /osm folder.
@@ -371,7 +371,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTkzOTIwMCwxODE5NTE4ODI5LC0xNz
+eyJoaXN0b3J5IjpbMTQzODU3Njc1NywxODE5NTE4ODI5LC0xNz
 M5Njc0OTQxLDU0NDU2MzE2OSw2NDA3NDIzMDgsMjEyMzI0NTMx
 MiwtMTQ3NjEyMTIzMCwtMzM0NzIyNDQsMTE0MTM3MDk0LDgxMT
 c1NDA4MCwtMTI0MzQ0MzY1MiwxMTc3MzQ4Nzc0LDEwMzc5OTQ4
