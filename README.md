@@ -2,8 +2,9 @@
 
 This demo describes how to show the life cycle of an API in online fuse and how it is synchronized in an ecosystem of Openshift Service Mesh and Securitized under 3Scale.
 
+https://www.cncf.io/blog/2020/03/06/the-difference-between-api-gateways-and-service-mesh/
 
-![Contexto Demo](https://drive.google.com/uc?id=1qH6bAffCI2dysmdxYwFmdl1LXVWHazwn)
+![enter image description here](https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/Screen-Shot-2020-02-25-at-11.11.14-AM-1024x823.png)
 # Install
 
 THE CURRENT SUPPORTED VERSION of RHMI WORKSHOP is 2.3.0!! PLEASE INSTALL THE CORRECT VERSION!
@@ -373,11 +374,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDE0NDk4MSwxODE5NTE4ODI5LC0xNz
-M5Njc0OTQxLDU0NDU2MzE2OSw2NDA3NDIzMDgsMjEyMzI0NTMx
-MiwtMTQ3NjEyMTIzMCwtMzM0NzIyNDQsMTE0MTM3MDk0LDgxMT
-c1NDA4MCwtMTI0MzQ0MzY1MiwxMTc3MzQ4Nzc0LDEwMzc5OTQ4
-NjksLTE2MDc4MDk2OTEsLTE5NzY5MDkwNTIsMTU5NDQ2MzA5LD
-E1OTA5ODM3NDQsMTkwNTM4Nzc1MiwtMTA1NjAyNTY0NCwtMTM1
-MDc5OTM1XX0=
+eyJoaXN0b3J5IjpbMTIxMDI1MTgwNywxMDY0MTQ0OTgxLDE4MT
+k1MTg4MjksLTE3Mzk2NzQ5NDEsNTQ0NTYzMTY5LDY0MDc0MjMw
+OCwyMTIzMjQ1MzEyLC0xNDc2MTIxMjMwLC0zMzQ3MjI0NCwxMT
+QxMzcwOTQsODExNzU0MDgwLC0xMjQzNDQzNjUyLDExNzczNDg3
+NzQsMTAzNzk5NDg2OSwtMTYwNzgwOTY5MSwtMTk3NjkwOTA1Mi
+wxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1Mzg3NzUyLC0xMDU2
+MDI1NjQ0XX0=
 -->
