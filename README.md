@@ -377,7 +377,7 @@ oc create -f deploy -n istio-system
         ```
 
 
-#
+## Red Hat 3scale Mixer Adapter Configurations
 
 
 
@@ -437,7 +437,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjEyMjE2MiwtMTk1NDI1MTczMiwxMj
+eyJoaXN0b3J5IjpbMTgyNjA5NTA2NywtMTk1NDI1MTczMiwxMj
 EwMjUxODA3LDEwNjQxNDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3
 NDk0MSw1NDQ1NjMxNjksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLT
 E0NzYxMjEyMzAsLTMzNDcyMjQ0LDExNDEzNzA5NCw4MTE3NTQw
