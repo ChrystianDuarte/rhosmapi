@@ -353,7 +353,7 @@ oc create -f deploy -n istio-system
         If so, edit the _3scale-istio-adapter_ Deployment such that the URL to the image explicitly includes _registry.redhat.io_ as follows:
         
         ```
-        image: registry.redhat.io/openshift-istio-tech-preview/3scale-istio-adapter:0.5.1
+        image: quay.io/repository/3scale/3scale-istio-adapter:0.5.1
         ```
         
     
@@ -447,7 +447,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTU2OTk0MTUsLTE5NTQyNTE3MzIsMT
+eyJoaXN0b3J5IjpbLTEwNzQyNTQyNTEsLTE5NTQyNTE3MzIsMT
 IxMDI1MTgwNywxMDY0MTQ0OTgxLDE4MTk1MTg4MjksLTE3Mzk2
 NzQ5NDEsNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIzMjQ1MzEyLC
 0xNDc2MTIxMjMwLC0zMzQ3MjI0NCwxMTQxMzcwOTQsODExNzU0
