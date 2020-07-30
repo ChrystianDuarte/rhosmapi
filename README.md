@@ -388,21 +388,21 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
 -   Review the `threescale-adapter-config.yaml` file :
     
     ```
-    $ less $HOME/lab/istio-integration/istio/threescale-adapter-config.yaml | more
+    $ less $3scale-istio-adapter/istio/threescale-adapter-config.yaml | more
     ```
     
 -   Modify the `threescale-adapter-config.yaml` file with the ID of your catalog service:
     
     ```
     $ sed -i "s/service_id: .*/service_id: \"$CATALOG_SERVICE_ID\"/" \
-          $HOME/lab/istio-integration/istio/threescale-adapter-config.yaml
+          $3scale-istio-adapter/istio/threescale-adapter-config.yaml
     ```
     
 -   Modify the `threescale-adapter-config.yaml` file with the URL to your Red Hat 3scale API Management manager tenant:
     
     ```
     $ sed -i "s/system_url: .*/system_url: \"https:\/\/$TENANT_NAME-admin.$API_WILDCARD_DOMAIN\"/" \
-          $HOME/lab/istio-integration/istio/threescale-adapter-config.yaml
+          $3scale-istio-adapter/istio/threescale-adapter-config.yaml
     ```
     
 -   Modify the `threescale-adapter-config.yaml` file with the administrative access token of your Red Hat 3scale API Management manager administration account:
@@ -482,7 +482,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4OTk0OTcyLC0xNDI1NzA5NTI3LC0xOT
+eyJoaXN0b3J5IjpbMzg2NDQ4NzIzLC0xNDI1NzA5NTI3LC0xOT
 U0MjUxNzMyLDEyMTAyNTE4MDcsMTA2NDE0NDk4MSwxODE5NTE4
 ODI5LC0xNzM5Njc0OTQxLDU0NDU2MzE2OSw2NDA3NDIzMDgsMj
 EyMzI0NTMxMiwtMTQ3NjEyMTIzMCwtMzM0NzIyNDQsMTE0MTM3
