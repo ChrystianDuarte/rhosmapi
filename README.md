@@ -325,6 +325,60 @@ disablePolicyChecks: false
 ```
 
 
+1.  Review 3scale Istio Adapter components in _istio-system_ namespace:
+    
+    ```
+    $ oc get all -l app=3scale-istio-adapter -n istio-system
+    ```
+    
+    1.  The response should list the deployment, replicaset and pod.
+        
+    2.  As per the diagram above, the _3scale-istio-adapter_ Linux container includes the following two components:
+        
+        1.  **3scale-istio-adapter**
+            
+            Accepts gRPC invocations from Istio ingress and routes to the other side car in the pod: _3scale-istio-httpclient_
+            
+        2.  **3scale-istio-httpclient**
+            
+            Accepts invocations from _3scale-istio-adapter_ and invokes the _system-provider_ and _backend-listener_ endpoints of the remote Red Hat 3scale API Management manager.
+            
+        
+    3.  Its possible that the pod corresponding to the 3scale-istio-adapter is in an _ImagePullBackOff_ error state.
+        
+        If so, edit the _3scale-istio-adapter_ Deployment such that the URL to the image explicitly includes _registry.redhat.io_ as follows:
+        
+        ```
+        image: registry.redhat.io/openshift-istio-tech-preview/3scale-istio-adapter:0.4.1
+        ```
+        
+    
+2.  View listing of configs that support the 3scale Mixer Adapter:
+    
+    Embedded in the following YAML files is the 3scale handler that is injected into the Istio Mixer. This handler is written in Golang by the 3scale engineering team as per the [Mixer Out of Process Adapter Dev Guide](https://github.com/istio/istio/wiki/Mixer-Out-Of-Process-Adapter-Dev-Guide). Much of these files consists of the adapter’s configuration [proto](https://developers.google.com/protocol-buffers/docs/proto3).
+    
+    1.  Adapters:
+        
+        ```
+        $ oc get adapters.config.istio.io -n istio-system
+        threescale   7d
+        ```
+        
+    2.  Template:
+        
+        ```
+        $ oc get templates.config.istio.io -n istio-system
+        
+        threescale-authorization   7d
+        ```
+
+
+
+
+
+
+
+
 ## [1] Desplegar 3scale-istio-adapter
 
 git clone [https://github.com/3scale/3scale-istio-adapter](https://github.com/3scale/3scale-istio-adapter)
@@ -389,11 +443,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjUyMTI3NCwxMjEwMjUxODA3LDEwNj
-QxNDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3NDk0MSw1NDQ1NjMx
-NjksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLTE0NzYxMjEyMzAsLT
-MzNDcyMjQ0LDExNDEzNzA5NCw4MTE3NTQwODAsLTEyNDM0NDM2
-NTIsMTE3NzM0ODc3NCwxMDM3OTk0ODY5LC0xNjA3ODA5NjkxLC
-0xOTc2OTA5MDUyLDE1OTQ0NjMwOSwxNTkwOTgzNzQ0LDE5MDUz
-ODc3NTJdfQ==
+eyJoaXN0b3J5IjpbLTE5NTQyNTE3MzIsMTIxMDI1MTgwNywxMD
+Y0MTQ0OTgxLDE4MTk1MTg4MjksLTE3Mzk2NzQ5NDEsNTQ0NTYz
+MTY5LDY0MDc0MjMwOCwyMTIzMjQ1MzEyLC0xNDc2MTIxMjMwLC
+0zMzQ3MjI0NCwxMTQxMzcwOTQsODExNzU0MDgwLC0xMjQzNDQz
+NjUyLDExNzczNDg3NzQsMTAzNzk5NDg2OSwtMTYwNzgwOTY5MS
+wtMTk3NjkwOTA1MiwxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1
+Mzg3NzUyXX0=
 -->
