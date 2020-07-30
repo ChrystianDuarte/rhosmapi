@@ -301,7 +301,7 @@ Nota: in this demo does not create a destinationRule
 
 ## Configure 3scale Admin Account
 
-- Enter admin tennat 
+- Enter admin tennat Account and select 
 
 
 - Configure A Neew Access Token
@@ -547,7 +547,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzI4OTcwOSwyMjMwNzQwNDksNTg1OD
+eyJoaXN0b3J5IjpbMTMyNjI1Mjc3NSwyMjMwNzQwNDksNTg1OD
 MwNTMzLC0xMzE2NDk2ODQyLDIwMTIxMTAzNjQsLTE0MjI5MTU3
 MiwtNjkyNTYxNDU0LC0xNDI1NzA5NTI3LC0xOTU0MjUxNzMyLD
 EyMTAyNTE4MDcsMTA2NDE0NDk4MSwxODE5NTE4ODI5LC0xNzM5
