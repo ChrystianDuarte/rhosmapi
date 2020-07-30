@@ -310,6 +310,21 @@ Nota: in this demo does not create a destinationRule
 
 # 3scale Mixer Adapter 
 
+By default, Red Hat Service Mesh disables evaluation of all policies.
+
+In order for API Management policies to be applied to service mesh traffic, this default behavior needs to be reversed. The setting for this behavior is in the _istio_ configmap in the istio namespace. This configmap is read by the Envoy proxy upon start-up of an istio enabled pod.
+
+Your lab environment already comes provisioned with service mesh policies (to include API Management policies that will be introduced in this lab) enabled.
+
+You can view state of this setting that disables service mesh policies as follows:
+
+```
+$ oc describe cm istio -n istio-system | grep disablePolicyChecks
+
+disablePolicyChecks: false
+```
+
+
 ## [1] Desplegar 3scale-istio-adapter
 
 git clone [https://github.com/3scale/3scale-istio-adapter](https://github.com/3scale/3scale-istio-adapter)
@@ -374,11 +389,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDI1MTgwNywxMDY0MTQ0OTgxLDE4MT
-k1MTg4MjksLTE3Mzk2NzQ5NDEsNTQ0NTYzMTY5LDY0MDc0MjMw
-OCwyMTIzMjQ1MzEyLC0xNDc2MTIxMjMwLC0zMzQ3MjI0NCwxMT
-QxMzcwOTQsODExNzU0MDgwLC0xMjQzNDQzNjUyLDExNzczNDg3
-NzQsMTAzNzk5NDg2OSwtMTYwNzgwOTY5MSwtMTk3NjkwOTA1Mi
-wxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1Mzg3NzUyLC0xMDU2
-MDI1NjQ0XX0=
+eyJoaXN0b3J5IjpbLTg4MjUyMTI3NCwxMjEwMjUxODA3LDEwNj
+QxNDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3NDk0MSw1NDQ1NjMx
+NjksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLTE0NzYxMjEyMzAsLT
+MzNDcyMjQ0LDExNDEzNzA5NCw4MTE3NTQwODAsLTEyNDM0NDM2
+NTIsMTE3NzM0ODc3NCwxMDM3OTk0ODY5LC0xNjA3ODA5NjkxLC
+0xOTc2OTA5MDUyLDE1OTQ0NjMwOSwxNTkwOTgzNzQ0LDE5MDUz
+ODc3NTJdfQ==
 -->
