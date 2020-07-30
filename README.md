@@ -259,7 +259,10 @@ Remove deployment config option:
 ![Kialia excluser](https://drive.google.com/uc?id=1ssz2oIEoXemP5GxcovM8-kCqcCVBs4Rs)
 ## Create Virtual Service and Gateway
 
+In this section
 
+
+    oc apply -n evals3-fuse -f gateway-user.yaml
 
 ## Observe
 
@@ -340,11 +343,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDk2MzkyNSwtMzM0NzIyNDQsMTE0MT
-M3MDk0LDgxMTc1NDA4MCwtMTI0MzQ0MzY1MiwxMTc3MzQ4Nzc0
-LDEwMzc5OTQ4NjksLTE2MDc4MDk2OTEsLTE5NzY5MDkwNTIsMT
-U5NDQ2MzA5LDE1OTA5ODM3NDQsMTkwNTM4Nzc1MiwtMTA1NjAy
-NTY0NCwtMTM1MDc5OTM1LC0yMDA2NjU2MjIwLC0xMDg4NTEwOD
-YwLC0xMTI4NDk4MDI4LC03NDc0MDc5ODcsLTI1OTQ2NDYyNywt
-MTM1MzQyMjQ1N119
+eyJoaXN0b3J5IjpbLTE0NzYxMjEyMzAsLTMzNDcyMjQ0LDExND
+EzNzA5NCw4MTE3NTQwODAsLTEyNDM0NDM2NTIsMTE3NzM0ODc3
+NCwxMDM3OTk0ODY5LC0xNjA3ODA5NjkxLC0xOTc2OTA5MDUyLD
+E1OTQ0NjMwOSwxNTkwOTgzNzQ0LDE5MDUzODc3NTIsLTEwNTYw
+MjU2NDQsLTEzNTA3OTkzNSwtMjAwNjY1NjIyMCwtMTA4ODUxMD
+g2MCwtMTEyODQ5ODAyOCwtNzQ3NDA3OTg3LC0yNTk0NjQ2Mjcs
+LTEzNTM0MjI0NTddfQ==
 -->
