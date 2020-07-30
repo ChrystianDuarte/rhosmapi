@@ -323,14 +323,18 @@ $ oc describe cm istio -n istio-system | grep disablePolicyChecks
 
 disablePolicyChecks: false
 ```
+## [1] Desplegar 3scale-istio-adapter
 
+git clone [https://github.com/3scale/3scale-istio-adapter](https://github.com/3scale/3scale-istio-adapter)
+   ```
+oc create -f deploy -n istio-system
+   ```
 
 1.  Review 3scale Istio Adapter components in _istio-system_ namespace:
     
     ```
     $ oc get all -l app=3scale-istio-adapter -n istio-system
     ```
-    
     1.  The response should list the deployment, replicaset and pod.
         
     2.  As per the diagram above, the _3scale-istio-adapter_ Linux container includes the following two components:
@@ -443,11 +447,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQyNTE3MzIsMTIxMDI1MTgwNywxMD
-Y0MTQ0OTgxLDE4MTk1MTg4MjksLTE3Mzk2NzQ5NDEsNTQ0NTYz
-MTY5LDY0MDc0MjMwOCwyMTIzMjQ1MzEyLC0xNDc2MTIxMjMwLC
-0zMzQ3MjI0NCwxMTQxMzcwOTQsODExNzU0MDgwLC0xMjQzNDQz
-NjUyLDExNzczNDg3NzQsMTAzNzk5NDg2OSwtMTYwNzgwOTY5MS
-wtMTk3NjkwOTA1MiwxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1
-Mzg3NzUyXX0=
+eyJoaXN0b3J5IjpbMTkzNTg4NDg1MywtMTk1NDI1MTczMiwxMj
+EwMjUxODA3LDEwNjQxNDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3
+NDk0MSw1NDQ1NjMxNjksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLT
+E0NzYxMjEyMzAsLTMzNDcyMjQ0LDExNDEzNzA5NCw4MTE3NTQw
+ODAsLTEyNDM0NDM2NTIsMTE3NzM0ODc3NCwxMDM3OTk0ODY5LC
+0xNjA3ODA5NjkxLC0xOTc2OTA5MDUyLDE1OTQ0NjMwOSwxNTkw
+OTgzNzQ0XX0=
 -->
