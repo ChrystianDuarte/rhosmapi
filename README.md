@@ -298,6 +298,8 @@ Nota: in this demo does not create a destinationRule
 
 # 3scale API Management
 
+## Configure 3scale Account
+
 ## Configure API Backend 
 
 ## Configure Product
@@ -371,7 +373,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODU3Njc1NywxODE5NTE4ODI5LC0xNz
+eyJoaXN0b3J5IjpbMTA2NDE0NDk4MSwxODE5NTE4ODI5LC0xNz
 M5Njc0OTQxLDU0NDU2MzE2OSw2NDA3NDIzMDgsMjEyMzI0NTMx
 MiwtMTQ3NjEyMTIzMCwtMzM0NzIyNDQsMTE0MTM3MDk0LDgxMT
 c1NDA4MCwtMTI0MzQ0MzY1MiwxMTc3MzQ4Nzc0LDEwMzc5OTQ4
