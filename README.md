@@ -249,7 +249,9 @@ Repet the same in the Database Postgress
 
 ## Allow read deployment config in Kiali
 
+Select Istio-system (control plane) namespace and then go to Config maps 
 
+![Kialia excluser](https://drive.google.com/uc?id=1ssz2oIEoXemP5GxcovM8-kCqcCVBs4Rs)
 
 
 ## Observe
@@ -331,11 +333,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExNzU0MDgwLC0xMjQzNDQzNjUyLDExNz
-czNDg3NzQsMTAzNzk5NDg2OSwtMTYwNzgwOTY5MSwtMTk3Njkw
-OTA1MiwxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1Mzg3NzUyLC
-0xMDU2MDI1NjQ0LC0xMzUwNzk5MzUsLTIwMDY2NTYyMjAsLTEw
-ODg1MTA4NjAsLTExMjg0OTgwMjgsLTc0NzQwNzk4NywtMjU5ND
-Y0NjI3LC0xMzUzNDIyNDU3LDc5Mjg2OTcwNywyMTQxOTYzOTQ2
-LDQwOTE4NDg1NF19
+eyJoaXN0b3J5IjpbMTgxMzgxOTgyOCw4MTE3NTQwODAsLTEyND
+M0NDM2NTIsMTE3NzM0ODc3NCwxMDM3OTk0ODY5LC0xNjA3ODA5
+NjkxLC0xOTc2OTA5MDUyLDE1OTQ0NjMwOSwxNTkwOTgzNzQ0LD
+E5MDUzODc3NTIsLTEwNTYwMjU2NDQsLTEzNTA3OTkzNSwtMjAw
+NjY1NjIyMCwtMTA4ODUxMDg2MCwtMTEyODQ5ODAyOCwtNzQ3ND
+A3OTg3LC0yNTk0NjQ2MjcsLTEzNTM0MjI0NTcsNzkyODY5NzA3
+LDIxNDE5NjM5NDZdfQ==
 -->
