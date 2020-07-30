@@ -327,9 +327,19 @@ Make sure to copy your new personal access token now. You won't be able to see i
 ![Api backend config final](https://drive.google.com/uc?id=10HNE_-l-x9qfDBCmHWR1Xrkk7-e8Xk66)
 ## Configure Product
 
+- Create product and Configure
+
+![product configuration](https://drive.google.com/uc?id=15fGtx7SJs32xbgEUEeR-JqFXvR6Z5KQ8)
+-Configure Methods and Metrics
+
+![product-methods](https://drive.google.com/uc?id=1WZ9LWMGJgETC64vt1MGbYS_lOZUy7wLT)
+-Create Mapping rules
+
+![product Mapping rules](https://drive.google.com/uc?id=14Q2ZqUqGXDIkThJskXEGF2I-4LltSvzo)
 -
 
-![produ](https://drive.google.com/uc?id=15fGtx7SJs32xbgEUEeR-JqFXvR6Z5KQ8)
+
+
 
 
 # 3scale Mixer Adapter 
@@ -563,7 +573,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTcwMjMxNiwtMTE4NDAwMzQ0Myw3Mz
+eyJoaXN0b3J5IjpbMTY3NTc0NDEzNywtMTE4NDAwMzQ0Myw3Mz
 U4NjI1OTMsLTEyNDkzODMwNTAsMTMyNjI1Mjc3NSwyMjMwNzQw
 NDksNTg1ODMwNTMzLC0xMzE2NDk2ODQyLDIwMTIxMTAzNjQsLT
 E0MjI5MTU3MiwtNjkyNTYxNDU0LC0xNDI1NzA5NTI3LC0xOTU0
