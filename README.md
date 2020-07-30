@@ -268,6 +268,7 @@ then we create a Gateway and Virtual service. that its in /osm folder.
     oc apply -n evals3-fuse -f gateway-user.yaml
 
 
+![result apply config gateway and virtual services](https://drive.google.com/uc?id=1bXn4kOzxXwpoDHupwTC0kZe4k99S4nq0)
 
 Nota: in this demo does not create a destinationRule
 
@@ -351,11 +352,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwNzQyMzA4LDIxMjMyNDUzMTIsLTE0Nz
-YxMjEyMzAsLTMzNDcyMjQ0LDExNDEzNzA5NCw4MTE3NTQwODAs
-LTEyNDM0NDM2NTIsMTE3NzM0ODc3NCwxMDM3OTk0ODY5LC0xNj
-A3ODA5NjkxLC0xOTc2OTA5MDUyLDE1OTQ0NjMwOSwxNTkwOTgz
-NzQ0LDE5MDUzODc3NTIsLTEwNTYwMjU2NDQsLTEzNTA3OTkzNS
-wtMjAwNjY1NjIyMCwtMTA4ODUxMDg2MCwtMTEyODQ5ODAyOCwt
-NzQ3NDA3OTg3XX0=
+eyJoaXN0b3J5IjpbNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIzMj
+Q1MzEyLC0xNDc2MTIxMjMwLC0zMzQ3MjI0NCwxMTQxMzcwOTQs
+ODExNzU0MDgwLC0xMjQzNDQzNjUyLDExNzczNDg3NzQsMTAzNz
+k5NDg2OSwtMTYwNzgwOTY5MSwtMTk3NjkwOTA1MiwxNTk0NDYz
+MDksMTU5MDk4Mzc0NCwxOTA1Mzg3NzUyLC0xMDU2MDI1NjQ0LC
+0xMzUwNzk5MzUsLTIwMDY2NTYyMjAsLTEwODg1MTA4NjAsLTEx
+Mjg0OTgwMjhdfQ==
 -->
