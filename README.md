@@ -377,7 +377,7 @@ oc create -f deploy -n istio-system
         ```
  
 
-## [2] Crear configuraciones Handler, Service e Instance
+## [2] Crear configuraciones 3scale Adapter
 
 Now that 3scale Istio Adapter has been verified to exist, various configurations need to be added to the service mesh.
 
@@ -385,51 +385,95 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
 
 1.  In the details of your _catalog_ service in the Red Hat 3scale API Manager administration console, locate the `ID for API calls … `:
 
-
-
-
-Desde 3Scale se debe recuperar tanto la URL de admin, el Service ID del API creado en 3Scale y el Token generado al momento de crear la autenticación mediante Istio.
-
-- En Openshift (WebConsole o mediante comando rsh) ir al Pod 3scale-istio-adapter (ssh) y ejecutar:
-
-./3scale-config-gen --url "https://3scale-admin.apps.3scale.com:443" --service "replace-me" --token "access_token_change_me" --name=“miapp-3scale-istio”
-
- - Copiar la configuracion arrojada por comando y pegarla en un archivo yaml (ej: istio-3scale-adapter.yaml)
-
-- Crear archivo istio-3scale-adapter.yaml con las configuraciones handler, service e instance arrojadas con el comando anterior (copy/paste).
-
-Luego:
-
-oc create -f istio-3scale-adapter.yaml -n istio-system
-
-## [3] Agregar labels a DeploymentConfig de la app
-
-SERVICE_ID es el ID del API en 3Scale
-
-- CREDENTIALS_NAME corresponde al nombre de las credenciales generadas con el comando en el paso 2 (--name=“miapp-3scale-istio”)
-
-- DEPLOYMENT es el nombre del DeploymentConfig de la app
-
-export CREDENTIALS_NAME="ste-3scale-istio”
-
-export SERVICE_ID="replace-me”
-
-export DEPLOYMENT=“nombre-del-deployment-config”
-
-  
-patch="$(oc get deployment "${DEPLOYMENT}" --template='{"spec":{"template":{"metadata":{"labels":{ {{ range $k,$v := .spec.template.metadata.labels }}"{{ $k }}":"{{ $v }}",{{ end }}"[service-mesh.3scale.net/service-id":"'"${SERVICE_ID}"'","service-mesh.3scale.net/credentials":"'"${CREDENTIALS_NAME}"'"}}}}}'](http://service-mesh.3scale.net/service-id%22:%22'%22$%7BSERVICE_ID%7D%22'%22,%22service-mesh.3scale.net/credentials%22:%22'%22$%7BCREDENTIALS_NAME%7D%22'%22%7D%7D%7D%7D%7D') )”
-
-  
-
-oc patch deployment "${DEPLOYMENT}" --patch ''"${patch}"’'  
-
-  
--  Estos labels son los que se agregan el DeploymentConfig (y a cada pod cuando es creado). Necesarios para que istio sepa que credenciales y que Servicio utilizar para obtener las configuraciones desde 3Scale:
-
--  [service-mesh.3scale.net/credentials](http://service-mesh.3scale.net/credentials)
-
-- [service-mesh.3scale.net/service-id](http://service-mesh.3scale.net/service-id)
-
+-   Review the `threescale-adapter-config.yaml` file :
+    
+    ```
+    $ less $HOME/lab/istio-integration/istio/threescale-adapter-config.yaml | more
+    ```
+    
+-   Modify the `threescale-adapter-config.yaml` file with the ID of your catalog service:
+    
+    ```
+    $ sed -i "s/service_id: .*/service_id: \"$CATALOG_SERVICE_ID\"/" \
+          $HOME/lab/istio-integration/istio/threescale-adapter-config.yaml
+    ```
+    
+-   Modify the `threescale-adapter-config.yaml` file with the URL to your Red Hat 3scale API Management manager tenant:
+    
+    ```
+    $ sed -i "s/system_url: .*/system_url: \"https:\/\/$TENANT_NAME-admin.$API_WILDCARD_DOMAIN\"/" \
+          $HOME/lab/istio-integration/istio/threescale-adapter-config.yaml
+    ```
+    
+-   Modify the `threescale-adapter-config.yaml` file with the administrative access token of your Red Hat 3scale API Management manager administration account:
+    
+    ```
+    $ sed -i "s/access_token: .*/access_token: \"$API_ADMIN_ACCESS_TOKEN\"/" \
+          $HOME/lab/istio-integration/istio/threescale-adapter-config.yaml
+    ```
+    
+-   The _rule_ in _threescale-adapter-config.yaml_ defines the conditions that API Management policies should be applied to a request.
+    
+    The existing default rule is as follows:
+    
+    ```
+    match: destination.labels["service-mesh.3scale.net"] == "true"
+    ```
+    
+    This rule specifies that API Management policies should be applied to the request when the target Deployment includes a label of: `service-mesh.3scale.net`. In this version of the lab, this rule does not apply API Management policies as expected. Further research into the issue is needed.
+    
+    1.  As a work-around for the current problem, modify the `threescale-adapter-config.yaml` file with a modified rule that specifies that API Management policies should be applied when the target is the catalog-service:
+        
+        ```
+        $ sed -i "s/match: .*/match: destination.service.name == \"catalog-service\"/" \
+              $HOME/lab/istio-integration/istio/threescale-adapter-config.yaml
+        ```
+        
+    2.  More information about Istio’s Policy Attribute Vocabulary (used in the creation of rules) can be found [here](https://istio.io/docs/reference/config/policy-and-telemetry/attribute-vocabulary/).
+        
+    
+-   Load the Red Hat 3scale API Management Istio Handler configurations:
+    
+    ```
+    $ oc create -f $HOME/lab/istio-integration/istio/threescale-adapter-config.yaml
+    
+    ...
+    
+    handler.config.istio.io/threescale created
+    instance.config.istio.io "threescale-authorization" created
+    rule.config.istio.io "threescale" created
+    ```
+    
+    1.  If for whatever reason you want to delete these 3scale Istio mixer adapter configurations, execute the following:
+        
+        ```
+        oc delete rule.config.istio.io threescale -n istio-system
+        oc delete instance.config.istio.io threescale-authorization -n istio-system
+        oc delete handler.config.istio.io threescale -n istio-system
+        ```
+        
+    
+-   Verify that the Istio Handler configurations were created in the istio-system namespace:
+    
+    ```
+    $ oc get handler threescale -n istio-system -o yaml
+    
+    apiVersion: v1
+    items:
+    - apiVersion: config.istio.io/v1alpha2
+      kind: handler
+    
+      ....
+    
+      spec:
+        adapter: threescale
+        connection:
+          address: threescaleistioadapter:3333
+        params:
+          access_token: fa16cd9ebd66jd07c7bd5511be4b78ecf6d58c30daa940ff711515ca7de1194a
+          service_id: "103"
+          system_url: https://user1-3scale-mt-admin.apps.4a64.openshift.opentlc.com
+    ```
 
 
 ## Repository reference
@@ -438,11 +482,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjU3MDk1MjcsLTE5NTQyNTE3MzIsMT
-IxMDI1MTgwNywxMDY0MTQ0OTgxLDE4MTk1MTg4MjksLTE3Mzk2
-NzQ5NDEsNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIzMjQ1MzEyLC
-0xNDc2MTIxMjMwLC0zMzQ3MjI0NCwxMTQxMzcwOTQsODExNzU0
-MDgwLC0xMjQzNDQzNjUyLDExNzczNDg3NzQsMTAzNzk5NDg2OS
-wtMTYwNzgwOTY5MSwtMTk3NjkwOTA1MiwxNTk0NDYzMDksMTU5
-MDk4Mzc0NF19
+eyJoaXN0b3J5IjpbODY4OTk0OTcyLC0xNDI1NzA5NTI3LC0xOT
+U0MjUxNzMyLDEyMTAyNTE4MDcsMTA2NDE0NDk4MSwxODE5NTE4
+ODI5LC0xNzM5Njc0OTQxLDU0NDU2MzE2OSw2NDA3NDIzMDgsMj
+EyMzI0NTMxMiwtMTQ3NjEyMTIzMCwtMzM0NzIyNDQsMTE0MTM3
+MDk0LDgxMTc1NDA4MCwtMTI0MzQ0MzY1MiwxMTc3MzQ4Nzc0LD
+EwMzc5OTQ4NjksLTE2MDc4MDk2OTEsLTE5NzY5MDkwNTIsMTU5
+NDQ2MzA5XX0=
 -->
