@@ -336,12 +336,9 @@ Make sure to copy your new personal access token now. You won't be able to see i
 -Create Mapping rules
 
 ![product Mapping rules](https://drive.google.com/uc?id=14Q2ZqUqGXDIkThJskXEGF2I-4LltSvzo)
--
+- Product Setting
 
-
-
-
-
+![Product setting](https://drive.google.com/uc?id=18gWJ6uJ4WxtM3genx10F6XgI1G2I66HQ)
 # 3scale Mixer Adapter 
 
 By default, Red Hat Service Mesh disables evaluation of all policies.
@@ -573,11 +570,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTc0NDEzNywtMTE4NDAwMzQ0Myw3Mz
-U4NjI1OTMsLTEyNDkzODMwNTAsMTMyNjI1Mjc3NSwyMjMwNzQw
-NDksNTg1ODMwNTMzLC0xMzE2NDk2ODQyLDIwMTIxMTAzNjQsLT
-E0MjI5MTU3MiwtNjkyNTYxNDU0LC0xNDI1NzA5NTI3LC0xOTU0
-MjUxNzMyLDEyMTAyNTE4MDcsMTA2NDE0NDk4MSwxODE5NTE4OD
-I5LC0xNzM5Njc0OTQxLDU0NDU2MzE2OSw2NDA3NDIzMDgsMjEy
-MzI0NTMxMl19
+eyJoaXN0b3J5IjpbLTE4NDkwNjk2NDgsLTExODQwMDM0NDMsNz
+M1ODYyNTkzLC0xMjQ5MzgzMDUwLDEzMjYyNTI3NzUsMjIzMDc0
+MDQ5LDU4NTgzMDUzMywtMTMxNjQ5Njg0MiwyMDEyMTEwMzY0LC
+0xNDIyOTE1NzIsLTY5MjU2MTQ1NCwtMTQyNTcwOTUyNywtMTk1
+NDI1MTczMiwxMjEwMjUxODA3LDEwNjQxNDQ5ODEsMTgxOTUxOD
+gyOSwtMTczOTY3NDk0MSw1NDQ1NjMxNjksNjQwNzQyMzA4LDIx
+MjMyNDUzMTJdfQ==
 -->
