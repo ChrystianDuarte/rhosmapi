@@ -384,8 +384,9 @@ Now that 3scale Istio Adapter has been verified to exist, various configurations
 
 In particular, you will specify the URL of the _system-provider_ endpoint of your 3scale tenant along with the corresponding access token. This is needed so that the Istio Mixer can pull API proxy details from the 3scale API Manager (similar to what the 3scale API Gateway does).
 
-1.  In the details of your _catalog_ service in the Red Hat 3scale API Manager administration console, locate the `ID for API calls … `:
+1.  In the details of your _user_ service in the Red Hat 3scale API Manager administration console, locate the `ID for API calls … `:
 
+![user service ID](https://drive.google.com/uc?id=1BO6DwTT9H5bugFjmNNBnryqnmUal7Mp5)
 -   Review the `threescale-adapter-config.yaml` file :
     
     ```
@@ -534,11 +535,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjExMDM2NCwtMTQyMjkxNTcyLC02OT
-I1NjE0NTQsLTE0MjU3MDk1MjcsLTE5NTQyNTE3MzIsMTIxMDI1
-MTgwNywxMDY0MTQ0OTgxLDE4MTk1MTg4MjksLTE3Mzk2NzQ5ND
-EsNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIzMjQ1MzEyLC0xNDc2
-MTIxMjMwLC0zMzQ3MjI0NCwxMTQxMzcwOTQsODExNzU0MDgwLC
-0xMjQzNDQzNjUyLDExNzczNDg3NzQsMTAzNzk5NDg2OSwtMTYw
-NzgwOTY5MV19
+eyJoaXN0b3J5IjpbLTEzMTY0OTY4NDIsMjAxMjExMDM2NCwtMT
+QyMjkxNTcyLC02OTI1NjE0NTQsLTE0MjU3MDk1MjcsLTE5NTQy
+NTE3MzIsMTIxMDI1MTgwNywxMDY0MTQ0OTgxLDE4MTk1MTg4Mj
+ksLTE3Mzk2NzQ5NDEsNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIz
+MjQ1MzEyLC0xNDc2MTIxMjMwLC0zMzQ3MjI0NCwxMTQxMzcwOT
+QsODExNzU0MDgwLC0xMjQzNDQzNjUyLDExNzczNDg3NzQsMTAz
+Nzk5NDg2OV19
 -->
