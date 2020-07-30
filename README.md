@@ -289,7 +289,9 @@ Nota: in this demo does not create a destinationRule
 
  - open Kiali and graph option
 
+![graph1](https://drive.google.com/uc?id=1qR_JVVhbZljyNY12ZF3E5Zzn_c8Xjkn0)
 
+![graph2](https://drive.google.com/uc?id=1N1B8Oh0A3USLtRCn-iE37_RkvQqO7ofT)
 
 
 # 3scale API Management
@@ -367,11 +369,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTUxODgyOSwtMTczOTY3NDk0MSw1ND
-Q1NjMxNjksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLTE0NzYxMjEy
-MzAsLTMzNDcyMjQ0LDExNDEzNzA5NCw4MTE3NTQwODAsLTEyND
-M0NDM2NTIsMTE3NzM0ODc3NCwxMDM3OTk0ODY5LC0xNjA3ODA5
-NjkxLC0xOTc2OTA5MDUyLDE1OTQ0NjMwOSwxNTkwOTgzNzQ0LD
-E5MDUzODc3NTIsLTEwNTYwMjU2NDQsLTEzNTA3OTkzNSwtMjAw
-NjY1NjIyMF19
+eyJoaXN0b3J5IjpbLTE1MzM2OTAyOTYsMTgxOTUxODgyOSwtMT
+czOTY3NDk0MSw1NDQ1NjMxNjksNjQwNzQyMzA4LDIxMjMyNDUz
+MTIsLTE0NzYxMjEyMzAsLTMzNDcyMjQ0LDExNDEzNzA5NCw4MT
+E3NTQwODAsLTEyNDM0NDM2NTIsMTE3NzM0ODc3NCwxMDM3OTk0
+ODY5LC0xNjA3ODA5NjkxLC0xOTc2OTA5MDUyLDE1OTQ0NjMwOS
+wxNTkwOTgzNzQ0LDE5MDUzODc3NTIsLTEwNTYwMjU2NDQsLTEz
+NTA3OTkzNV19
 -->
