@@ -279,14 +279,20 @@ Nota: in this demo does not create a destinationRule
  
 `export ISTIOGWUSER=$(oc -n istio-system get route istio-ingressgateway -o jsonpath='{.spec.host}')`
 
+ - Curl for API in a loop
+      `for i in {1..1000} ; do curl  -s -w "%{http_code}\n" http://$ISTIOGWUSER/users ;sleep 2 ; done `
+
+
+
+
+
  - Then go to Kiali
 
    ` oc get routes kiali -n istio-system`
 
- - Curl for API in a loop
-      `for i in {1..1000} ; do curl  -s -w "%{http_code}\n" http://$ISTIOGWUSER/users ;sleep 2 ; done `
+ - open Kiali and graph option
 
- 
+
 
 
 # 3scale API Management
@@ -364,11 +370,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDcyODkwMiw1NDQ1NjMxNjksNjQwNz
-QyMzA4LDIxMjMyNDUzMTIsLTE0NzYxMjEyMzAsLTMzNDcyMjQ0
-LDExNDEzNzA5NCw4MTE3NTQwODAsLTEyNDM0NDM2NTIsMTE3Nz
-M0ODc3NCwxMDM3OTk0ODY5LC0xNjA3ODA5NjkxLC0xOTc2OTA5
-MDUyLDE1OTQ0NjMwOSwxNTkwOTgzNzQ0LDE5MDUzODc3NTIsLT
-EwNTYwMjU2NDQsLTEzNTA3OTkzNSwtMjAwNjY1NjIyMCwtMTA4
-ODUxMDg2MF19
+eyJoaXN0b3J5IjpbLTE3Mzk2NzQ5NDEsNTQ0NTYzMTY5LDY0MD
+c0MjMwOCwyMTIzMjQ1MzEyLC0xNDc2MTIxMjMwLC0zMzQ3MjI0
+NCwxMTQxMzcwOTQsODExNzU0MDgwLC0xMjQzNDQzNjUyLDExNz
+czNDg3NzQsMTAzNzk5NDg2OSwtMTYwNzgwOTY5MSwtMTk3Njkw
+OTA1MiwxNTk0NDYzMDksMTU5MDk4Mzc0NCwxOTA1Mzg3NzUyLC
+0xMDU2MDI1NjQ0LC0xMzUwNzk5MzUsLTIwMDY2NTYyMjAsLTEw
+ODg1MTA4NjBdfQ==
 -->
