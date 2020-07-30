@@ -489,6 +489,9 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
           system_url: evals3-tenant-admin.apps.cluster-chile-6b30.chile-6b30.example.opentlc.com
     ```
 
+- result:
+![Labels 3scale istio adapter](https://drive.google.com/uc?id=1Tk0nDOE2yzSHUk7tsQoJ4KLLfnP__yT6)
+
 ## Smoke Test 3scale Istio Mixer Adapter
 
 1.  From the terminal, execute the following to invoke your user service directly via the Istio ingress:
@@ -533,7 +536,7 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
     $ curl -v \
            `echo "http://"$(oc get route istio-ingressgateway -n istio-system -o template --template {{.spec.host}})"/products?user_key=$USER_API_KEY"`
     ```
-    
+   
 
 Congratulations! The user service is again being managed and secured by the Red Hat 3scale API Management manager. This time however, the 3scale Istio Mixer adapter is being utilized rather than the API gateway.
 
@@ -547,11 +550,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1ODYyNTkzLC0xMjQ5MzgzMDUwLDEzMj
-YyNTI3NzUsMjIzMDc0MDQ5LDU4NTgzMDUzMywtMTMxNjQ5Njg0
-MiwyMDEyMTEwMzY0LC0xNDIyOTE1NzIsLTY5MjU2MTQ1NCwtMT
-QyNTcwOTUyNywtMTk1NDI1MTczMiwxMjEwMjUxODA3LDEwNjQx
-NDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3NDk0MSw1NDQ1NjMxNj
-ksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLTE0NzYxMjEyMzAsLTMz
-NDcyMjQ0XX0=
+eyJoaXN0b3J5IjpbLTExODQwMDM0NDMsNzM1ODYyNTkzLC0xMj
+Q5MzgzMDUwLDEzMjYyNTI3NzUsMjIzMDc0MDQ5LDU4NTgzMDUz
+MywtMTMxNjQ5Njg0MiwyMDEyMTEwMzY0LC0xNDIyOTE1NzIsLT
+Y5MjU2MTQ1NCwtMTQyNTcwOTUyNywtMTk1NDI1MTczMiwxMjEw
+MjUxODA3LDEwNjQxNDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3ND
+k0MSw1NDQ1NjMxNjksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLTE0
+NzYxMjEyMzBdfQ==
 -->
