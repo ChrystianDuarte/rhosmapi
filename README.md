@@ -263,6 +263,9 @@ for this section its important to read first:
 
 https://istio.io/latest/blog/2018/v1alpha3-routing/
 
+
+
+
 then we create a Gateway and Virtual service. that its in /osm folder.
 
     oc apply -n evals3-fuse -f gateway-user.yaml
@@ -292,7 +295,6 @@ Nota: in this demo does not create a destinationRule
 ![graph1](https://drive.google.com/uc?id=1qR_JVVhbZljyNY12ZF3E5Zzn_c8Xjkn0)
 
 ![graph2](https://drive.google.com/uc?id=1N1B8Oh0A3USLtRCn-iE37_RkvQqO7ofT)
-
 
 # 3scale API Management
 
@@ -369,11 +371,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM2OTAyOTYsMTgxOTUxODgyOSwtMT
-czOTY3NDk0MSw1NDQ1NjMxNjksNjQwNzQyMzA4LDIxMjMyNDUz
-MTIsLTE0NzYxMjEyMzAsLTMzNDcyMjQ0LDExNDEzNzA5NCw4MT
-E3NTQwODAsLTEyNDM0NDM2NTIsMTE3NzM0ODc3NCwxMDM3OTk0
-ODY5LC0xNjA3ODA5NjkxLC0xOTc2OTA5MDUyLDE1OTQ0NjMwOS
-wxNTkwOTgzNzQ0LDE5MDUzODc3NTIsLTEwNTYwMjU2NDQsLTEz
-NTA3OTkzNV19
+eyJoaXN0b3J5IjpbMTQzNTkzOTIwMCwxODE5NTE4ODI5LC0xNz
+M5Njc0OTQxLDU0NDU2MzE2OSw2NDA3NDIzMDgsMjEyMzI0NTMx
+MiwtMTQ3NjEyMTIzMCwtMzM0NzIyNDQsMTE0MTM3MDk0LDgxMT
+c1NDA4MCwtMTI0MzQ0MzY1MiwxMTc3MzQ4Nzc0LDEwMzc5OTQ4
+NjksLTE2MDc4MDk2OTEsLTE5NzY5MDkwNTIsMTU5NDQ2MzA5LD
+E1OTA5ODM3NDQsMTkwNTM4Nzc1MiwtMTA1NjAyNTY0NCwtMTM1
+MDc5OTM1XX0=
 -->
