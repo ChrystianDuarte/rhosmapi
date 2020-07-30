@@ -277,14 +277,15 @@ Nota: in this demo does not create a destinationRule
 
  - First get  the url of istio gateway
  
-`export GATEWAY_URL=$(oc -n istio-system get route istio-ingressgateway -o jsonpath='{.spec.host}')`
+`export ISTIOGWUSER=$(oc -n istio-system get route istio-ingressgateway -o jsonpath='{.spec.host}')`
 
  - Then go to Kiali
 
    ` oc get routes kiali -n istio-system`
 
  - Curl for API in a loop
- 
+      `for i in {1..1000} ; do curl  -s -w "%{http_code}\n" http://$ISTIOGWUSER/users ;sleep 2 ; done `
+
  
 
 
@@ -363,11 +364,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4MTQ1NTY0LDU0NDU2MzE2OSw2NDA3ND
-IzMDgsMjEyMzI0NTMxMiwtMTQ3NjEyMTIzMCwtMzM0NzIyNDQs
-MTE0MTM3MDk0LDgxMTc1NDA4MCwtMTI0MzQ0MzY1MiwxMTc3Mz
-Q4Nzc0LDEwMzc5OTQ4NjksLTE2MDc4MDk2OTEsLTE5NzY5MDkw
-NTIsMTU5NDQ2MzA5LDE1OTA5ODM3NDQsMTkwNTM4Nzc1MiwtMT
-A1NjAyNTY0NCwtMTM1MDc5OTM1LC0yMDA2NjU2MjIwLC0xMDg4
-NTEwODYwXX0=
+eyJoaXN0b3J5IjpbMTExMDcyODkwMiw1NDQ1NjMxNjksNjQwNz
+QyMzA4LDIxMjMyNDUzMTIsLTE0NzYxMjEyMzAsLTMzNDcyMjQ0
+LDExNDEzNzA5NCw4MTE3NTQwODAsLTEyNDM0NDM2NTIsMTE3Nz
+M0ODc3NCwxMDM3OTk0ODY5LC0xNjA3ODA5NjkxLC0xOTc2OTA5
+MDUyLDE1OTQ0NjMwOSwxNTkwOTgzNzQ0LDE5MDUzODc3NTIsLT
+EwNTYwMjU2NDQsLTEzNTA3OTkzNSwtMjAwNjY1NjIyMCwtMTA4
+ODUxMDg2MF19
 -->
