@@ -388,28 +388,28 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
 -   Review the `threescale-adapter-config.yaml` file :
     
     ```
-    $ less $3scale-istio-adapter/istio/threescale-adapter-config.yaml | more
+    $ less 3scale-istio-adapter/istio/threescale-adapter-config.yaml | more
     ```
     
 -   Modify the `threescale-adapter-config.yaml` file with the ID of your catalog service:
     
     ```
     $ sed -i "s/service_id: .*/service_id: \"$CATALOG_SERVICE_ID\"/" \
-          $3scale-istio-adapter/istio/threescale-adapter-config.yaml
+          3scale-istio-adapter/istio/threescale-adapter-config.yaml
     ```
     
 -   Modify the `threescale-adapter-config.yaml` file with the URL to your Red Hat 3scale API Management manager tenant:
     
     ```
     $ sed -i "s/system_url: .*/system_url: \"https:\/\/$TENANT_NAME-admin.$API_WILDCARD_DOMAIN\"/" \
-          $3scale-istio-adapter/istio/threescale-adapter-config.yaml
+          3scale-istio-adapter/istio/threescale-adapter-config.yaml
     ```
     
 -   Modify the `threescale-adapter-config.yaml` file with the administrative access token of your Red Hat 3scale API Management manager administration account:
     
     ```
     $ sed -i "s/access_token: .*/access_token: \"$API_ADMIN_ACCESS_TOKEN\"/" \
-          $HOME/lab/istio-integration/istio/threescale-adapter-config.yaml
+          3scale-istio-adapter/istio/threescale-adapter-config.yaml
     ```
     
 -   The _rule_ in _threescale-adapter-config.yaml_ defines the conditions that API Management policies should be applied to a request.
@@ -426,7 +426,7 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
         
         ```
         $ sed -i "s/match: .*/match: destination.service.name == \"catalog-service\"/" \
-              $HOME/lab/istio-integration/istio/threescale-adapter-config.yaml
+              3scale-istio-adapter/istio/threescale-adapter-config.yaml
         ```
         
     2.  More information about Istio’s Policy Attribute Vocabulary (used in the creation of rules) can be found [here](https://istio.io/docs/reference/config/policy-and-telemetry/attribute-vocabulary/).
@@ -435,7 +435,7 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
 -   Load the Red Hat 3scale API Management Istio Handler configurations:
     
     ```
-    $ oc create -f $HOME/lab/istio-integration/istio/threescale-adapter-config.yaml
+    $ oc create -f 3scale-istio-adapter/istio/threescale-adapter-config.yaml
     
     ...
     
@@ -472,7 +472,7 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
         params:
           access_token: fa16cd9ebd66jd07c7bd5511be4b78ecf6d58c30daa940ff711515ca7de1194a
           service_id: "103"
-          system_url: https://user1-3scale-mt-admin.apps.4a64.openshift.opentlc.com
+          system_url: evals3-tenant-admin.apps.cluster-chile-6b30.chile-6b30.example.opentlc.com
     ```
 
 
@@ -482,11 +482,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2NDQ4NzIzLC0xNDI1NzA5NTI3LC0xOT
-U0MjUxNzMyLDEyMTAyNTE4MDcsMTA2NDE0NDk4MSwxODE5NTE4
-ODI5LC0xNzM5Njc0OTQxLDU0NDU2MzE2OSw2NDA3NDIzMDgsMj
-EyMzI0NTMxMiwtMTQ3NjEyMTIzMCwtMzM0NzIyNDQsMTE0MTM3
-MDk0LDgxMTc1NDA4MCwtMTI0MzQ0MzY1MiwxMTc3MzQ4Nzc0LD
-EwMzc5OTQ4NjksLTE2MDc4MDk2OTEsLTE5NzY5MDkwNTIsMTU5
-NDQ2MzA5XX0=
+eyJoaXN0b3J5IjpbLTU3Nzk1MTYwNiwtMTQyNTcwOTUyNywtMT
+k1NDI1MTczMiwxMjEwMjUxODA3LDEwNjQxNDQ5ODEsMTgxOTUx
+ODgyOSwtMTczOTY3NDk0MSw1NDQ1NjMxNjksNjQwNzQyMzA4LD
+IxMjMyNDUzMTIsLTE0NzYxMjEyMzAsLTMzNDcyMjQ0LDExNDEz
+NzA5NCw4MTE3NTQwODAsLTEyNDM0NDM2NTIsMTE3NzM0ODc3NC
+wxMDM3OTk0ODY5LC0xNjA3ODA5NjkxLC0xOTc2OTA5MDUyLDE1
+OTQ0NjMwOV19
 -->
