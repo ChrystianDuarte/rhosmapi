@@ -392,10 +392,10 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
     $ less 3scale-istio-adapter/istio/threescale-adapter-config.yaml | more
     ```
     
--   Modify the `threescale-adapter-config.yaml` file with the ID of your catalog service:
+-   Modify the `threescale-adapter-config.yaml` file with the ID of your user service:
     
     ```
-    $ sed -i "s/service_id: .*/service_id: \"$CATALOG_SERVICE_ID\"/" \
+    $ sed -i "s/service_id: .*/service_id: \"$USER_SERVICE_ID\"/" \
           3scale-istio-adapter/istio/threescale-adapter-config.yaml
     ```
     
@@ -421,7 +421,7 @@ In particular, you will specify the URL of the _system-provider_ endpoint of you
     match: destination.labels["service-mesh.3scale.net"] == "true"
     ```
     
-    This rule specifies that API Management policies should be applied to the request when the target Deployment includes a label of: `service-mesh.3scale.net`. In this version of the lab, this rule does not apply API Management policies as expected. Further research into the issue is needed.
+    This rule specifies that API Management policies should be applied to the request when the target Deployment includes a label of: `service-mesh.3scale.net`. In this version of the demo, this rule does not apply API Management policies as expected. Further research into the issue is needed.
     
     1.  As a work-around for the current problem, modify the `threescale-adapter-config.yaml` file with a modified rule that specifies that API Management policies should be applied when the target is the catalog-service:
         
@@ -534,11 +534,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDU4NTg0MTYsLTE0MjI5MTU3MiwtNj
-kyNTYxNDU0LC0xNDI1NzA5NTI3LC0xOTU0MjUxNzMyLDEyMTAy
-NTE4MDcsMTA2NDE0NDk4MSwxODE5NTE4ODI5LC0xNzM5Njc0OT
-QxLDU0NDU2MzE2OSw2NDA3NDIzMDgsMjEyMzI0NTMxMiwtMTQ3
-NjEyMTIzMCwtMzM0NzIyNDQsMTE0MTM3MDk0LDgxMTc1NDA4MC
-wtMTI0MzQ0MzY1MiwxMTc3MzQ4Nzc0LDEwMzc5OTQ4NjksLTE2
-MDc4MDk2OTFdfQ==
+eyJoaXN0b3J5IjpbOTkxNDAxMjI4LC0xNDIyOTE1NzIsLTY5Mj
+U2MTQ1NCwtMTQyNTcwOTUyNywtMTk1NDI1MTczMiwxMjEwMjUx
+ODA3LDEwNjQxNDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3NDk0MS
+w1NDQ1NjMxNjksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLTE0NzYx
+MjEyMzAsLTMzNDcyMjQ0LDExNDEzNzA5NCw4MTE3NTQwODAsLT
+EyNDM0NDM2NTIsMTE3NzM0ODc3NCwxMDM3OTk0ODY5LC0xNjA3
+ODA5NjkxXX0=
 -->
