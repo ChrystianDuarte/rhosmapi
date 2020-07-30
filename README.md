@@ -301,16 +301,17 @@ Nota: in this demo does not create a destinationRule
 
 ## Configure 3scale Admin Account
 
+- Enter admin tennat 
 
 
+- Configure A Neew Access Token
+
+![Account New Access token](https://drive.google.com/uc?id=15snWJZgGAa8tcCa2_hXCgnZkbyqHkBJy)
 Copy the new token and store it somewhere safe
 
 Make sure to copy your new personal access token now. You won't be able to see it again as it isn't stored for security reasons.
 
  `token:    363a23xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxbe`
-
-
-
 
 ## Configure API Backend 
 
@@ -546,11 +547,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMDc0MDQ5LDU4NTgzMDUzMywtMTMxNj
-Q5Njg0MiwyMDEyMTEwMzY0LC0xNDIyOTE1NzIsLTY5MjU2MTQ1
-NCwtMTQyNTcwOTUyNywtMTk1NDI1MTczMiwxMjEwMjUxODA3LD
-EwNjQxNDQ5ODEsMTgxOTUxODgyOSwtMTczOTY3NDk0MSw1NDQ1
-NjMxNjksNjQwNzQyMzA4LDIxMjMyNDUzMTIsLTE0NzYxMjEyMz
-AsLTMzNDcyMjQ0LDExNDEzNzA5NCw4MTE3NTQwODAsLTEyNDM0
-NDM2NTJdfQ==
+eyJoaXN0b3J5IjpbLTQxMzI4OTcwOSwyMjMwNzQwNDksNTg1OD
+MwNTMzLC0xMzE2NDk2ODQyLDIwMTIxMTAzNjQsLTE0MjI5MTU3
+MiwtNjkyNTYxNDU0LC0xNDI1NzA5NTI3LC0xOTU0MjUxNzMyLD
+EyMTAyNTE4MDcsMTA2NDE0NDk4MSwxODE5NTE4ODI5LC0xNzM5
+Njc0OTQxLDU0NDU2MzE2OSw2NDA3NDIzMDgsMjEyMzI0NTMxMi
+wtMTQ3NjEyMTIzMCwtMzM0NzIyNDQsMTE0MTM3MDk0LDgxMTc1
+NDA4MF19
 -->
