@@ -313,6 +313,11 @@ By default, Red Hat Service Mesh disables evaluation of all policies.
 
 In order for API Management policies to be applied to service mesh traffic, this default behavior needs to be reversed. The setting for this behavior is in the _istio_ configmap in the istio namespace. This configmap is read by the Envoy proxy upon start-up of an istio enabled pod.
 
+
+
+
+
+
 Your lab environment already comes provisioned with service mesh policies (to include API Management policies that will be introduced in this lab) enabled.
 
 You can view state of this setting that disables service mesh policies as follows:
@@ -532,11 +537,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI5MTU3MiwtNjkyNTYxNDU0LC0xND
-I1NzA5NTI3LC0xOTU0MjUxNzMyLDEyMTAyNTE4MDcsMTA2NDE0
-NDk4MSwxODE5NTE4ODI5LC0xNzM5Njc0OTQxLDU0NDU2MzE2OS
-w2NDA3NDIzMDgsMjEyMzI0NTMxMiwtMTQ3NjEyMTIzMCwtMzM0
-NzIyNDQsMTE0MTM3MDk0LDgxMTc1NDA4MCwtMTI0MzQ0MzY1Mi
-wxMTc3MzQ4Nzc0LDEwMzc5OTQ4NjksLTE2MDc4MDk2OTEsLTE5
-NzY5MDkwNTJdfQ==
+eyJoaXN0b3J5IjpbLTQzNjAyNDc5NCwtMTQyMjkxNTcyLC02OT
+I1NjE0NTQsLTE0MjU3MDk1MjcsLTE5NTQyNTE3MzIsMTIxMDI1
+MTgwNywxMDY0MTQ0OTgxLDE4MTk1MTg4MjksLTE3Mzk2NzQ5ND
+EsNTQ0NTYzMTY5LDY0MDc0MjMwOCwyMTIzMjQ1MzEyLC0xNDc2
+MTIxMjMwLC0zMzQ3MjI0NCwxMTQxMzcwOTQsODExNzU0MDgwLC
+0xMjQzNDQzNjUyLDExNzczNDg3NzQsMTAzNzk5NDg2OSwtMTYw
+NzgwOTY5MV19
 -->
