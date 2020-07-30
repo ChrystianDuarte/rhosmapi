@@ -251,13 +251,11 @@ Repet the same in the Database Postgress
 
 Select Istio-system (control plane) namespace and then go to Config maps, click in Kiali Config map and the select yaml.
 
-remove 
+Remove 
 	excluded_workloads:
-	        Deployment 
+	        DeploymentConfigs
 
 ![Kialia excluser](https://drive.google.com/uc?id=1ssz2oIEoXemP5GxcovM8-kCqcCVBs4Rs)
-
-
 ## Observe
 
 
@@ -337,11 +335,11 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTM3MDk0LDgxMTc1NDA4MCwtMTI0Mz
-Q0MzY1MiwxMTc3MzQ4Nzc0LDEwMzc5OTQ4NjksLTE2MDc4MDk2
-OTEsLTE5NzY5MDkwNTIsMTU5NDQ2MzA5LDE1OTA5ODM3NDQsMT
-kwNTM4Nzc1MiwtMTA1NjAyNTY0NCwtMTM1MDc5OTM1LC0yMDA2
-NjU2MjIwLC0xMDg4NTEwODYwLC0xMTI4NDk4MDI4LC03NDc0MD
-c5ODcsLTI1OTQ2NDYyNywtMTM1MzQyMjQ1Nyw3OTI4Njk3MDcs
-MjE0MTk2Mzk0Nl19
+eyJoaXN0b3J5IjpbMTQ0ODQ2Mzg1OSwxMTQxMzcwOTQsODExNz
+U0MDgwLC0xMjQzNDQzNjUyLDExNzczNDg3NzQsMTAzNzk5NDg2
+OSwtMTYwNzgwOTY5MSwtMTk3NjkwOTA1MiwxNTk0NDYzMDksMT
+U5MDk4Mzc0NCwxOTA1Mzg3NzUyLC0xMDU2MDI1NjQ0LC0xMzUw
+Nzk5MzUsLTIwMDY2NTYyMjAsLTEwODg1MTA4NjAsLTExMjg0OT
+gwMjgsLTc0NzQwNzk4NywtMjU5NDY0NjI3LC0xMzUzNDIyNDU3
+LDc5Mjg2OTcwN119
 -->
