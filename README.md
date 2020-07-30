@@ -322,7 +322,7 @@ Make sure to copy your new personal access token now. You won't be able to see i
 - Methods and metrics
 
 ![methods](https://drive.google.com/uc?id=1Igagmxc0BH5gPBEaUDCIjTlEh4fnttEs)
-- Next
+- Review the API backend
 
 ![Api backend config final](https://drive.google.com/uc?id=10HNE_-l-x9qfDBCmHWR1Xrkk7-e8Xk66)
 ## Configure Product
@@ -560,7 +560,7 @@ https://gist.github.com/hodrigohamalho
 https://github.com/hodrigohamalho
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3Nzg0MzcwNSwtMTE4NDAwMzQ0Myw3Mz
+eyJoaXN0b3J5IjpbMTE3ODk1Njk4MSwtMTE4NDAwMzQ0Myw3Mz
 U4NjI1OTMsLTEyNDkzODMwNTAsMTMyNjI1Mjc3NSwyMjMwNzQw
 NDksNTg1ODMwNTMzLC0xMzE2NDk2ODQyLDIwMTIxMTAzNjQsLT
 E0MjI5MTU3MiwtNjkyNTYxNDU0LC0xNDI1NzA5NTI3LC0xOTU0
